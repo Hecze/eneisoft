@@ -7,6 +7,8 @@ import Link from "next/link"; import {
   DropdownItem
 } from "@nextui-org/dropdown";
 
+import { IoIosArrowDown } from "react-icons/io";
+
 import { Button } from "@nextui-org/button";
 
 
@@ -33,7 +35,11 @@ export const Navbar = () => {
             <Dropdown>
               <DropdownTrigger>
                 <Button
-                  variant="light"
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                radius="sm"
+                variant="light"
+                endContent={<IoIosArrowDown />}
                 >
                   Actividades
                 </Button>
