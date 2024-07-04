@@ -36,7 +36,7 @@ const HeroSection = ({ title, date, paragraph, buttonText, buttonLink, imgUrl }:
             </p>
             <Button path={buttonLink} className="mt-6 fade-in-left text-lg">{buttonText}</Button>
           </div>
-          <Image src={imgUrl} alt="hero" width={450} height={450} className="fade-in-up-10 mt-[-2rem]"  />
+          <img src={imgUrl} alt="hero" width={450} height={450} className="fade-in-up-10 mt-[-2rem]"  />
       </div>
     </section>
   );
