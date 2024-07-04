@@ -14,3 +14,8 @@ export type RequirementType = {
     icon: string,
     paragraph: string,
 }
+
+export type QuoteType = {
+    quote: string;
+    author: string;
+}
