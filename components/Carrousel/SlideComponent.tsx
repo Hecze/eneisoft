@@ -40,7 +40,7 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
           </div>
 
         </div>
-        <Image src={imgUrl} alt="hero" width={450} height={450} className="mt-[-2rem] max-w-[250px] xl:max-w-[22vw]" />
+        <img src={imgUrl} alt="hero" width={450} height={450} className="mt-[-2rem] max-w-[250px] xl:max-w-[22vw]" />
     </section>
   );
 };
