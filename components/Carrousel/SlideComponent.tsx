@@ -14,34 +14,33 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
   //la segunda palabra cambia de color solo si la primera es mayor a 6 caracteres, ademas da un salto de linea
 
   return (
-    <section>
-      <div className="flex flex-row flex-wrap-reverse w-full items-center justify-center 2xl:justify-between gap-16 pt-16 ">
-        <div className="flex flex-col gap-2 mb-12">
-          <h1>{id}
-            <div className={`w-24 h-[10px] bg-${variant}`}></div>
+    <section className=" mb-4 flex flex-row flex-wrap-reverse justify-center w-full items-center 2xl:justify-between gap-16">
+        <div className="flex flex-col items-center md:items-start gap-6 mb-12">
+          <h1 className="text-center w-24">
+            0{id}
+            <div className={`w-full h-[9px] bg-${variant} rounded-full`}></div>
           </h1>
-          <h1 className="text-white ">
+          <h1 className="text-center max-w-96 md:text-left text-white w-full">
             {title}
           </h1>
 
           {paragraph &&
-            <p className="max-w-[450px] xl:max-w-[550px] text-lg">
+            <p className="text-md max-w-96 md:text-lg mx-auto md:mx-0">
               {paragraph}
             </p>
           }
-          <div className="flex justify-between">
-          <Button path={buttonLink} className={`mt-6 text-lg text-black bg-${variant}`}>{buttonText}</Button>
-          <div className="flex gap-12">
-            <RiCalendarEventFill color="white" />
-            <h4 className="text-white font-semibold">
+          <div className="flex justify-center md:justify-between mt-8 w-full gap-12 flex-wrap-reverse max-w-[70vw]">
+          <Button path={buttonLink} className={`mt-4 py-8 w-full text-lg text-black bg-${variant}`}>{buttonText}</Button>
+          <div className="flex gap-6">
+            <RiCalendarEventFill color="white" size={96} />
+            <h4 className="text-white mt-2 font-semibold text-wrap max-w-[130px]">
               {date}
             </h4>
           </div>
           </div>
 
         </div>
-        <Image src={imgUrl} alt="hero" width={450} height={450} className="mt-[-2rem]" />
-      </div>
+        <Image src={imgUrl} alt="hero" width={450} height={450} className="mt-[-2rem] max-w-[250px] xl:max-w-[22vw]" />
     </section>
   );
 };
