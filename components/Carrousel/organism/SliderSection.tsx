@@ -70,6 +70,7 @@ const SliderSection: React.FC<SliderDataProps> = ({ slides }) => {
           {index === current && (
             <SlideComponent
               id={index + 1}
+              variant={slide.variant}
               title={slide.title}
               date={slide.date}
               paragraph={slide.paragraph}
