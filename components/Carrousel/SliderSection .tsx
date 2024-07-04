@@ -1,9 +1,8 @@
 "use client"
 import Image from "next/image";
-import { ItemSlideType } from "@/types";
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import SlideComponent from "./SlideComponent";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const SliderData = [
   {
@@ -14,7 +13,6 @@ const SliderData = [
     buttonLink: "/activities/conferences",
     imgUrl: "/images/carrousel/conferencias.webp",
   },
-
   {
     title: "programacion competitiva",
     variant: "yellow",
@@ -22,7 +20,6 @@ const SliderData = [
     buttonLink: "/activities/progra",
     imgUrl: "/images/carrousel/progra.webp",
   },
-
   {
     title: "hackathon",
     variant: "lime",
@@ -31,7 +28,6 @@ const SliderData = [
     buttonLink: "/activities/hackathon",
     imgUrl: "/images/carrousel/hackathon.webp",
   },
-
   {
     title: "demo day",
     variant: "orange",
@@ -48,34 +44,53 @@ const SliderData = [
     buttonLink: "/activities/workshops",
     imgUrl: "/images/carrousel/taller.webp",
   },
-]
+];
 
 const SliderSection: React.FC = () => {
   const [current, setCurrent] = useState(0);
   const length = SliderData.length;
+  const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
+  const delay = 3000; // Velocidad del slider en milisegundos
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
+    setCurrent(prev => (prev === length - 1 ? 0 : prev + 1));
   };
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
+    setCurrent(prev => (prev === 0 ? length - 1 : prev - 1));
+  };
+
+  useEffect(() => {
+    autoPlayRef.current = setInterval(nextSlide, delay);
+    return () => {
+      if (autoPlayRef.current) {
+        clearInterval(autoPlayRef.current);
+      }
+    };
+  }, []);
+
+  const handleManualSlide = () => {
+    if (autoPlayRef.current) {
+      clearInterval(autoPlayRef.current);
+    }
+    setTimeout(() => {
+      autoPlayRef.current = setInterval(nextSlide, delay);
+    }, 2000);
   };
 
   return (
     <section className="relative flex justify-center items-center min-h-[45rem] px-12">
       <IoIosArrowBack
-        className="absolute  top-1/4 xl:top-1/2 left-0  xl:left-[-8rem] transform -translate-y-1/2 text-3xl text-white cursor-pointer z-10 md:left-8 lg:left-16"
-        onClick={prevSlide}
+        className="absolute top-1/4 xl:top-1/2 left-0 xl:left-[-8rem] transform -translate-y-1/2 text-3xl text-white cursor-pointer z-10 md:left-8 lg:left-16"
+        onClick={() => { prevSlide(); handleManualSlide(); }}
         size={42}
-        opacity={.5}
+        opacity={0.5}
       />
       <IoIosArrowForward
         className="absolute top-1/4 xl:top-1/2 right-0 xl:right-[-8rem] transform -translate-y-1/2 text-3xl text-white cursor-pointer z-10 md:right-8 lg:right-16"
-        onClick={nextSlide}
+        onClick={() => { nextSlide(); handleManualSlide(); }}
         size={42}
-        opacity={.5}
-
+        opacity={0.5}
       />
       {SliderData.map((slide, index) => (
         <div
@@ -83,7 +98,14 @@ const SliderSection: React.FC = () => {
           key={index}
         >
           {index === current && (
-            <SlideComponent id={index + 1} title={slide.title} date={slide.date} paragraph={slide.paragraph} buttonLink={slide.buttonLink} imgUrl={slide.imgUrl} />
+            <SlideComponent
+              id={index + 1}
+              title={slide.title}
+              date={slide.date}
+              paragraph={slide.paragraph}
+              buttonLink={slide.buttonLink}
+              imgUrl={slide.imgUrl}
+            />
           )}
         </div>
       ))}
