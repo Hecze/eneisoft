@@ -28,8 +28,8 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
               {paragraph}
             </p>
           }
-          <div className="flex justify-center md:justify-between mt-8 w-full gap-12 flex-wrap-reverse max-w-[70vw]">
-          <Button path={buttonLink} className={`mt-4 py-8 w-full text-lg text-black bg-${variant}`}>{buttonText}</Button>
+          <div className="flex justify-center md:justify-between md:mt-8 w-full gap-12 flex-wrap-reverse max-w-[70vw]">
+          <Button path={buttonLink} className={`mt-[-2rem] md:mt-4 py-8 w-full text-lg text-black bg-${variant}`}>{buttonText}</Button>
           <div className="flex gap-6">
             <RiCalendarEventFill color="white" size={96} />
             <h4 className="text-white mt-2 font-semibold text-wrap max-w-[130px]">
