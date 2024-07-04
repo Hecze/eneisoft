@@ -1,6 +1,7 @@
 import RequirementCard from "@/components/Activities/molecules/RequirementCard";
 import React from "react";
 import { RequirementType } from "@/types";
+import FadeInSection from "@/components/FadeInSection";
 
 type RequirementsSectionProps = {
   requirements: RequirementType[];
@@ -10,6 +11,7 @@ type RequirementsSectionProps = {
 const RequirementsSection: React.FC<RequirementsSectionProps> = ({ requirements, title = "Requisitos" }) => (
   <section>
     <h4 className="mb-24 text-center">{title}</h4>
+    <FadeInSection>
     <div className="flex items-center justify-center 2xl:justify-between flex-wrap w-full gap-16">
       {requirements.map((requirement, index) => (
         <RequirementCard
@@ -20,6 +22,7 @@ const RequirementsSection: React.FC<RequirementsSectionProps> = ({ requirements,
         />
       ))}
     </div>
+    </FadeInSection>
   </section>
 );
 
