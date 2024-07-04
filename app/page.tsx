@@ -1,8 +1,10 @@
-import SliderSection from "@/components/Carrousel/SliderSection ";
+import SliderSection from "@/components/Carrousel/organism/SliderSection";
+import SliderData from "@/data/home/SliderData";
+
 export default function Home() {
   return (
     <section className="">
-      <SliderSection />
+      <SliderSection slides={SliderData} />
     </section>
   );
 }
