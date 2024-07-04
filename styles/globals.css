@@ -50,3 +50,157 @@ h6 {
   font-weight: bolder;
   margin: .8rem 0 .9rem 0 ;
 }
+
+
+/* ANIMACIONES */
+
+@keyframes fade-in-up-10 {
+  0% {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up-20 {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-down-10 {
+  0% {
+    opacity: 0;
+    transform: translateY(-7px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-down-20 {
+  0% {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes growing {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+    filter: blur(10px);
+    transform-origin: 90% 100%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0);
+    transform-origin: 90% 100%;
+  }
+}
+
+.fade-in-up-10 {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-up-10 0.7s ease-in-out forwards;
+}
+
+.fade-in-up-20 {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-up-20 1s ease-out forwards;
+}
+
+.fade-in-down-10 {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-down-10 0.5s ease-in-out forwards;
+}
+
+.fade-in-down-20 {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-down-20 0.5s ease-in-out forwards;
+}
+
+.fade-in-left {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-left 0.5s ease-out forwards;
+}
+
+.fade-in-right {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-right 0.5s ease-out forwards;
+}
+
+.growing {
+  opacity: 0; /* Start hidden */
+  animation: growing 0.3s ease-in-out forwards;
+}
+
+.fade-in-up-10-delayed {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-up-10 0.7s ease-in-out .3s forwards; /* 1s delay */
+}
+
+.fade-in-up-20-delayed {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-up-20 1s ease-out .3s forwards; /* 1s delay */
+}
+
+.fade-in-down-10-delayed {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-down-10 0.5s ease-in-out.3s forwards; /* 1s delay */
+}
+
+.fade-in-down-20-delayed {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-down-20 0.5s ease-in-out .3s forwards; /* 1s delay */
+}
+
+.fade-in-left-delayed {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-left 0.5s ease-out .3s forwards; /* 1s delay */
+}
+
+.fade-in-right-delayed {
+  opacity: 0; /* Start hidden */
+  animation: fade-in-right 0.5s ease-out .3s forwards; /* 1s delay */
+}
+
+.growing-delayed {
+  opacity: 0; /* Start hidden */
+  animation: growing 0.3s ease-in-out.31s forwards; /* 1s delay */
+}
