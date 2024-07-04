@@ -1,8 +1,4 @@
-import Image from "next/image";
 import Button from "@/components/button";
-
-//crear estructura para los parametros: title, date, paragraph, buttonText, buttonLink, image
-
 type Props = {
   title: string;
   date: string;

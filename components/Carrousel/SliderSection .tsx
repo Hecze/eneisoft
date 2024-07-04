@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import SlideComponent from "./SlideComponent";
 import { useState, useEffect, useRef } from "react";

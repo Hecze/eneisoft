@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { RequirementType } from "@/types";
 
 type RequirementCardProps = RequirementType & { id: number };
@@ -10,7 +9,7 @@ const RequirementCard = ({ id, icon, paragraph }: RequirementCardProps) => {
         {id}
       </div>
     <div className="flex flex-col items-center justify-center size-60 gap-6">
-      <Image
+      <img
         src={icon}
         alt="icon"
         width={90}
