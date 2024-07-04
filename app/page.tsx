@@ -1,8 +1,8 @@
-
+import SliderSection from "@/components/Carrousel/SliderSection ";
 export default function Home() {
   return (
     <section className="">
-      <h1>Home</h1>
+      <SliderSection />
     </section>
   );
 }

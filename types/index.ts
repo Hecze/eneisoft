@@ -19,3 +19,13 @@ export type QuoteType = {
     quote: string;
     author: string;
 }
+
+export type ItemSlideType = {
+    variant?: "orange" | "yellow" | "lime" | "purple" ;
+    title: string;
+    date: string;
+    paragraph?: string;
+    buttonText?: string;
+    buttonLink: string;
+    imgUrl: string;
+}

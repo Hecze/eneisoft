@@ -26,7 +26,7 @@ const HeroSection = ({ title, date, paragraph, buttonText, buttonLink, imgUrl }:
       <div className="flex flex-row flex-wrap-reverse w-full items-center justify-center 2xl:justify-between gap-16 pt-16 ">
           <div className="flex flex-col fade-in-down-20 gap-2"> 
             <h1 className="text-white fade-in-right">
-              {splitTitle[0]} {splitTitle[0].length + splitTitle[1].length > 11 ? <><br /><span className="text-sky">{splitTitle[1]}</span></>: splitTitle[1]} {splitTitle[3]}
+              {splitTitle[0]} {splitTitle[1] && splitTitle[0].length + splitTitle[1].length > 11 ? <><br /><span className="text-sky">{splitTitle[1]}</span></>: splitTitle[1]} {splitTitle[3]}
             </h1>
             <h6 className="text-orange fade-in-down-10">
               {date}
