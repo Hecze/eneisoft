@@ -7,7 +7,7 @@ type Props = {
 };
 
 const QuoteSection = ({ quote, author }: Props) => (
-    <section>
+    <section className="mb-20">
         <div className="flex flex-wrap justify-center align-center gap-24">
             <FadeInSection animationClass="fade-in-up-10">
                 <Image src="/images/activities/dude/dude1.webp" alt="dude paradito" width={280} height={280} />
