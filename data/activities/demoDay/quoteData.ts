@@ -1,7 +1,7 @@
 import { QuoteType } from "@/types";
 
 const quoteData: QuoteType = {
-  quote: "El mejor proceso de aprendizaje es el proceso de aprendizaje.",
+  quote: "La única manera de hacer un trabajo genial es amar lo que haces",
   author: "Steve Jobs",
 }
 

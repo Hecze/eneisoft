@@ -21,10 +21,10 @@ const Page = () => (
         <HeroSection
             title="Hackathon"
             date={activityDates.hackathon}
-            paragraph="¿Eres un programador o alguien que tiene afición por ello? Ya sea en ambos casos, te invitamos a participar del Demo Day desarrollado por Eneisoft. Presenta tu mejor proyecto del ciclo y compite por grandes premios"
+            paragraph="¿Tienes habilidades para la programación? ¿Te gusta trabajar en equipo? El evento más esperado de programación esta cada vez más cerca. Sé parte de esta competencia tecnológica , demuestra tu creatividad y participa de los grandes premios"
             buttonText="Inscribirme"
             buttonLink="/"
-            imgUrl="/images/activities/progra.webp"
+            imgUrl="/images/activities/hackathon.webp"
         />
         <InfoSection infoCards={infoCardsData} />
         <RequirementsSection requirements={requirementsData} />

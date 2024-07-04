@@ -11,7 +11,7 @@ const infoCardsData: InfoCardType[] = [
   },
   {
     icon: "/images/activities/icons/jurado.webp",
-    paragraph: "También queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y, en general, un evento entretenido.",
+    paragraph: "Buscamos dar a conocer buenos proyectos y a su vez descubrir a jóvenes con talento en el desarrollo de software.",
   },
 ];
 
