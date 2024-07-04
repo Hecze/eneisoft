@@ -21,20 +21,20 @@ const HeroSection = ({ title, date, paragraph, buttonText, buttonLink, imgUrl }:
 
   return (
     <section>
-      <div className="flex flex-row flex-wrap-reverse w-full items-center justify-between gap-12 pt-16 ">
-          <div className="flex-col fade-in-down-20"> 
+      <div className="flex flex-row flex-wrap-reverse w-full items-center justify-center 2xl:justify-between gap-16 pt-16 ">
+          <div className="flex flex-col fade-in-down-20 gap-2"> 
             <h1 className="text-white fade-in-right">
               {splitTitle[0]} <br /> <span className="text-sky">{splitTitle[1]}</span>
             </h1>
             <h6 className="text-orange fade-in-down-10">
               {date}
             </h6>
-            <p className="max-w-[500px]">
+            <p className="max-w-[450px] xl:max-w-[550px] text-lg">
               {paragraph}
             </p>
-            <Button path={buttonLink} className="mt-6 fade-in-left">{buttonText}</Button>
+            <Button path={buttonLink} className="mt-6 fade-in-left text-lg">{buttonText}</Button>
           </div>
-          <Image src={imgUrl} alt="hero" width={400} height={400} className="fade-in-up-10" />
+          <Image src={imgUrl} alt="hero" width={450} height={450} className="fade-in-up-10 mt-[-2rem]"  />
       </div>
     </section>
   );
