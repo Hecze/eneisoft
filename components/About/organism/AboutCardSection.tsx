@@ -6,10 +6,10 @@ import { FaPersonCircleQuestion } from "react-icons/fa6";
 const AboutCardSection  = () => {
   return (
 
-    <section className="bg-white py-12  xl:pt-20 flex flex-wrap justify-center rounded-3xl gap-36" >
-      <div className="hidden xl:grid">
+    <section className="bg-white py-12  xl:pt-20 flex md:justify-center rounded-3xl xl:gap-36" >
+      <div className="hidden md:grid w-1/3 xl:w-auto">
             <img src="/images/about/dude.webp" alt="dude" className="relative z-10" />
-            <img src="/images/about/nube.webp" alt="nube" className="absolute mt-[-18rem] bottom-32 overflow-hidden z-0" />
+            <img src="/images/about/nube.webp" alt="nube" className="absolute mt-[-18rem] bottom-32 overflow-hidden z-0 hidden xl:block" />
       </div>
       <div className="grid relative z-10 gap-12 xl:gap-12">
           <QuestionCard 
