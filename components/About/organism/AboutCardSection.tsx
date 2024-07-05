@@ -6,12 +6,12 @@ import { FaPersonCircleQuestion } from "react-icons/fa6";
 const AboutCardSection  = () => {
   return (
 
-    <section className="bg-white pt-20 px-4 pr-24 flex flex-wrap rounded-3xl gap-24" >
+    <section className="bg-white py-12  xl:pt-20 flex flex-wrap justify-center rounded-3xl gap-36" >
       <div className="hidden xl:grid">
             <img src="/images/about/dude.webp" alt="dude" className="relative z-10" />
             <img src="/images/about/nube.webp" alt="nube" className="absolute mt-[-18rem] bottom-32 overflow-hidden z-0" />
       </div>
-      <div className="grid relative z-10">
+      <div className="grid relative z-10 gap-12 xl:gap-12">
           <QuestionCard 
             icon={FaQuestion}
             question="¿Qué es el ENEISOFT?"
