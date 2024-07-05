@@ -12,7 +12,7 @@ const QuestionCard = ({ icon: Icon, question, paragraph, className }: QuestionCa
       <div className="bg-primary w-12 h-12 rounded flex items-center justify-center align-center text-black ">
         <Icon size={24} />
       </div>
-      <div className="flex flex-center flex-col align-center ml-6 ">
+      <div className="flex flex-center flex-col align-center xl:ml-6 ">
         <h4 className="text-primary text-center">{question}</h4>
         <p className="text-black mt-6">{paragraph}</p>
       </div>
