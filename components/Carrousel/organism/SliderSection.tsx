@@ -49,46 +49,47 @@ const SliderSection: React.FC<SliderDataProps> = ({ slides }) => {
   };
 
   return (
-    <section className="relative flex justify-center items-center min-h-[45rem] px-12">
+    <>
       <IoIosArrowBack
-        className="absolute top-1/4 xl:top-1/2 left-0 xl:left-[-8rem] transform -translate-y-1/2 text-3xl text-white cursor-pointer z-10 md:left-8 lg:left-16"
+        className="absolute top-64 md:top-96 left-[6%] md:left-[10%]  transform cursor-pointer z-10"
         onClick={() => { prevSlide(); handleManualSlide(); }}
         size={42}
-        opacity={0.5}
+        style={{ opacity: 0.5 }}
       />
       <IoIosArrowForward
-        className="absolute top-1/4 xl:top-1/2 right-0 xl:right-[-8rem] transform -translate-y-1/2 text-3xl text-white cursor-pointer z-10 md:right-8 lg:right-16"
+        className="absolute top-64 md:top-96  right-[6%] md:right-[10%] transform cursor-pointer z-10"
         onClick={() => { nextSlide(); handleManualSlide(); }}
         size={42}
-        opacity={0.5}
+        style={{ opacity: 0.5 }}
       />
-      {slides.map((slide, index) => (
-        <div
-          className={index === current ? 'opacity-100 duration-1000 ease-in-out transform scale-100' : 'opacity-0 duration-1000 ease-in-out transform scale-95'}
-          key={index}
-        >
-          {index === current && (
-            <SlideComponent
-              id={index + 1}
-              variant={slide.variant}
-              title={slide.title}
-              date={slide.date}
-              paragraph={slide.paragraph}
-              buttonLink={slide.buttonLink}
-              imgUrl={slide.imgUrl}
-            />
-          )}
+      <section className="relative flex justify-center items-center min-h-[45rem] overflow-hidden">
+
+        <div className="slider-container" style={{ transform: `translateX(-${current * 100}%)` }}>
+          {slides.map((slide, index) => (
+            <div className="slide" key={index}>
+              <SlideComponent
+                id={index + 1}
+                variant={slide.variant}
+                title={slide.title}
+                date={slide.date}
+                paragraph={slide.paragraph}
+                buttonLink={slide.buttonLink}
+                imgUrl={slide.imgUrl}
+              />
+            </div>
+          ))}
         </div>
-      ))}
-      <div className="absolute bottom-4 flex justify-center w-full">
-        {slides.map((_, index) => (
-          <div
-            key={index}
-            className={`w-4 h-4 mx-1 rounded-full ${index === current ? 'bg-white' : 'bg-gray-500'}`}
-          />
-        ))}
-      </div>
-    </section>
+        <div className="absolute bottom-4 flex justify-center w-full">
+          {slides.map((_, index) => (
+            <div
+              key={index}
+              className={`w-4 h-4 mx-1 rounded-full ${index === current ? 'bg-white' : 'bg-gray-500'}`}
+            />
+          ))}
+        </div>
+      </section>
+    </>
+
   );
 };
 

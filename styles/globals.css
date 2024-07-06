@@ -12,6 +12,8 @@ section {
   margin-bottom: 10rem;
 }
 
+
+
 h1 {
   font-size: calc(1.7rem + 2vw);
   font-weight: 800;
@@ -54,6 +56,19 @@ h6 {
 .bg-lime {
   background-color: #CFE276;
 }
+
+/* styles.css */
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
 
 /* ANIMACIONES */
 
