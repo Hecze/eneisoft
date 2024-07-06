@@ -20,7 +20,7 @@ const AboutCardSection  = () => {
           />
           <QuestionCard 
             icon={TbUserQuestion}
-            question="¿Qué es el objetivo?"
+            question="¿Cuál es el objetivo?"
             paragraph="El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional."
           />
       </div>

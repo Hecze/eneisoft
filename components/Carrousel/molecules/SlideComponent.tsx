@@ -13,14 +13,15 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
   //la segunda palabra cambia de color solo si la primera es mayor a 6 caracteres, ademas da un salto de linea
 
   return (
-    <section className=" mb-4 flex flex-row flex-wrap-reverse justify-center w-full items-center 2xl:justify-between gap-16">
+    <section className=" mb-4 flex flex-row flex-wrap-reverse justify-center w-full items-center 2xl:justify-between gap-4 sm:gap-16">
         <div className="flex flex-col items-center md:items-start gap-6 mb-12">
-          <h1 className="text-center w-24">
+          <h1 className="text-center w-24 hidden md:block">
             0{id}
             <div className={`w-full h-[9px] bg-${variant} rounded-full`}></div>
           </h1>
           <h1 className="text-center max-w-96 md:text-left text-white w-full">
             {title}
+            <div className={` md:hidden w-full h-[9px] bg-${variant} rounded-full`}></div>
           </h1>
 
           {paragraph &&
