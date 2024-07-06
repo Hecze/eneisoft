@@ -9,7 +9,7 @@ const DottedLineSection = ({ title = "Objetivos " }: DottedLineSectionType) => {
 
     <section>
       <h4 className=" mb-32 text-center">{title}</h4>
-      <img src="/images/dottedLine.svg" className="hidden md:block relative mx-auto mb-[-6.5rem] z-0 w-[70%]" />
+      <img src="/images/dottedLine.svg" alt="dotted line" className="hidden md:block relative mx-auto mb-[-6.5rem] z-0 w-[70%]" />
       <div className="flex justify-center flex-wrap gap-12 md:gap-[6vw]">
         <InfoCircle
           id={1}
