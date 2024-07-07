@@ -31,10 +31,10 @@ export type QuoteType = {
 
 export interface EventData {
     hero: HeroType;
-    awards: AwardType[];
-    infoCards: InfoCardType[];
-    quote: QuoteType;
-    requirements: RequirementType[];
+    infoCards?: InfoCardType[];
+    requirements?: RequirementType[];
+    awards?: AwardType[];
+    quote?: QuoteType;
   }
 
 export type ItemSlideType = {
