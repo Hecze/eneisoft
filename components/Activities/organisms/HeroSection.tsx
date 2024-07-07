@@ -1,8 +1,9 @@
 import Button from "@/components/button";
+import { getFormattedDate } from "@/utils/DateUtils";
 
 type Props = {
   title: string;
-  date: string | { monthName: string, dayName: string, dayNumber: string, year: string };
+  date: string;
   paragraph: string;
   buttonText: string;
   buttonLink: string;
@@ -14,6 +15,8 @@ const HeroSection = ({ title, date, paragraph, buttonText, buttonLink, imgUrl }:
   title = title.toUpperCase();
   const splitTitle = title.split(" ");
 
+  const formattedDate = getFormattedDate(date);
+
   return (
     <section>
       <div className="flex flex-row flex-wrap-reverse w-full items-center justify-center 2xl:justify-between gap-16 pt-16">
@@ -22,13 +25,7 @@ const HeroSection = ({ title, date, paragraph, buttonText, buttonLink, imgUrl }:
             {splitTitle[0]} {splitTitle[1] && splitTitle[0].length + splitTitle[1].length > 11 ? <><br /><span className="text-sky">{splitTitle[1]}</span></> : splitTitle[1]} {splitTitle[2]}
           </h1>
           <h6 className="text-orange fade-in-down-10 capitalize">
-            {typeof date === 'string' ? (
-              <h3>{date}</h3>
-            ) : (
-              <>
-                <span>{date.monthName}</span> - <span>{date.dayName}</span> <span>{date.dayNumber}</span>              
-                </>
-            )}
+            <span>{formattedDate.monthName}</span> - <span>{formattedDate.dayName}</span> <span>{formattedDate.dayNumber}</span>
           </h6>
           <p className="max-w-[450px] xl:max-w-[550px] text-lg">
             {paragraph}

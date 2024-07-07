@@ -1,0 +1,55 @@
+{
+    "hero": {
+        "title": "CONFERENCIA",
+        "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional.",
+        "buttonText": "Registrarse",
+        "buttonLink": "/register",
+        "imgUrl": "/images/activities/hackathon.webp"
+    },
+    "infoCards": [
+        {
+            "icon": "/images/icons/podio.webp",
+            "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional."
+        },
+        {
+            "icon": "/images/icons/celular.webp",
+            "paragraph": "Nuestro objetivo es crear un ambiente de competencia sana usando la programación como medio para competir."
+        },
+        {
+            "icon": "/images/icons/jurado.webp",
+            "paragraph": "También queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y, en general, un evento entretenido."
+        }
+    ],
+    "requirements": [
+        {
+            "icon": "/images/icons/estudiando.webp",
+            "paragraph": "Ser estudiante de la UNMSM"
+        },
+        {
+            "icon": "/images/icons/programador.webp",
+            "paragraph": "Conocimiento en los lenguajes de programación C, C++, Java, Python, Ruby o Lua"
+        },
+        {
+            "icon": "/images/icons/idea.webp",
+            "paragraph": "Estar dispuesto a darlo todo"
+        }
+    ],
+    "awards": [
+        {
+            "league": "Liga Senior",
+            "prize": "S/.100"
+        },
+        {
+            "league": "Liga Mid-Level",
+            "prize": "S/.70"
+        },
+        {
+            "league": "Liga Junior",
+            "prize": "S/.50"
+        }
+    ],
+    "quote": {
+        "quote": "El mejor proceso de aprendizaje es el proceso de aprendizaje.",
+        "author": "Steve Jobs"
+    }
+}

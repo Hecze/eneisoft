@@ -58,7 +58,7 @@ export const Navbar = () => {
             <DropdownItem key="progra" href="/activities/progra">
               Progra Competi
             </DropdownItem>
-            <DropdownItem key="demo" href="/activities/demo">
+            <DropdownItem key="demoDay" href="/activities/demoDay">
               Demo Day
             </DropdownItem>
             <DropdownItem key="workshops" href="/activities/workshops">
@@ -81,19 +81,19 @@ export const Navbar = () => {
           <Link href="/schedule" className="block py-2 px-3 rounded">Cronograma</Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="activities/hackathon" className="block py-2 px-3 rounded">Hackathon</Link>
+        <Link href="/activities/hackathon" className="block py-2 px-3 rounded">Hackathon</Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="activities/progra" className="block py-2 px-3 rounded">Programacion Competitiva</Link>
+        <Link href="/activities/progra" className="block py-2 px-3 rounded">Programacion Competitiva</Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="activities/demo" className="block py-2 px-3 rounded">Demo Day</Link>
+        <Link href="/activities/demoDay" className="block py-2 px-3 rounded">Demo Day</Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="activities/conferences" className="block py-2 px-3 rounded">Conferencias</Link>
+        <Link href="/activities/conferences" className="block py-2 px-3 rounded">Conferencias</Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="activities/workshops" className="block py-2 px-3 rounded">Talleres</Link>
+        <Link href="/activities/workshops" className="block py-2 px-3 rounded">Talleres</Link>
         </NavbarMenuItem>
       </NavbarMenu>
     </NextNavbar>

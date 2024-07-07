@@ -8,10 +8,10 @@ import QuoteSection from "@/components/Activities/organisms/QuoteSection";
 import getData from "@/data/activities";
 
 export const metadata: Metadata = {
-    title: "Talleres | ENEISOFT",
-    description: "Talleres | ENEISOFT",
+    title: "DemoDay | ENEISOFT",
+    description: "DemoDay | ENEISOFT",
 };
-const activityData = getData("workshops");
+const activityData = getData("demoDay");
 const Page = () => (
     <>
         <HeroSection {...activityData.hero} />
