@@ -9,7 +9,7 @@ import infoCardsData from "@/data/activities/demoDay/infoCardsData";
 import requirementsData from "@/data/activities/demoDay/requirementsData";
 import awardsData from "@/data/activities/demoDay/awardsData";
 import quoteData from "@/data/activities/demoDay/quoteData";
-import activityDates from "@/data/activities/activityDates";
+import {getFormattedDate} from '@/utils/DateUtils';
 
 export const metadata: Metadata = {
     title: "DemoDay | ENEISOFT",
@@ -20,7 +20,7 @@ const Page = () => (
     <>
         <HeroSection
             title="Demo Day"
-            date={activityDates.demoDay}
+            date={getFormattedDate("demoDay")}
             paragraph="¿Eres un programador o alguien que tiene afición por ello? Ya sea en ambos casos, te invitamos a participar del Demo Day desarrollado por Eneisoft. Presenta tu mejor proyecto del ciclo y compite por grandes premios"
             buttonText="Inscribirme"
             buttonLink="/"
