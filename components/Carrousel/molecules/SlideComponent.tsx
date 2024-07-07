@@ -13,7 +13,7 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
   //la segunda palabra cambia de color solo si la primera es mayor a 6 caracteres, ademas da un salto de linea
 
   return (
-    <section className="translate-y-[-2rem] scale-90  sm:scale-100 sm:translate-y-0  mb-4 flex flex-row flex-wrap-reverse justify-center w-full items-center 2xl:justify-between gap-4 sm:gap-16">
+    <section className="translate-y-[-45px] scale-90  sm:scale-100 sm:translate-y-0  mb-4 flex flex-row flex-wrap-reverse justify-center w-full items-center 2xl:justify-between gap-4 sm:gap-16">
         <div className="flex flex-col items-center md:items-start gap-6 mb-12">
           <h1 className="text-center w-24 hidden md:block">
             0{id}
@@ -40,7 +40,7 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
           </div>
 
         </div>
-        <img src={imgUrl} alt="hero" width={450} height={450} className="mt-[-2rem] max-w-[250px] xl:max-w-[22vw]" />
+        <img src={imgUrl} alt="hero"  className="mt-[-2rem] size-52 md:size-full xl:max-w-[22vw]" />
     </section>
   );
 };
