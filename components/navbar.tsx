@@ -72,28 +72,28 @@ export const Navbar = () => {
       </NavbarContent>
       <NavbarMenu className="bg-blue gap-4" >
         <NavbarMenuItem className="mt-6">
-          <Link href="/" className="block py-2 px-3 rounded">Inicio</Link>
+          <a href="/" className="block py-2 px-3 rounded">Inicio</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="/about" className="block py-2 px-3 rounded">Historia</Link>
+          <a href="/about" className="block py-2 px-3 rounded">Historia</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="/schedule" className="block py-2 px-3 rounded">Cronograma</Link>
+          <a href="/schedule" className="block py-2 px-3 rounded">Cronograma</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="/activities/hackathon" className="block py-2 px-3 rounded">Hackathon</Link>
+        <a href="/activities/hackathon" className="block py-2 px-3 rounded">Hackathon</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="/activities/progra" className="block py-2 px-3 rounded">Programacion Competitiva</Link>
+        <a href="/activities/progra" className="block py-2 px-3 rounded">Programacion Competitiva</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="/activities/demoDay" className="block py-2 px-3 rounded">Demo Day</Link>
+        <a href="/activities/demoDay" className="block py-2 px-3 rounded">Demo Day</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="/activities/conferences" className="block py-2 px-3 rounded">Conferencias</Link>
+        <a href="/activities/conferences" className="block py-2 px-3 rounded">Conferencias</a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-        <Link href="/activities/workshops" className="block py-2 px-3 rounded">Talleres</Link>
+        <a href="/activities/workshops" className="block py-2 px-3 rounded">Talleres</a>
         </NavbarMenuItem>
       </NavbarMenu>
     </NextNavbar>
