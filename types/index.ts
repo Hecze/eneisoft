@@ -1,4 +1,21 @@
 // types.ts
+
+//Home
+
+export interface ItemSlideType {
+    variant?: "orange" | "yellow" | "lime" | "purple" ;
+    title: string;
+    date: string;
+    paragraph?: string;
+    buttonText?: string;
+    buttonLink: string;
+    imgUrl: string;
+    activityName: keyof ActivitiesDates;
+  }
+
+
+//Activities
+
 export interface HeroType {
     title: string;
     date: string;
@@ -37,12 +54,11 @@ export interface EventData {
     quote?: QuoteType;
   }
 
-export type ItemSlideType = {
-    variant?: "orange" | "yellow" | "lime" | "purple" ;
-    title: string;
-    date: string;
-    paragraph?: string;
-    buttonText?: string;
-    buttonLink: string;
-    imgUrl: string;
-}
+
+export interface ActivitiesDates {
+    progra: string;
+    hackathon: string;
+    workshops: string;
+    conferences: string;
+    demoDay: string;
+  }

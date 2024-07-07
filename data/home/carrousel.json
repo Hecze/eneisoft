@@ -1,0 +1,42 @@
+[
+    {
+      "title": "conferencias",
+      "variant": "orange",
+      "paragraph": "Ponencias de entre 45 a 60 minutos cada una y que se darán a lo largo de los tres días que dure el XII ENEISOFT.",
+      "buttonLink": "/activities/conferences",
+      "imgUrl": "/images/carrousel/conferencias.webp",
+      "activityName": "conferences"
+    },
+    {
+      "title": "programacion competitiva",
+      "variant": "yellow",
+      "buttonLink": "/activities/progra",
+      "imgUrl": "/images/carrousel/progra.webp",
+      "activityName": "progra"
+    },
+    {
+      "title": "hackathon",
+      "variant": "lime",
+      "paragraph": "Este evento tiene como objetivo desarrollar y demostrar las capacidades de programación y creatividad a través de proyectos realizados de forma grupal.",
+      "buttonLink": "/activities/hackathon",
+      "imgUrl": "/images/carrousel/hackathon.webp",
+      "activityName": "hackathon"
+    },
+    {
+      "title": "demo day",
+      "variant": "orange",
+      "paragraph": "Se desarrollarán temas de interés de diversas etapas de la carrera con el fin de lograr mayor público interesado en el evento.",
+      "buttonLink": "/activities/demoDay",
+      "imgUrl": "/images/carrousel/progra.webp",
+      "activityName": "demoDay"
+    },
+    {
+      "title": "talleres",
+      "variant": "purple",
+      "paragraph": "Se desarrollarán temas de interés de diversas etapas de la carrera con el fin de lograr mayor público interesado en el evento.",
+      "buttonLink": "/activities/workshops",
+      "imgUrl": "/images/carrousel/taller.webp",
+      "activityName": "workshops"
+    }
+  ]
+  

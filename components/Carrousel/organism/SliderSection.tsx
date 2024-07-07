@@ -75,6 +75,7 @@ const SliderSection: React.FC<SliderDataProps> = ({ slides }) => {
                 paragraph={slide.paragraph}
                 buttonLink={slide.buttonLink}
                 imgUrl={slide.imgUrl}
+                activityName={slide.activityName}
               />
             </div>
           ))}

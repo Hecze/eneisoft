@@ -1,6 +1,7 @@
 import Button from "@/components/button";
 import { RiCalendarEventFill } from "react-icons/ri";
 //crear estructura para los parametros: title, date, paragraph, buttonText, buttonLink, image
+import { getFormattedDate } from "@/utils/DateUtils";
 import { ItemSlideType } from "@/types";
 
 type ItemSlideProps = ItemSlideType & { id: number };
@@ -9,6 +10,7 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
   //separar el title por espacios
   //convertir el titulo a mayuscula
   title = title.toUpperCase();
+  const formattedDate = getFormattedDate(date);
 
   //la segunda palabra cambia de color solo si la primera es mayor a 6 caracteres, ademas da un salto de linea
 
@@ -33,8 +35,8 @@ const SlideComponent = ({ id, title, date, paragraph, buttonText = "Conoce más 
           <Button path={buttonLink} className={`mt-[-2rem] md:mt-4 py-8 w-full text-lg text-black bg-${variant}`}>{buttonText}</Button>
           <div className="flex gap-6">
             <RiCalendarEventFill color="white" size={96} />
-            <h4 className="text-white mt-2 font-semibold text-wrap max-w-[130px]">
-              {date}
+            <h4 className="text-white mt-2 font-semibold text-wrap max-w-[130px] uppercase">
+               {formattedDate.dayNumber} de {formattedDate.monthName}
             </h4>
           </div>
           </div>
