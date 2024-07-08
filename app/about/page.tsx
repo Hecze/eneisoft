@@ -1,8 +1,12 @@
+import AboutCardSection from "@/components/About/organism/AboutCardSection";
+import DottedLineSection from "@/components/About/organism/DottedLineSection";
+
 
 export default function AboutPage() {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <section>
+      <AboutCardSection />
+      <DottedLineSection />
+    </section>
   );
 }

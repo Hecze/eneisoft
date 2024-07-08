@@ -7,6 +7,11 @@ const nextConfig = {
             hostname: 'https://scontent.flim15-1.fna.fbcdn.net',
             pathname: '**',
           },
+          {
+            protocol: 'https',
+            hostname: 'https://media.licdn.com/',
+            pathname: '**',
+          }
         ],
       },
 }
