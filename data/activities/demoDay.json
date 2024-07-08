@@ -8,29 +8,29 @@
     },
 "infoCards": [
         {
-            "icon": "/images/icons/project1.webp",
+            "icon": "/images/icons/programador.webp",
             "paragraph": "Los participantes presentarán proyectos de software innovadores que resuelvan problemas reales y aporten valor a la sociedad."
         },
         {
-            "icon": "/images/icons/project2.webp",
+            "icon": "/images/icons/conferencia.webp",
             "paragraph": "El Demo Day es una oportunidad única para que los desarrolladores muestren sus habilidades y reciban retroalimentación de expertos de la industria."
         },
         {
-            "icon": "/images/icons/project3.webp",
+            "icon": "/images/icons/podio.webp",
             "paragraph": "Además de la presentación de proyectos, el evento incluye charlas y talleres sobre las últimas tendencias en desarrollo de software."
         }
     ],
     "requirements": [
         {
-            "icon": "/images/icons/participant.webp",
+            "icon": "/images/icons/celular.webp",
             "paragraph": "Ser estudiante o profesional en el campo de la ingeniería de software."
         },
         {
-            "icon": "/images/icons/coding.webp",
+            "icon": "/images/icons/idea.webp",
             "paragraph": "Tener un proyecto de software desarrollado en cualquier lenguaje de programación."
         },
         {
-            "icon": "/images/icons/dedication.webp",
+            "icon": "/images/icons/jurado.webp",
             "paragraph": "Estar dispuesto a presentar y defender el proyecto ante un jurado calificador."
         }
     ],

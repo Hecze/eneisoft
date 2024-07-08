@@ -4,33 +4,33 @@
         "paragraph": "Nuestros talleres ofrecen cursos cortos en Inteligencia Artificial, Ciencias de Datos y otras actividades emocionantes y llenas de sorpresas.",
         "buttonText": "Inscribirse",
         "buttonLink": "/register",
-        "imgUrl": "/images/activities/workshops.webp"
+        "imgUrl": "/images/activities/talleres.webp"
     },
     "infoCards": [
         {
-            "icon": "/images/icons/ai.webp",
+            "icon": "/images/icons/estudiando.webp",
             "paragraph": "Aprende sobre Inteligencia Artificial y sus aplicaciones en el mundo real a través de talleres interactivos."
         },
         {
-            "icon": "/images/icons/data_science.webp",
+            "icon": "/images/icons/celular.webp",
             "paragraph": "Sumérgete en el mundo de la Ciencia de Datos y descubre cómo analizar y visualizar datos de manera efectiva."
         },
         {
-            "icon": "/images/icons/activity.webp",
+            "icon": "/images/icons/alegre.webp",
             "paragraph": "Participa en actividades generales diseñadas para mejorar tus habilidades técnicas y blandas."
         }
     ],
     "requirements": [
         {
-            "icon": "/images/icons/student_professional.webp",
+            "icon": "/images/icons/libros.webp",
             "paragraph": "Ser estudiante o profesional interesado en tecnología y ciencias de datos."
         },
         {
-            "icon": "/images/icons/laptop2.webp",
+            "icon": "/images/icons/programador.webp",
             "paragraph": "Tener una laptop para participar activamente en los talleres."
         },
         {
-            "icon": "/images/icons/motivation.webp",
+            "icon": "/images/icons/megafono.webp",
             "paragraph": "Ganas de aprender y descubrir nuevas tecnologías y metodologías."
         }
     ],

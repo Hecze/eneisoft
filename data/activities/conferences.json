@@ -1,10 +1,10 @@
 {
     "hero": {
         "title": "CONFERENCIAS",
-        "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional.",
+        "paragraph": "Disfruta de las charlas y ponencias realizadas por los mejores programadores a nivel nacional. Las conferencias serán dada en las salas de conferencias de la UNMSM.",
         "buttonText": "Registrarse",
         "buttonLink": "/register",
-        "imgUrl": "/images/activities/hackathon.webp"
+        "imgUrl": "/images/activities/conferencias.webp"
     },
     "infoCards": [
         {
