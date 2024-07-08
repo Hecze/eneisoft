@@ -1,55 +1,55 @@
 {
     "hero": {
-        "title": "Hackathon",
-        "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional.",
-        "buttonText": "Registrarse",
+        "title": "HACKATHON",
+        "paragraph": "El Hackathon es un evento intensivo donde equipos de desarrolladores colaboran para crear soluciones innovadoras en un corto período de tiempo.",
+        "buttonText": "Inscribirse",
         "buttonLink": "/register",
         "imgUrl": "/images/activities/hackathon.webp"
     },
     "infoCards": [
         {
-            "icon": "/images/icons/podio.webp",
-            "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional."
+            "icon": "/images/icons/innovation.webp",
+            "paragraph": "Participa en un desafío de 24 horas para desarrollar soluciones tecnológicas innovadoras y creativas."
         },
         {
-            "icon": "/images/icons/celular.webp",
-            "paragraph": "Nuestro objetivo es crear un ambiente de competencia sana usando la programación como medio para competir."
+            "icon": "/images/icons/teamwork.webp",
+            "paragraph": "Forma equipo con otros desarrolladores, diseñadores y emprendedores para crear proyectos que impacten positivamente."
         },
         {
-            "icon": "/images/icons/jurado.webp",
-            "paragraph": "También queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y, en general, un evento entretenido."
+            "icon": "/images/icons/mentor.webp",
+            "paragraph": "Recibe mentoría de expertos de la industria y aprende de talleres especializados durante el evento."
         }
     ],
     "requirements": [
         {
-            "icon": "/images/icons/estudiando.webp",
-            "paragraph": "Ser estudiante de la UNMSM"
+            "icon": "/images/icons/student.webp",
+            "paragraph": "Ser estudiante o profesional en tecnología, diseño o áreas afines."
         },
         {
-            "icon": "/images/icons/programador.webp",
-            "paragraph": "Conocimiento en los lenguajes de programación C, C++, Java, Python, Ruby o Lua"
+            "icon": "/images/icons/code.webp",
+            "paragraph": "Tener conocimientos en desarrollo de software y habilidades para trabajar en equipo."
         },
         {
-            "icon": "/images/icons/idea.webp",
-            "paragraph": "Estar dispuesto a darlo todo"
+            "icon": "/images/icons/commitment.webp",
+            "paragraph": "Comprometerse a participar activamente durante las 24 horas del evento."
         }
     ],
     "awards": [
         {
-            "league": "Liga Senior",
-            "prize": "S/.100"
+            "league": "Primer Lugar",
+            "prize": "S/.3000"
         },
         {
-            "league": "Liga Mid-Level",
-            "prize": "S/.70"
+            "league": "Segundo Lugar",
+            "prize": "S/.2000"
         },
         {
-            "league": "Liga Junior",
-            "prize": "S/.50"
+            "league": "Tercer Lugar",
+            "prize": "S/.1000"
         }
     ],
     "quote": {
-        "quote": "El mejor proceso de aprendizaje es el proceso de aprendizaje.",
+        "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
         "author": "Steve Jobs"
     }
 }

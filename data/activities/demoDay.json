@@ -6,50 +6,50 @@
         "buttonLink": "/register",
         "imgUrl": "/images/activities/hackathon.webp"
     },
-    "infoCards": [
+"infoCards": [
         {
-            "icon": "/images/icons/podio.webp",
-            "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional."
+            "icon": "/images/icons/project1.webp",
+            "paragraph": "Los participantes presentarán proyectos de software innovadores que resuelvan problemas reales y aporten valor a la sociedad."
         },
         {
-            "icon": "/images/icons/celular.webp",
-            "paragraph": "Nuestro objetivo es crear un ambiente de competencia sana usando la programación como medio para competir."
+            "icon": "/images/icons/project2.webp",
+            "paragraph": "El Demo Day es una oportunidad única para que los desarrolladores muestren sus habilidades y reciban retroalimentación de expertos de la industria."
         },
         {
-            "icon": "/images/icons/jurado.webp",
-            "paragraph": "También queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y, en general, un evento entretenido."
+            "icon": "/images/icons/project3.webp",
+            "paragraph": "Además de la presentación de proyectos, el evento incluye charlas y talleres sobre las últimas tendencias en desarrollo de software."
         }
     ],
     "requirements": [
         {
-            "icon": "/images/icons/estudiando.webp",
-            "paragraph": "Ser estudiante de la UNMSM"
+            "icon": "/images/icons/participant.webp",
+            "paragraph": "Ser estudiante o profesional en el campo de la ingeniería de software."
         },
         {
-            "icon": "/images/icons/programador.webp",
-            "paragraph": "Conocimiento en los lenguajes de programación C, C++, Java, Python, Ruby o Lua"
+            "icon": "/images/icons/coding.webp",
+            "paragraph": "Tener un proyecto de software desarrollado en cualquier lenguaje de programación."
         },
         {
-            "icon": "/images/icons/idea.webp",
-            "paragraph": "Estar dispuesto a darlo todo"
+            "icon": "/images/icons/dedication.webp",
+            "paragraph": "Estar dispuesto a presentar y defender el proyecto ante un jurado calificador."
         }
     ],
     "awards": [
         {
-            "league": "Liga Senior",
-            "prize": "S/.100"
+            "league": "Primer Lugar",
+            "prize": "S/.2000"
         },
         {
-            "league": "Liga Mid-Level",
-            "prize": "S/.70"
+            "league": "Segundo Lugar",
+            "prize": "S/.1000"
         },
         {
-            "league": "Liga Junior",
-            "prize": "S/.50"
+            "league": "Tercer Lugar",
+            "prize": "S/.500"
         }
     ],
     "quote": {
-        "quote": "El mejor proceso de aprendizaje es el proceso de aprendizaje.",
+        "quote": "La innovación distingue a los líderes de los seguidores.",
         "author": "Steve Jobs"
     }
 }

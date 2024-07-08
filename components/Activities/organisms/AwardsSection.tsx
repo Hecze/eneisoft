@@ -14,7 +14,7 @@ const AwardsSection: React.FC<AwardsSectionProps> = ({ awards, title = "Premios"
   }
 
   return (
-    <section className="mt-36">
+    <section className="mt-36" >
       <div className="absolute w-screen bg-primary h-64 right-0 mt-[-2rem]" />
       <h4 className="mb-12 text-center z-10 text-white relative">{title}</h4>
       <FadeInSection className="flex items-center justify-center 2xl:justify-between flex-wrap w-full gap-16 z-10" animationClass="fade-in-left">

@@ -17,7 +17,7 @@ const activityData = getData("conferences");
 
 const Page = () => (
     <>
-        <HeroSection {...activityData.hero} />
+        <HeroSection {...activityData.hero}/>
         <InfoSection infoCards={activityData.infoCards} />
         <RequirementsSection requirements={activityData.requirements} />
         <AwardsSection awards={activityData.awards} />

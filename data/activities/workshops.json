@@ -1,55 +1,55 @@
 {
     "hero": {
-        "title": "Talleres",
-        "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional.",
-        "buttonText": "Registrarse",
+        "title": "TALLERES",
+        "paragraph": "Nuestros talleres ofrecen cursos cortos en Inteligencia Artificial, Ciencias de Datos y otras actividades emocionantes y llenas de sorpresas.",
+        "buttonText": "Inscribirse",
         "buttonLink": "/register",
-        "imgUrl": "/images/activities/hackathon.webp"
+        "imgUrl": "/images/activities/workshops.webp"
     },
     "infoCards": [
         {
-            "icon": "/images/icons/podio.webp",
-            "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional."
+            "icon": "/images/icons/ai.webp",
+            "paragraph": "Aprende sobre Inteligencia Artificial y sus aplicaciones en el mundo real a través de talleres interactivos."
         },
         {
-            "icon": "/images/icons/celular.webp",
-            "paragraph": "Nuestro objetivo es crear un ambiente de competencia sana usando la programación como medio para competir."
+            "icon": "/images/icons/data_science.webp",
+            "paragraph": "Sumérgete en el mundo de la Ciencia de Datos y descubre cómo analizar y visualizar datos de manera efectiva."
         },
         {
-            "icon": "/images/icons/jurado.webp",
-            "paragraph": "También queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y, en general, un evento entretenido."
+            "icon": "/images/icons/activity.webp",
+            "paragraph": "Participa en actividades generales diseñadas para mejorar tus habilidades técnicas y blandas."
         }
     ],
     "requirements": [
         {
-            "icon": "/images/icons/estudiando.webp",
-            "paragraph": "Ser estudiante de la UNMSM"
+            "icon": "/images/icons/student_professional.webp",
+            "paragraph": "Ser estudiante o profesional interesado en tecnología y ciencias de datos."
         },
         {
-            "icon": "/images/icons/programador.webp",
-            "paragraph": "Conocimiento en los lenguajes de programación C, C++, Java, Python, Ruby o Lua"
+            "icon": "/images/icons/laptop2.webp",
+            "paragraph": "Tener una laptop para participar activamente en los talleres."
         },
         {
-            "icon": "/images/icons/idea.webp",
-            "paragraph": "Estar dispuesto a darlo todo"
+            "icon": "/images/icons/motivation.webp",
+            "paragraph": "Ganas de aprender y descubrir nuevas tecnologías y metodologías."
         }
     ],
     "awards": [
         {
-            "league": "Liga Senior",
-            "prize": "S/.100"
+            "league": "Mejor Proyecto de IA",
+            "prize": "S/.1000"
         },
         {
-            "league": "Liga Mid-Level",
-            "prize": "S/.70"
+            "league": "Mejor Análisis de Datos",
+            "prize": "S/.800"
         },
         {
-            "league": "Liga Junior",
-            "prize": "S/.50"
+            "league": "Participación Destacada",
+            "prize": "S/.500"
         }
     ],
     "quote": {
-        "quote": "El mejor proceso de aprendizaje es el proceso de aprendizaje.",
-        "author": "Steve Jobs"
+        "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+        "author": "Nelson Mandela"
     }
 }

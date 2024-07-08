@@ -18,7 +18,7 @@ const HeroSection = ({ title, date, paragraph, buttonText, buttonLink, imgUrl }:
   const formattedDate = getFormattedDate(date);
 
   return (
-    <section>
+    <section >
       <div className="flex flex-row flex-wrap-reverse w-full items-center justify-center 2xl:justify-between gap-16 pt-16">
         <div className="flex flex-col fade-in-down-20 gap-2">
           <h1 className="text-white fade-in-right">

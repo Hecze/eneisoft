@@ -11,7 +11,7 @@ const QuoteSection: React.FC<Props> = ({ quote, author }) => {
   }
 
   return (
-    <section className="mb-20">
+    <section className="mb-20" >
       <div className="flex flex-wrap justify-center align-center gap-24">
         <FadeInSection animationClass="fade-in-up-10">
           <img src="/images/dude1.webp" alt="dude paradito" width={280} height={280} />

@@ -1,55 +1,55 @@
 {
     "hero": {
-        "title": "Pramacion Competitiva",
-        "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional.",
-        "buttonText": "Registrarse",
+        "title": "PROGRAMACIÓN COMPETITIVA",
+        "paragraph": "El evento de Programación Competitiva es una oportunidad para que programadores demuestren sus habilidades en la resolución de problemas algorítmicos complejos bajo presión.",
+        "buttonText": "Participar",
         "buttonLink": "/register",
-        "imgUrl": "/images/activities/hackathon.webp"
+        "imgUrl": "/images/activities/competitive_programming.webp"
     },
     "infoCards": [
         {
-            "icon": "/images/icons/podio.webp",
-            "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional."
+            "icon": "/images/icons/algorithm.webp",
+            "paragraph": "Compite resolviendo problemas algorítmicos desafiantes y demuestra tu capacidad de pensamiento lógico y analítico."
         },
         {
-            "icon": "/images/icons/celular.webp",
-            "paragraph": "Nuestro objetivo es crear un ambiente de competencia sana usando la programación como medio para competir."
+            "icon": "/images/icons/clock.webp",
+            "paragraph": "Mide tu rendimiento y rapidez contra otros programadores en un entorno competitivo y estimulante."
         },
         {
-            "icon": "/images/icons/jurado.webp",
-            "paragraph": "También queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y, en general, un evento entretenido."
+            "icon": "/images/icons/trophy.webp",
+            "paragraph": "Gana reconocimiento y premios mientras mejoras tus habilidades de programación y resolución de problemas."
         }
     ],
     "requirements": [
         {
-            "icon": "/images/icons/estudiando.webp",
-            "paragraph": "Ser estudiante de la UNMSM"
+            "icon": "/images/icons/laptop.webp",
+            "paragraph": "Ser estudiante o profesional con conocimientos en algoritmos y estructuras de datos."
         },
         {
-            "icon": "/images/icons/programador.webp",
-            "paragraph": "Conocimiento en los lenguajes de programación C, C++, Java, Python, Ruby o Lua"
+            "icon": "/images/icons/code2.webp",
+            "paragraph": "Tener experiencia en lenguajes de programación como C++, Java o Python."
         },
         {
-            "icon": "/images/icons/idea.webp",
-            "paragraph": "Estar dispuesto a darlo todo"
+            "icon": "/images/icons/dedication2.webp",
+            "paragraph": "Estar dispuesto a participar activamente y dar lo mejor de sí en la competencia."
         }
     ],
     "awards": [
         {
-            "league": "Liga Senior",
-            "prize": "S/.100"
+            "league": "Primer Lugar",
+            "prize": "S/.1500"
         },
         {
-            "league": "Liga Mid-Level",
-            "prize": "S/.70"
+            "league": "Segundo Lugar",
+            "prize": "S/.1000"
         },
         {
-            "league": "Liga Junior",
-            "prize": "S/.50"
+            "league": "Tercer Lugar",
+            "prize": "S/.500"
         }
     ],
     "quote": {
-        "quote": "El mejor proceso de aprendizaje es el proceso de aprendizaje.",
+        "quote": "La programación no es solo una habilidad, es una actitud.",
         "author": "Steve Jobs"
     }
 }
