@@ -3,7 +3,7 @@
         "title": "TALLERES",
         "paragraph": "Nuestros talleres ofrecen cursos cortos en Inteligencia Artificial, Ciencias de Datos y otras actividades emocionantes y llenas de sorpresas.",
         "buttonText": "Inscribirse",
-        "buttonLink": "/register",
+        "buttonLink": "https://forms.gle/inXn7zhPC4P2FqB37",
         "imgUrl": "/images/activities/talleres.webp"
     },
     "infoCards": [

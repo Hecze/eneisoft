@@ -3,7 +3,7 @@
         "title": "Demo Day",
         "paragraph": "El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la UNMSM con participantes a nivel nacional.",
         "buttonText": "Registrarse",
-        "buttonLink": "/register",
+        "buttonLink": "https://forms.gle/inXn7zhPC4P2FqB37",
         "imgUrl": "/images/activities/hackathon.webp"
     },
 "infoCards": [

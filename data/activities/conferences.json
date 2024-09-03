@@ -3,7 +3,7 @@
         "title": "CONFERENCIAS",
         "paragraph": "Disfruta de las charlas y ponencias realizadas por los mejores programadores a nivel nacional. Las conferencias serán dada en las salas de conferencias de la UNMSM.",
         "buttonText": "Registrarse",
-        "buttonLink": "/register",
+        "buttonLink": "https://forms.gle/inXn7zhPC4P2FqB37",
         "imgUrl": "/images/activities/conferencias.webp"
     },
     "infoCards": [

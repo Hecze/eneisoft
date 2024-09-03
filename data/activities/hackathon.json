@@ -3,7 +3,7 @@
         "title": "HACKATHON",
         "paragraph": "El Hackathon es un evento intensivo donde equipos de desarrolladores colaboran para crear soluciones innovadoras en un corto período de tiempo.",
         "buttonText": "Inscribirse",
-        "buttonLink": "/register",
+        "buttonLink": "https://forms.gle/inXn7zhPC4P2FqB37",
         "imgUrl": "/images/activities/hackathon.webp"
     },
     "infoCards": [
