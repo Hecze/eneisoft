@@ -32,7 +32,7 @@ function fillSpeakers(speakers) {
         $("#speakers-container").append(`
             <div class="col-sm-12 col-md-6 p-3 p-md-5">
                 <div class="p-2">
-                    <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" width=200 alt="user" class="img-fluid rounded-circle d-block m-auto">
+                    <img src="/2024/img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" width=200 alt="user" class="img-fluid rounded-circle d-block m-auto">
                     <h5 class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
                         ${speaker.nombres} ${speaker.apellidos}
                         <img width="30" height="30" src="https://img.icons8.com/color/48/${speaker.pais}.png" alt="${speaker.pais}-emoji"/>
@@ -59,7 +59,7 @@ function fillAliados(aliados_sponsors) {
         $(`#${element.type}s-container`).append(`<div class="col-sm-12 col-md-6 col-lg-4 p-2 py-md-5 px-md-2">
             <div class="text-center px-2 py-4 bg-white">
                 <h5 class="text-white d-flex justify-content-center align-items-center gap-2 fs-4 fw-bold text-nowrap">
-                    <img src="./img/${element.type}s/${element.nombre}.png" height=70/>
+                    <img src="/2024/img/${element.type}s/${element.nombre}.png" height=70/>
                 </h5>
                 <p class="text-gray py-2 mx-1 mx-lg-5 text-center">
                     ${element.slogan}
