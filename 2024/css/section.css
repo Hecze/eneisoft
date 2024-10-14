@@ -1,0 +1,138 @@
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    background-clip: text;
+    color: white;
+    text-align: center;
+}
+
+.banner {
+    margin: auto;
+    background-image: url(../img/bg-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+
+.social-media {
+    background-color: white;
+    border-radius: 10px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    transition: all ease-in-out .2s;
+}
+.social-media:hover {
+    background-color: rgb(211, 211, 211);
+}
+.media-speaker:hover {
+    background-color: var(--main-hover);
+}
+
+.number-info {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: .25rem;
+    font-size: 60px;
+}
+
+.invitacion {
+    max-width: 196px;
+    margin: auto;
+}
+
+.actividad{
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem 3rem;
+}
+
+.agenda {
+    border: 4px solid var(--main);
+    border-radius: 10px;
+}
+.day-agenda {
+    border-right: 4px solid var(--main);
+}
+
+.home-container {
+    max-width: 752px;
+    margin: auto;
+}
+
+.circle-number {
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.circle-number p {
+    --size: 75px;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.horario {
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+    padding-bottom: 1rem;
+}
+#btn-agenda {
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 5rem;
+}
+@media (max-width: 1200px) {
+    .info-div {
+        padding: 40px 20px;
+    }
+}
+@media (max-width: 991px) {
+    
+}
+@media (max-width: 768px) {
+    .day-agenda {
+        border-right: 0;
+        border-bottom: 4px solid var(--main);
+        padding-bottom: 2rem;
+    }
+    .home-container {
+        max-width: 368px;
+    }
+    .info-div {
+        max-width: auto;
+    }
+    .objetivo {
+        padding: 2rem 3rem;
+    }
+    .objetivo-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 2rem;
+    }
+    .invitacion {
+        margin: 1.5rem auto;
+    }
+    .actividad {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 420px) {
+    .objetivo-cont {
+        flex-direction: column;
+        gap: 0;
+    }
+}

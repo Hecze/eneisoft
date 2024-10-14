@@ -1,0 +1,72 @@
+@import url(./header.css);
+@import url(./section.css);
+@import url(./footer.css);
+
+:root {
+    --pink: #FF4294;
+    --main: #0D1639;
+    --main-hover: #172664;
+    --sky: #ADBBFD;
+    --yellow: #FEA927;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", sans-serif;;
+}
+p, address{
+    margin: 0;
+    padding: 0;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-pink {
+    color: var(--pink);
+}
+.text-yellow {
+    color: var(--yellow);
+}
+.text-main {
+    color: var(--main);
+}
+.bg-main {
+    background-color: var(--main);
+}
+.bg-sky {
+    background-color: var(--sky);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+.scroll-hide::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.scroll-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.btn-main {
+    background-color: var(--main);
+    color: white;
+    text-align: center;
+}
+.btn-main:hover {
+    background-color: var(--main-hover);
+    color: white;
+}
+
+h2{
+    font-size: 33px;
+}
+
+header a, h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+}
