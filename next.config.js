@@ -1,19 +1,27 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
+  images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'scontent.flim15-1.fna.fbcdn.net',
+          pathname: '**',
+        },
+        {
+          protocol: 'https',
+          hostname: 'media.licdn.com',
+          pathname: '**',
+        }
+      ],
+  },
+  async rewrites() {
+      return [
           {
-            protocol: 'https',
-            hostname: 'https://scontent.flim15-1.fna.fbcdn.net',
-            pathname: '**',
+              source: '/2024/:path*',
+              destination: '/2024/:path*',
           },
-          {
-            protocol: 'https',
-            hostname: 'https://media.licdn.com/',
-            pathname: '**',
-          }
-        ],
-      },
-}
+      ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
