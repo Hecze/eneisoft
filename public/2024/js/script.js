@@ -41,7 +41,7 @@ function fillSpeakers(speakers) {
                     <div class="d-flex justify-content-center align-items-center gap-1">
                         ${Object.keys(speaker.social_media).map(social => {
                             return `<a class="text-decoration-none" href="${speaker.social_media[social]}">
-                                <div class="social-media media-speaker bg-main text-white fs-6">
+                                <div class="media-speaker fs-6">
                                     <i class="fa-brands fa-${social}"></i>
                                 </div>
                             </a>`
@@ -59,7 +59,7 @@ function fillAliados(aliados_sponsors) {
         $(`#${element.type}s-container`).append(`<div class="col-sm-12 col-md-6 col-lg-4 p-2 py-md-5 px-md-2">
             <div class="text-center px-2 py-4 bg-white">
                 <h5 class="text-white d-flex justify-content-center align-items-center gap-2 fs-4 fw-bold text-nowrap">
-                    <img src="/2024/img/${element.type}s/${element.nombre}.png" height=70/>
+                    <img src="/2024/img/${element.type}s/${element.nombre.toLowerCase()}.png" height=70/>
                 </h5>
                 <p class="text-gray py-2 mx-1 mx-lg-5 text-center">
                     ${element.slogan}
