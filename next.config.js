@@ -26,13 +26,13 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/2023/:path*',
-        destination: '/:path*',  // Sirve la app de Next.js en /2023
-      },
-      {
-        source: '/:path*',
+        source: '/',
         destination: '/index.html',
         // permanent: true,  // Sirve directamente el archivo index.html de public/
+      },
+      {
+        source: '/2023/:path*',
+        destination: '/:path*',  // Sirve la app de Next.js en /2023
       },
     ];
   },
