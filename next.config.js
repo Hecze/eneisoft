@@ -16,12 +16,12 @@ const nextConfig = {
   },
   async rewrites() {
       return [
-        {
+        /* {
             source: '/2023/:path*',
-            destination: '/:path*',  // Sirve la app de Next.js en /2023
-        },
+            destination: '/:path*', 
+        }, */
         {
-          source: '/*',
+          source: '/:path*',
           destination: '/2024/:path*'
         }
     ];
