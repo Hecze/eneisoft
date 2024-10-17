@@ -30,9 +30,9 @@ const nextConfig = {
         destination: '/:path*',  // Sirve la app de Next.js en /2023
       },
       {
-        source: '/:path*',
+        source: '/',
         destination: '/index.html',
-        permanent: true,  // Sirve directamente el archivo index.html de public/
+        // permanent: true,  // Sirve directamente el archivo index.html de public/
       },
     ];
   },
