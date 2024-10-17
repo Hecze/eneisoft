@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import HomePage from '@/app/page';
+import HomePage from '@/app/page-2023';
 import SliderSection from '@/components/Carrousel/organism/SliderSection';
 import getData from '@/data/home/carrousel';
 
