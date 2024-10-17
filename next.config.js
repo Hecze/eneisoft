@@ -21,7 +21,7 @@ const nextConfig = {
             destination: '/:path*',  // Sirve la app de Next.js en /2023
         },
         {
-          source: '/:path*',
+          source: './*',
           destination: '/2024/:path*'
         }
     ];
