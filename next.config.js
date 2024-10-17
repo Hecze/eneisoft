@@ -17,14 +17,10 @@ const nextConfig = {
   async rewrites() {
       return [
         {
-          source: '/',
-          destination: '/2024',  // Redirige la raíz a /2024
-      },
-      {
-          source: '/2024/:path*',
-          destination: '/2024/:path*', // Mantiene la redirección para archivos estáticos
-      },
-      ];
+            source: '/2023/:path*',
+            destination: '/:path*',  // Sirve la app de Next.js en /2023
+        },
+    ];
   },
 };
 
