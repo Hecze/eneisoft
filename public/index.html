@@ -467,5 +467,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="/2024/js/data.js"></script>
     <script src="/2024/js/script.js"></script>
+    <script>
+        if (window.location.pathname === '/index.html') {
+          window.history.replaceState(null, '', '/');
+        }
+      </script>
 </body>
 </html>
