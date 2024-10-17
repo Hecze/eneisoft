@@ -14,14 +14,14 @@ const nextConfig = {
         }
       ],
   },
-  async rewrites() {
+  /* async rewrites() {
       return [
           {
               source: '/2024/:path*',
               destination: '/2024/:path*',
           },
       ];
-  },
+  }, */
 };
 
 module.exports = nextConfig;
