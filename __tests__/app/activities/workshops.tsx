@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Page from '@/2023/activities/workshops/page';
+import Page from '@/app/activities/workshops/page';
 import data from '@/data/activities/workshops.json';
 
 describe("workshops page", () => {
