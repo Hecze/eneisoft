@@ -16,10 +16,14 @@ const nextConfig = {
   },
   async rewrites() {
       return [
-          {
-              source: '/',
-              destination: '/index.html',
-          },
+        {
+          source: '/',
+          destination: '/2024',  // Redirige la raíz a /2024
+      },
+      {
+          source: '/2024/:path*',
+          destination: '/2024/:path*', // Mantiene la redirección para archivos estáticos
+      },
       ];
   },
 };
