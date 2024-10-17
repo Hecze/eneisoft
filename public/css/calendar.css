@@ -1,0 +1,19 @@
+
+.fc-toolbar-title{
+    text-transform: lowercase;
+}
+.fc-toolbar-title::first-letter{
+    text-transform: uppercase;
+}
+
+.fc-event-title{
+    white-space: normal;
+}
+
+.fc-col-header-cell-cushion{
+    text-transform: uppercase;
+}
+
+.content-calendar {
+    min-width: 900px;
+}

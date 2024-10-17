@@ -1,7 +1,6 @@
 .title {
     font-size: 50px;
     font-weight: 900;
-    background-clip: text;
     color: white;
     text-align: center;
 }
@@ -29,7 +28,6 @@
 .social-media:hover {
     background-color: rgb(211, 211, 211);
 }
-
 .media-speaker {
     background-color: var(--main);
     border-radius: 10px;
@@ -92,16 +90,15 @@
     font-family: "Poppins", sans-serif !important;
 }
 
-.horario {
-    display: flex;
-    gap: 2rem;
-    align-items: start;
-    padding-bottom: 1rem;
-}
 #btn-agenda {
     width: fit-content;
     margin: auto;
     padding: 1rem 5rem;
+}
+
+.bolitas {
+    position: absolute;
+
 }
 @media (max-width: 1200px) {
     .info-div {
@@ -142,9 +139,25 @@
         text-align: center;
     }
 }
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 576px) {
+    .bolitas {
+        transform: rotate(-90deg);
+        transform-origin: top right;
+        top: 1.5rem;
+        left: 0;
+    }
+}
 @media (max-width: 420px) {
     .objetivo-cont {
         flex-direction: column;
         gap: 0;
+    }
+    .title{
+        font-size: 40px;
     }
 }

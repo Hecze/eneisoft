@@ -5,6 +5,7 @@
     --main-hover: #172664;
     --sky: #ADBBFD;
     --yellow: #FEA927;
+    --white-soft: #f5f5f5;
 }
 
 * {
@@ -33,11 +34,17 @@ p, address{
 .bg-main {
     background-color: var(--main);
 }
+.bg-pink {
+    background-color: var(--pink);
+}
 .bg-sky {
     background-color: var(--sky);
 }
 .bg-yellow{
     background-color: var(--yellow);
+}
+.bg-white-soft{
+    background-color: var(--white-soft);
 }
 
 .scroll-hide::-webkit-scrollbar {

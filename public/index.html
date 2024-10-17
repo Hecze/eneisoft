@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-hide">
-<script>
-    if (window.location.pathname === '/index.html') {
-        window.history.replaceState(null, '', '/');
-    }
-</script>
 <head>
+    <script>
+        if (window.location.pathname === '/index.html') {
+          window.history.replaceState(null, '', '/');
+        }
+      </script>      
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/2024/css/index.css">
-    <link rel="stylesheet" href="/2024/css/header.css">
-    <link rel="stylesheet" href="/2024/css/section.css">
-    <link rel="stylesheet" href="/2024/css/footer.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/section.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <title>Eneisoft</title>
 </head>
 <body class="bg-black">
@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-xl py-4">
             <div class="container px-3 px-md-5">
                 <a class="navbar-brand" href="#">
-                    <img src="/2024/img/logo.png" alt="Eneisoft">
+                    <img src="./img/logo.png" alt="Eneisoft">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <i class="fa-solid fa-bars text-white"></i>
@@ -66,8 +66,9 @@
     
     <main>
         <!-- home --> 
-         <section class="container-fluid bg-main pt-5" id="inicio">
-             <div class="container banner pt-5">
+         <section class="container-fluid bg-main pt-5 position-relative px-0" id="inicio">
+            
+             <div class="container banner py-5">
                  <div class="row text-center py-2 text-white">
                      <div class="home-container py-5">
                          <h1 class="title text-uppercase">ENEISOFT Perú <span class="text-pink">2024</span></h1>
@@ -87,7 +88,7 @@
                                     <i class="fa-brands fa-instagram"></i>
                                 </div>
                             </a>
-                            <a class="text-decoration-none" target="_blank" href="#">
+                            <a class="text-decoration-none" target="_blank" href="https://www.youtube.com/channel/UCns8xlFx2KgH3uaIrnrIJoQ">
                                 <div class="social-media">
                                     <i class="fa-brands fa-youtube"></i>
                                 </div>
@@ -124,11 +125,14 @@
          </section>
 
         <!-- que es eneisoft -->
-         <section class="container-fluid bg-white py-5" id="about">
-             <div class="container py-5">
-                 <div class="row text-black justify-content-center">
-                     <h2 class="mb-5 text-center text-pink fw-bold text-uppercase" >¿Qué es el ENEISOFT?</h2>
-                     <div class="col-sm-12 col-md-6 p-4">
+         <section class="container-fluid bg-white py-5 position-relative px-1 px-lg-5" id="about">
+
+            <img src="/img/bolitas1.png" alt="bg" class="bolitas">
+
+             <div class="container py-5 px-lg-5">
+                 <div class="row text-black justify-content-center px-lg-5">
+                     <h2 class="mb-5 text-center text-pink fw-bold text-uppercase">¿Qué es el ENEISOFT?</h2>
+                     <div class="col-sm-12 col-lg-6 p-4">
                          <div style="font-size: 20px;">
                              <p class="mb-3">
                                 El <b>ENEISOFT</b> (Encuentro Nacional de Estudiantes de Ingeniería de Software) nace en 2010 como una iniciativa de estudiantes de Ingeniería de Software la Facultad de Ingeniería de Sistemas e Informática de la Universidad Nacional Mayor de San Marcos, con la misió compartir conocimientos y desarrollar en networking del sector tec en el Perú desde las aulas.
@@ -138,8 +142,8 @@
                             </p>
                          </div>
                      </div>
-                     <div class="col-sm-12 col-md-6 p-4 d-flex justify-content-center align-items-center">
-                         <img src="/2024/img/preview 7.png" alt="laptop" class="img-fluid">
+                     <div class="col-sm-12 col-lg-6 p-4 d-flex justify-content-center align-items-start">
+                         <img src="/img/preview 7.png" alt="laptop" class="img-fluid">
                      </div>
                  </div>
               </div>
@@ -147,7 +151,10 @@
 
          <!-- objetivo -->
           <section id="objetivos">
-              <div class="container-fluid bg-sky">
+              <div class="container-fluid bg-sky position-relative py-5 px-1 px-lg-5">
+                
+                <img src="/img/bolitas2.png" alt="bg" class="bolitas">
+
                  <div class="container text-black py-5">
                      <div class="row mx-auto" style="max-width: 850px;">
                          <div class="col-12">
@@ -211,7 +218,8 @@
              
      
               <!-- invitaciones -->
-             <div class="container-fluid bg-main">
+             <div class="container-fluid bg-main position-relative">
+
                  <div class="container p-5">
                      <div class="row text-white">
                          <div class="col-sm-12 col-md-6 col-lg-3 center">
@@ -272,8 +280,12 @@
           </section>
 
         <!-- actividades -->
-         <section class="container-fluid bg-yellow text-black" id="actividades">
-             <div class="container p-2 p-md-5" style="font-size: .8em;">
+         <section class="container-fluid bg-yellow position-relative text-black py-5 px-lg-5" id="actividades">
+
+            <img src="/img/bolitas2.png" alt="bg" class="bolitas">
+
+
+             <div class="container p-2 pt-5 p-md-5" style="font-size: .8em;">
                 <div class="row">
                     <h2 class="fw-bold text-center mb-3 text-uppercase">Actividades</h2>
                 </div>
@@ -295,7 +307,7 @@
                              <div class="">
                                  <h3>Workshops</h3>
                                  <p>Talleres prácticos sobre tecnologías básicas: Git/GitHub, Web, Data Science, Mobile, Cloud, Ciberseguridad</p>
-                                 <button class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</button>
+                                 <a href="/workshops.html" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>                                 
                              </div>
                          </div>
                      </div>
@@ -317,7 +329,7 @@
                              <div class="">
                                  <h3>Keynotes</h3>
                                  <p>Conferencias sobre tecnologías emergentes: IA, NLP, Blockchain, IoT, AR/VR</p>
-                                 <button class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</button>
+                                <a href="/keynotes.html" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>                                 
                              </div>
                          </div>
                      </div>
@@ -340,7 +352,7 @@
                                  <h3>Programación Competitiva</h3>
                                  <p>
                                     Torneo de programación nacional con 02 fases: eliminatoria virtual y final presencial.</p>
-                                 <button class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</button>
+                                <a href="/programacion_competitiva.html" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>
                              </div>
                          </div>
                      </div>
@@ -362,7 +374,7 @@
                              <div class="flex-grow-1 d-flex flex-column">
                                  <h3>Hackathon</h3>
                                  <p class="flex-grow-1">Competencia nacional de creación tecnológica con 02 fases: eliminatoria virtual y final presencial.</p>
-                                 <button class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</button>
+                                 <a href="/hackathon.html" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>
                              </div>
                          </div>
                      </div>
@@ -371,8 +383,12 @@
          </section>
 
          <!-- speakers / talleristas -->
-        <section class="container-fluid bg-white py-3" id="speakers">
-            <div class="text-center py-3">
+        <section class="container-fluid bg-white py-5 position-relative px-lg-5" id="speakers">
+
+            <img src="/img/bolitas1.png" alt="bg" class="bolitas">
+            
+
+            <div class="text-center pt-5 pt-md-0">
                 <h2 class="text-pink fw-bolder">Speakers</h2>
             </div>
             <div class="container">
@@ -382,7 +398,10 @@
             </div>
         </section>
 
-        <section class="container-fluid bg-main" id="aliados">
+        <section class="container-fluid bg-main py-5 position-relative px-lg-5" style="z-index: 100;" id="aliados">
+
+            <img src="/img/bolitas3.png" alt="bg" class="bolitas"> 
+
             <!-- ALIADOS -->
             <div class="container py-5">
                 <div class="text-center">
@@ -408,16 +427,19 @@
         </section>
         
         <!-- agenda -->
-         <section class="container-fluid bg-white" id="agenda">
-             <div class="container py-4">
+         <section class="container-fluid bg-white-soft py-5 position-relative px-lg-5" id="agenda">
+            <img src="/img/bolitas1.png" alt="bg" class="bolitas"> 
+
+             <div class="container py-4 px-2 px-lg-5">
                 <div class="row text-pink">
                     <h2 class="text-center fw-bold">Agenda</h2>
                 </div>
-                <div class="row p-4 text-main" id="agenda-container">
+                <div class="row p- text-main position-relative mx-2 mx-md-5">                    
                     <!-- Aqui va la agenda jalados del json -->
+                     <div class="w-100 pt-4" id="agenda-container"></div>
                 </div>
                 <div class="row">
-                    <button id="btn-agenda" class="btn btn-main my-3 py-1 rounded rounded-pill">Ver agenda completa</button>
+                    <a href="/agenda.html" id="btn-agenda" class="btn btn-main my-3 py-1 rounded rounded-pill">Ver agenda completa</a>
                 </div>
              </div>
          </section>
@@ -427,7 +449,7 @@
         <div class="container text-white p-5">
             <div class="row pb-3">
                 <div class="col-12 d-flex justify-content-center align-items-center py-5">
-                    <img src="/2024/img/logo.png" alt="Eneisoft">
+                    <img src="/img/logo.png" alt="Eneisoft">
                 </div>
                 <div class="col-12 px-5 py-4 py-md-1">
                     <div class="d-flex justify-content-center align-items-center gap-2 mb-5 pb-5">
@@ -441,7 +463,7 @@
                                <i class="fa-brands fa-instagram"></i>
                            </div>
                        </a>
-                       <a class="text-decoration-none" target="_blank" href="#">
+                       <a class="text-decoration-none" target="_blank" href="https://www.youtube.com/channel/UCns8xlFx2KgH3uaIrnrIJoQ">
                            <div class="social-media">
                                <i class="fa-brands fa-youtube"></i>
                            </div>
@@ -470,8 +492,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="/2024/js/data.js"></script>
-    <script src="/2024/js/script.js"></script>
-    
+    <script src="/js/data.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
