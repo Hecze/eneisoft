@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Page from '@/app/activities/progra/page';
+import Page from '@/2023/activities/progra/page';
 import data from '@/data/activities/progra.json';
 
 describe("Progra page", () => {

@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Page from '@/app/activities/hackathon/page';
+import Page from '@/2023/activities/hackathon/page';
 import data from '@/data/activities/hackathon.json';
 
 describe("hackathon page", () => {
