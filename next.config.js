@@ -14,16 +14,21 @@ const nextConfig = {
         }
       ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/index.html',
+        permanent: true,  // Sirve directamente el archivo index.html de public/
+      },
+    ];
+  },
   async rewrites() {
-      return [
-        /* {
-            source: '/2023/:path*',
-            destination: '/:path*', 
-        }, */
-        {
-          source: '/:path*',
-          destination: '/2024/:path*'
-        }
+    return [
+      {
+        source: '/2023/:path*',
+        destination: '/:path*',  // Sirve la app de Next.js en /2023
+      },
     ];
   },
 };
