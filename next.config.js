@@ -17,7 +17,7 @@ const nextConfig = {
   async rewrites() {
       return [
           {
-              source: '/',
+              source: '/2024/:path*',
               destination: '/2024/:path*',
           },
       ];
