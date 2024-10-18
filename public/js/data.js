@@ -1,5 +1,4 @@
 const speakers = [
-    // aca van los speakers y talleristas
     {
         nombres: 'Steve',
         apellidos: 'Jobs',
@@ -65,7 +64,6 @@ const speakers = [
 ];
 
 const aliados_sponsors = [
-    // colocar el tipo (aliado - sponsor)
     {
         type: 'aliado',
         nombre: 'Google',
