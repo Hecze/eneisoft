@@ -139,25 +139,25 @@ const aliados_sponsors = [
         type: 'aliado',
         nombre: 'Google',
         slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: true,
+        visible: false,
     },
     {
         type: 'aliado',
         nombre: 'Google',
         slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: true,
+        visible: false,
     },
     {
         type: 'sponsor',
         nombre: 'Google',
         slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: true,
+        visible: false,
     },
     {
         type: 'sponsor',
         nombre: 'Google',
         slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: true,
+        visible: false,
     },
 
 ]
