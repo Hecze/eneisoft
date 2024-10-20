@@ -68,16 +68,16 @@ function fillSpeakers(speakers) {
             cont++;
             $("#speakers-container").append(`
                 <div class="col-sm-12 col-md-6 p-3 p-md-5">
-                    <div class="p-2">
+                    <div class="p-2 h-100 d-flex flex-column">
                         <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" width=200 alt="user" class="img-fluid rounded-circle d-block m-auto">
                         <h5 class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
                             ${speaker.nombres} ${speaker.apellidos}
                             <img width="30" height="30" src="https://img.icons8.com/color/48/${speaker.pais}.png" alt="${speaker.pais}-emoji"/>
                         </h5>
-                        <p class="text-gray text-center my-3">${speaker.perfil}</p>
+                        <p class="text-gray text-center my-3 flex-grow-1">${speaker.perfil}</p>
                         <div class="d-flex justify-content-center align-items-center gap-1">
                             ${Object.keys(speaker.social_media).map(social => {
-                                return `<a class="text-decoration-none" href="${speaker.social_media[social]}">
+                                return `<a class="text-decoration-none" target="_blank" href="${speaker.social_media[social]}">
                                     <div class="social-media media-speaker bg-main text-white fs-6">
                                         <i class="fa-brands fa-${social}"></i>
                                     </div>

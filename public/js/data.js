@@ -32,9 +32,9 @@ const speakers = [
         apellidos: 'Blanco',
         perfil: "Cloud Developer & AWS Community Builder Serverless",
         social_media: {
-            github: "github.com/javierblancoch",
+            facebook: "https://www.facebook.com/javieresmithblanco/",
             instagram: "https://www.instagram.com/javierblancoch/",
-            linkedin: "linkedin.com/in/javier-esmith-blanco-chuquizuta",
+            twitter: "https://twitter.com/javierblancoch",
         },
         pais: "peru",
         visible: false,
