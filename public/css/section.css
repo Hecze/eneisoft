@@ -60,10 +60,11 @@
     align-items: start;
     gap: 2rem;
     padding: 2rem 3rem;
+    height: 100%;
 }
 
 .agenda {
-    border: 4px solid var(--main);
+    border: 4px solid #000;
     border-radius: 10px;
 }
 .day-agenda {
@@ -94,6 +95,7 @@
     width: fit-content;
     margin: auto;
     padding: 1rem 5rem;
+    font-size: 20px;
 }
 
 .bolitas {

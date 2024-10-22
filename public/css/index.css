@@ -6,6 +6,7 @@
     --sky: #ADBBFD;
     --yellow: #FEA927;
     --white-soft: #f5f5f5;
+    --negro: #1e1e1e;
 }
 
 * {
@@ -28,6 +29,9 @@ p, address{
 .text-yellow {
     color: var(--yellow);
 }
+.text-negro {
+    color: var(--negro);
+}
 .text-main {
     color: var(--main);
 }
@@ -36,6 +40,9 @@ p, address{
 }
 .bg-pink {
     background-color: var(--pink);
+}
+.bg-negro {
+    background-color: var(--negro);
 }
 .bg-sky {
     background-color: var(--sky);

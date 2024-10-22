@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-xl py-4">
             <div class="container px-3 px-md-5">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" alt="Eneisoft">
+                    <img src="/img/logo.png" alt="Eneisoft">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <i class="fa-solid fa-bars text-white"></i>
@@ -49,13 +49,13 @@
                                 <a class="nav-link" href="#actividades">Actividades</a>
                             </li>
                             <li class="nav-item my-4 my-lg-0">
-                                <a class="nav-link" href="#speakers">Speakers</a>
+                                <a class="nav-link speakers-link" href="#speakers">Speakers</a>
                             </li>
                             <li class="nav-item my-4 my-lg-0">
-                                <a class="nav-link" href="#aliados">Aliados y sponsors</a>
+                                <a class="nav-link aliados-link" href="#aliados">Aliados y sponsors</a>
                             </li>
                             <li class="nav-item my-4 my-lg-0">
-                                <a class="nav-link" href="#agenda">Agenda</a>
+                                <a class="nav-link agenda-link" href="#agenda">Agenda</a>
                             </li>
                         </ul>
                     </div>
@@ -64,7 +64,7 @@
         </nav>
     </header>
     
-    <main>
+    <main id="main">
         <!-- home --> 
          <section class="container-fluid bg-main pt-5 position-relative px-0" id="inicio">
             
@@ -72,12 +72,12 @@
                  <div class="row text-center py-2 text-white">
                      <div class="home-container py-5">
                          <h1 class="title text-uppercase">ENEISOFT Perú <span class="text-pink">2024</span></h1>
-                         <p class="fw-normal" style="font-size: 14px;">!Ahora si es nacional!</p>
-                         <p class="my-4">
+                         <p class="fw-bold" style="font-size: 22px;">!Ahora si es nacional!</p>
+                         <p class="my-4" style="font-size: 22px;">
                             Si te apasiona la programación y la tecnología, este es tu lugar. Conecta, aprende y vive una experiencia que te inspirará a crear cosas increíbles.
                         </p>
                          <!-- LINKS SOCIAL MEDIA -->
-                         <div class="d-flex justify-content-center align-items-center gap-2">
+                         <div class="d-flex justify-content-center align-items-center gap-2 mt-5">
                              <a class="text-decoration-none" target="_blank" href="https://www.facebook.com/ENEISOFT?_rdc=2&_rdr">
                                  <div class="social-media">
                                      <i class="fa-brands fa-facebook"></i>
@@ -109,14 +109,20 @@
                  </div>
                  <div class="row text-white">
                      <div class="col-12 d-flex flex-column gap-5 align-items-center">
-                         <div class="d-flex justify-content-center align-items-center text-start gap-3 gap-sm-5 py-5">
-                             <div class="px-4">
-                                 <p>Lugar</p>
-                                 <p>UNMSM, Lima, Perú</p>
+                         <div class="d-flex justify-content-center align-items-center text-start gap-3 gap-sm-5 py-5" style="font-size: 18px;">
+                             <div class="px-4 center gap-3">
+                                <i class="fa-solid fs-3 fa-location-dot"></i>
+                                <div>
+                                    <p>Lugar</p>
+                                    <p>UNMSM, Lima, Perú</p>
+                                </div>
                              </div>
-                             <div class="px-4">
-                                 <p>Fecha</p>
-                                 <p>Del 04 al 09 de noviembre</p>
+                             <div class="px-4 center gap-3">
+                                <i class="fa-solid fs-3 fa-calendar-days"></i>
+                                <div>
+                                    <p>Fecha</p>
+                                    <p>Del 04 al 09 de noviembre</p>
+                                </div>
                              </div>
                          </div>
                      </div>
@@ -130,7 +136,7 @@
             <img src="/img/bolitas1.png" alt="bg" class="bolitas">
 
              <div class="container py-5 px-lg-5">
-                 <div class="row text-black justify-content-center px-lg-5">
+                 <div class="row text-negro justify-content-center px-lg-5">
                      <h2 class="mb-5 text-center text-pink fw-bold text-uppercase">¿Qué es el ENEISOFT?</h2>
                      <div class="col-sm-12 col-lg-6 p-4">
                          <div style="font-size: 20px;">
@@ -155,7 +161,7 @@
                 
                 <img src="/img/bolitas2.png" alt="bg" class="bolitas">
 
-                 <div class="container text-black py-5">
+                 <div class="container text-main py-5">
                      <div class="row mx-auto" style="max-width: 850px;">
                          <div class="col-12">
                              <h2 class="mb-5 text-center text-pink fw-bold text-uppercase">OBJETIVOS DEL ENEISOFT 2024</h2>
@@ -223,11 +229,11 @@
                  <div class="container p-5">
                      <div class="row text-white">
                          <div class="col-sm-12 col-md-6 col-lg-3 center">
-                             <div class="text-center invitacion">
+                             <div class="text-center invitacion h-100 center flex-column">
                                  <p class="number-info">
                                      +250
                                  </p>
-                                 <h4 class="fw-bold text-pink">Instituciones</h4>
+                                 <h4 class="fw-bold text-pink flex-grow-1">Instituciones</h4>
                                  <div class="fw-normal">
                                      <p style="font-size: 16px;">
                                          Participación de Universidades, institutos y bootcamps de todo el Perú
@@ -236,11 +242,11 @@
                              </div>
                          </div>
                          <div class="col-sm-12 col-md-6 col-lg-3 center">
-                             <div class="text-center invitacion">
+                             <div class="text-center invitacion h-100 center flex-column">
                                  <p class="number-info">
                                      +20
                                  </p>
-                                 <h4 class="fw-bold text-pink">Speakers</h4>
+                                 <h4 class="fw-bold text-pink flex-grow-1">Speakers</h4>
                                  <div class="fw-normal">
                                      <p style="font-size: 16px;">
                                          Especialistas y referentes del sector tecnológicos a nivel nacional e internacional
@@ -249,11 +255,11 @@
                              </div>
                          </div>
                          <div class="col-sm-12 col-md-6 col-lg-3 center">
-                             <div class="text-center invitacion">
+                             <div class="text-center invitacion h-100 center flex-column">
                                  <p class="number-info">
                                      +50
                                  </p>
-                                 <h4 class="fw-bold text-pink">Comunidades</h4>
+                                 <h4 class="fw-bold text-pink flex-grow-1">Comunidades</h4>
                                  <div class="fw-normal">
                                      <p style="font-size: 16px;">
                                          Participación de comunidades tecnológicas de todo el Perú
@@ -262,11 +268,11 @@
                              </div>
                          </div>
                          <div class="col-sm-12 col-md-6 col-lg-3 center">
-                             <div class="text-center invitacion">
+                             <div class="text-center invitacion h-100 center flex-column">
                                  <p class="number-info">
                                      +30
                                  </p>
-                                 <h4 class="fw-bold text-pink">Instituciones</h4>
+                                 <h4 class="fw-bold text-pink flex-grow-1">Instituciones</h4>
                                  <div class="fw-normal">
                                      <p style="font-size: 16px;">
                                          Conferencias, Workshops, Programación Competitiva y Hackathon
@@ -304,10 +310,10 @@
                                     </defs>
                                 </svg>                                                             
                              </div>
-                             <div class="">
-                                 <h3>Workshops</h3>
-                                 <p>Talleres prácticos sobre tecnologías básicas: Git/GitHub, Web, Data Science, Mobile, Cloud, Ciberseguridad</p>
-                                 <a href="/workshops" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>                                 
+                             <div class="d-flex flex-column align-items-start h-100">
+                                 <h3 style="font-size: 25px;">Workshops</h3>
+                                 <p style="font-size: 18px;" class="flex-grow-1">Talleres prácticos sobre tecnologías básicas: Git/GitHub, Web, Data Science, Mobile, Cloud, Ciberseguridad</p>
+                                 <a style="font-size: 20px;" href="/workshops" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Ver más</a>                                 
                              </div>
                          </div>
                      </div>
@@ -326,10 +332,10 @@
                                 </svg>
                                                                                                 
                              </div>
-                             <div class="">
-                                 <h3>Keynotes</h3>
-                                 <p>Conferencias sobre tecnologías emergentes: IA, NLP, Blockchain, IoT, AR/VR</p>
-                                <a href="/keynotes" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>                                 
+                             <div class="d-flex flex-column align-items-start h-100">
+                                 <h3 style="font-size: 25px;">Keynotes</h3>
+                                 <p style="font-size: 18px;" class="flex-grow-1">Conferencias sobre tecnologías emergentes: IA, NLP, Blockchain, IoT, AR/VR</p>
+                                <a style="font-size: 20px;" href="/keynotes" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Ver más</a>                                 
                              </div>
                          </div>
                      </div>
@@ -348,11 +354,11 @@
                                     </svg>                                    
                                                                                                 
                              </div>
-                             <div class="">
-                                 <h3>Programación Competitiva</h3>
-                                 <p>
+                             <div class="d-flex flex-column align-items-start h-100">
+                                 <h3 style="font-size: 25px;">Programación Competitiva</h3>
+                                 <p style="font-size: 18px;" class="flex-grow-1">
                                     Torneo de programación nacional con 02 fases: eliminatoria virtual y final presencial.</p>
-                                <a href="/programacion_competitiva" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>
+                                <a style="font-size: 20px;" href="/programacion_competitiva" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Ver más</a>
                              </div>
                          </div>
                      </div>
@@ -371,10 +377,10 @@
                                     </svg>
                                                                                                
                              </div>
-                             <div class="flex-grow-1 d-flex flex-column">
-                                 <h3>Hackathon</h3>
-                                 <p class="flex-grow-1">Competencia nacional de creación tecnológica con 02 fases: eliminatoria virtual y final presencial.</p>
-                                 <a href="/hackathon" class="btn btn-main w-100 my-3 py-1 rounded rounded-pill">Ver más</a>
+                             <div class="d-flex flex-column align-items-start h-100">
+                                 <h3 style="font-size: 25px;">Hackathon</h3>
+                                 <p style="font-size: 18px;" class="flex-grow-1">Competencia nacional de creación tecnológica con 02 fases: eliminatoria virtual y final presencial.</p>
+                                 <a style="font-size: 20px;" href="/hackathon" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Ver más</a>
                              </div>
                          </div>
                      </div>
@@ -403,7 +409,7 @@
             <img src="/img/bolitas3.png" alt="bg" class="bolitas"> 
 
             <!-- ALIADOS -->
-            <div class="container py-5">
+            <div class="container py-5" id="aliados-cont">
                 <div class="text-center">
                     <h2 class="text-yellow my-2 my-md-4 fw-bolder">
                         Aliados
@@ -415,7 +421,7 @@
             </div>
     
             <!-- Sponsors -->
-            <div class="container pb-5">
+            <div class="container pb-5" id="sponsors-cont">
                <div class="row justify-content-center" id="sponsors-container">
                     <div class="text-center">
                         <h2 class="text-yellow my-4 fw-bolder">
@@ -434,12 +440,12 @@
                 <div class="row text-pink">
                     <h2 class="text-center fw-bold">Agenda</h2>
                 </div>
-                <div class="row p- text-main position-relative mx-2 mx-md-5">                    
+                <div class="row text-main position-relative mx-2 mx-md-5">                    
                     <!-- Aqui va la agenda jalados del json -->
                      <div class="w-100 pt-4" id="agenda-container"></div>
                 </div>
                 <div class="row">
-                    <a href="/agenda" id="btn-agenda" class="btn btn-main my-3 py-1 rounded rounded-pill">Ver agenda completa</a>
+                    <a href="/agenda.html" id="btn-agenda" class="btn btn-main my-3 py-1 rounded rounded-pill">Ver agenda completa</a>
                 </div>
              </div>
          </section>

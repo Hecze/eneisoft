@@ -32,20 +32,20 @@ $(document).ready(function () {
 
     window.addEventListener("scroll", () => {
         let currentSection = "";
+        let sectionsCurrent = [];
 
         sections.forEach((section) => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
 
-            if (window.scrollY >= sectionTop - sectionHeight / 3) {
+            if (window.scrollY >= sectionTop - sectionHeight / 3 && !section.classList.contains("d-none")) {
                 currentSection = section.getAttribute("id");
-            }
+            } 
         });
-
         navLinks.forEach((link) => {
-            link.classList.remove("link-active");
-            if (link.getAttribute("href") === `#${currentSection}`) {
-                link.classList.add("link-active");
+            $(link).removeClass('link-active')
+            if ((link.getAttribute("href")) === "#"+currentSection) {
+                $(link).addClass("link-active");
             }
         });
     });
@@ -62,69 +62,103 @@ $(document).ready(function () {
 });
 
 function fillSpeakers(speakers) {
+    var cont = 0;
     speakers.forEach(function (speaker, index) {
-        $("#speakers-container").append(`
-            <div class="col-sm-12 col-md-6 p-3 p-md-5">
-                <div class="p-2">
-                    <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" width=200 alt="user" class="img-fluid rounded-circle d-block m-auto">
-                    <h5 class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
-                        ${speaker.nombres} ${speaker.apellidos}
-                        <img width="30" height="30" src="https://img.icons8.com/color/48/${speaker.pais}.png" alt="${speaker.pais}-emoji"/>
-                    </h5>
-                    <p class="text-gray text-center my-3">${speaker.perfil}</p>
-                    <div class="d-flex justify-content-center align-items-center gap-1">
-                        ${Object.keys(speaker.social_media).map(social => {
-                            return `<a class="text-decoration-none" href="${speaker.social_media[social]}">
-                                <div class="social-media media-speaker bg-main text-white fs-6">
-                                    <i class="fa-brands fa-${social}"></i>
-                                </div>
-                            </a>`
-                        }).toString().replace(/,/g, '')}
+        if (speaker.visible) {
+            cont++;
+            $("#speakers-container").append(`
+                <div class="col-sm-12 col-md-6 p-3 p-md-5">
+                    <div class="p-2 h-100 d-flex flex-column">
+                        <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" width=150 alt="user" class="img-fluid rounded-circle d-block m-auto">
+                        <h5 style="font-size: 25px;" class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
+                            ${speaker.nombres} ${speaker.apellidos}
+                            <img width="30" height="30" src="https://img.icons8.com/color/48/${speaker.pais}.png" alt="${speaker.pais}-emoji"/>
+                        </h5>
+                        <p style="font-size: 18px;" class="text-negro text-center my-3 flex-grow-1">${speaker.perfil}</p>
+                        <div class="d-flex justify-content-center align-items-center gap-1">
+                            ${Object.keys(speaker.social_media).map(social => {
+                                return `<a class="text-decoration-none" target="_blank" href="${speaker.social_media[social]}">
+                                    <div class="social-media media-speaker bg-main text-white fs-6">
+                                        <i class="fa-brands fa-${social}"></i>
+                                    </div>
+                                </a>`
+                            }).toString().replace(/,/g, '')}
+                        </div>
                     </div>
                 </div>
-            </div>
-        `)
+            `)
+        }
     })
+    // alert(cont)
+    if (cont === 0) {
+        $('#speakers, .speakers-link').addClass('d-none');
+    } else {
+        $('#speakers, .speakers-link').removeClass('d-none');
+    }
 }
 
 
 function fillAliados(aliados_sponsors) {
+    let contA = 0;
+    let contS = 0;
     aliados_sponsors.forEach(element => {
-        $(`#${element.type}s-container`).append(`<div class="col-sm-12 col-md-6 col-lg-4 p-2 py-md-5 px-md-2">
-            <div class="text-center px-2 py-4 bg-white">
-                <h5 class="text-white d-flex justify-content-center align-items-center gap-2 fs-4 fw-bold text-nowrap">
-                    <img src="./img/${element.type}s/${element.nombre.toLowerCase()}.png" height=70/>
-                </h5>
-                <p class="text-gray py-2 mx-1 mx-lg-5 text-center">
-                    ${element.slogan}
-                </p>
+        if (element.visible) {
+            $(`#${element.type}s-container`).append(`<div class="col-sm-12 col-md-6 col-lg-4 p-2 py-md-5 px-md-2">
+                <div class="text-center px-2 py-4 bg-white">
+                    <h5 class="text-white d-flex justify-content-center align-items-center gap-2 fs-4 fw-bold text-nowrap">
+                        <img src="./img/${element.type}s/${element.nombre.toLowerCase()}.png" height=70/>
+                    </h5>
+                    <p class="text-negro py-2 mx-1 mx-lg-5 text-center" style="font-size: 18px;">
+                        ${element.slogan}
+                    </p>
+                </div>
             </div>
-        </div>
-        `);
+            `);
+            if (element.type === 'aliado') {
+                contA++;
+            } else {
+                contS++;
+            }
+        }
     })
+    if (contA+contS === 0) {
+        $('#aliados, .aliados-link').addClass('d-none');
+    } else {
+        $('#aliados, .aliados-link').removeClass('d-none');
+        if (contA === 0) {
+            $('#aliados-cont').addClass('d-none')
+        } else {
+            $('#aliados-cont').removeClass('d-none')
+        }
+        if (contS === 0) {
+            $('#sponsors-cont').addClass('d-none')
+        } else {
+            $('#sponsors-cont').removeClass('d-none')
+        }
+    }
 }
 
 function fillAgenda(agenda) {
     agenda.forEach((element, index) => {
         $(`#agenda-container`).append(`<div class="container-fluid agenda p-3">
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+                <div class="col-sm-12 col-md-4 col-lg-3 p-2">
                     <div class="text-center h-100 day-agenda d-flex flex-column justify-content-center align-items-center">
-                        <p class="fw-bold" style="font-size: 4rem;">${element.dia}</p>
-                        <p class="bg-main text-white fw-bold px-3" style="font-size: 2rem;">Nov</p>
+                        <p class="fw-bold" style="font-size: 60px;">${element.dia}</p>
+                        <p class="bg-main text-white fw-bold px-3" style="font-size: 30px;">Nov</p>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-8 p-2 px-xl-3 container-fluid">
+                <div class="col-sm-12 col-md-8 col-lg-9 p-2 px-xl-3 container-fluid">
                     ${element.actividades.map((actividad, i) => {
                         return `<div class="row">
-                            <div class="col-sm-12 col-xl-4 d-flex align-items-center gap-2 py-1 fw-bold fs-5 position-relative">
+                            <div class="col-sm-12 col-xl-3 gap-2 py-1 fw-bold fs-5 position-relative" style="font-size: 20px;">
                                 ${i==1 ? `<div class="position-absolute top-0 bg-main" style="width: 40px; height: 10px; transform: translateY(-100%);"></div>` : ''}
                                 <i class="fa-solid fa-clock"></i>
                                 ${actividad.inicio} - ${actividad.fin}
                             </div>
-                            <div class="col-sm-12 col-xl-8">
+                            <div class="col-sm-12 col-xl-9" style="font-size: 20px;">
                                 <p class="fw-bold">${actividad.nombre}</p>
-                                <p>${actividad.detalles}</p>
+                                <p class="text-negro">${actividad.detalles}</p>
                             </div>
                         </div>`
                     })}                    
@@ -134,7 +168,7 @@ function fillAgenda(agenda) {
         if (index!=agenda.length-1) {
             $("#agenda-container").append(`
                 <div class="container-fluid">
-                    <div class="square bg-main m-auto" style="width: 40px; height: 40px;"></div>
+                    <div class="square bg-black m-auto" style="width: 40px; height: 40px;"></div>
                 </div>
             `);
         }
@@ -153,7 +187,7 @@ function fillEventos(speakers, event) {
                             ${evento.exp.nombres} ${evento.exp.apellidos}
                             <img width="30" height="30" src="https://img.icons8.com/color/48/${evento.exp.pais}.png" alt="${evento.exp.pais}-emoji"/>
                         </h5>
-                        <p class="text-gray text-center my-3">${evento.exp.perfil}</p>
+                        <p class="text-negro text-center my-3">${evento.exp.perfil}</p>
                         <div class="d-flex justify-content-center align-items-center gap-1">
                             ${Object.keys(evento.exp.social_media).map(social => {
                                 return `<a class="text-decoration-none" href="${evento.exp.social_media[social]}">
@@ -166,7 +200,7 @@ function fillEventos(speakers, event) {
                     </div>
                     <div class="col-sm-12 col-md-6 py-3 py-md-0 px-md-4 d-flex flex-column align-items-start">
                         <h5 class="text-main fw-bold mb-4">${evento.nombre}</h5>
-                        <p class="mb-4">${evento.detalles}</p>
+                        <p class="mb-4 text-negro">${evento.detalles}</p>
                         <div class="text-main flex-grow-1">
                             <div class="d-flex gap-2 align-items-center">
                                 <i class="fa-solid fa-calendar"></i>
@@ -196,35 +230,54 @@ function formatSpeakerName(name, surname) {
 
 const formatearActividades = (expositores, evento=null) => {
     const actividadesPorDia = {};
+    var cont = 0;
 
     // Recorremos todos los expositores
     expositores.forEach((expositor) => {
-        // Recorremos las actividades (talleres y charlas)
-        let actividades;
-        if (!evento) {
-            actividades = [...expositor.talleres, ...expositor.charlas];
-        } else {
-            actividades = [...expositor[evento]];
+        if (expositor.visible) {
+            // Recorremos las actividades (talleres y charlas)
+            let actividades;
+            if (!evento) {
+                actividades = [...expositor.talleres, ...expositor.charlas];
+                cont++;
+            } else {
+                actividades = [...expositor[evento]];
+                if (expositor[evento].length !== 0) {
+                    cont++;
+                }
+            }
+    
+            actividades.forEach((actividad) => {
+                const { dia, inicio, fin, nombre, detalles, lugar } = actividad;
+    
+                // Si el día no existe en el objeto, lo creamos
+                if (!actividadesPorDia[dia]) {
+                    actividadesPorDia[dia] = [];
+                }
+                const exp = {
+                    nombres: expositor.nombres,
+                    apellidos: expositor.apellidos,
+                    perfil: expositor.perfil,
+                    social_media: expositor.social_media,
+                    pais: expositor.pais,
+                    visible: expositor.visible,
+                }
+                // Añadimos la actividad al día correspondiente
+                actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, exp });
+            });
         }
-
-        actividades.forEach((actividad) => {
-            const { dia, inicio, fin, nombre, detalles, lugar } = actividad;
-
-            // Si el día no existe en el objeto, lo creamos
-            if (!actividadesPorDia[dia]) {
-                actividadesPorDia[dia] = [];
-            }
-            const exp = {
-                nombres: expositor.nombres,
-                apellidos: expositor.apellidos,
-                perfil: expositor.perfil,
-                social_media: expositor.social_media,
-                pais: expositor.pais,
-            }
-            // Añadimos la actividad al día correspondiente
-            actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, exp });
-        });
     });
+    if (cont === 0 && evento==null) {
+        $("#agenda, .agenda-link").addClass("d-none");
+        return [];
+    } else {
+        if (cont==0) {
+            $(`#${evento}-cont`).addClass("d-none")
+        } else {
+            $(`#${evento}-cont`).removeClass("d-none")
+        }
+    }
+    $("#agenda").removeClass("d-none");
 
     // Creamos el arreglo final
     const resultado = Object.keys(actividadesPorDia)
@@ -244,6 +297,7 @@ const formatearActividades = (expositores, evento=null) => {
 };
 
 const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
+    // para el calendario
     const eventos = [];
 
     actividadesPorDia.forEach((diaObj) => {
