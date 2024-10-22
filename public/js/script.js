@@ -33,16 +33,22 @@ $(document).ready(function () {
     window.addEventListener("scroll", () => {
         let currentSection = "";
         let sectionsCurrent = [];
+        let sectionsCurrent = [];
 
         sections.forEach((section) => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
 
             if (window.scrollY >= sectionTop - sectionHeight / 3 && !section.classList.contains("d-none")) {
+            if (window.scrollY >= sectionTop - sectionHeight / 3 && !section.classList.contains("d-none")) {
                 currentSection = section.getAttribute("id");
+            } 
             } 
         });
         navLinks.forEach((link) => {
+            $(link).removeClass('link-active')
+            if ((link.getAttribute("href")) === "#"+currentSection) {
+                $(link).addClass("link-active");
             $(link).removeClass('link-active')
             if ((link.getAttribute("href")) === "#"+currentSection) {
                 $(link).addClass("link-active");
@@ -62,6 +68,7 @@ $(document).ready(function () {
 });
 
 function fillSpeakers(speakers) {
+    var cont = 0;
     var cont = 0;
     speakers.forEach(function (speaker, index) {
         if (speaker.visible) {
@@ -95,10 +102,18 @@ function fillSpeakers(speakers) {
     } else {
         $('#speakers, .speakers-link').removeClass('d-none');
     }
+    // alert(cont)
+    if (cont === 0) {
+        $('#speakers, .speakers-link').addClass('d-none');
+    } else {
+        $('#speakers, .speakers-link').removeClass('d-none');
+    }
 }
 
 
 function fillAliados(aliados_sponsors) {
+    let contA = 0;
+    let contS = 0;
     let contA = 0;
     let contS = 0;
     aliados_sponsors.forEach(element => {
@@ -231,9 +246,42 @@ function formatSpeakerName(name, surname) {
 const formatearActividades = (expositores, evento=null) => {
     const actividadesPorDia = {};
     var cont = 0;
+    var cont = 0;
 
     // Recorremos todos los expositores
     expositores.forEach((expositor) => {
+        if (expositor.visible) {
+            // Recorremos las actividades (talleres y charlas)
+            let actividades;
+            if (!evento) {
+                actividades = [...expositor.talleres, ...expositor.charlas];
+                cont++;
+            } else {
+                actividades = [...expositor[evento]];
+                if (expositor[evento].length !== 0) {
+                    cont++;
+                }
+            }
+    
+            actividades.forEach((actividad) => {
+                const { dia, inicio, fin, nombre, detalles, lugar } = actividad;
+    
+                // Si el día no existe en el objeto, lo creamos
+                if (!actividadesPorDia[dia]) {
+                    actividadesPorDia[dia] = [];
+                }
+                const exp = {
+                    nombres: expositor.nombres,
+                    apellidos: expositor.apellidos,
+                    perfil: expositor.perfil,
+                    social_media: expositor.social_media,
+                    pais: expositor.pais,
+                    visible: expositor.visible,
+                }
+                // Añadimos la actividad al día correspondiente
+                actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, exp });
+            });
+        }
         if (expositor.visible) {
             // Recorremos las actividades (talleres y charlas)
             let actividades;
@@ -278,6 +326,17 @@ const formatearActividades = (expositores, evento=null) => {
         }
     }
     $("#agenda").removeClass("d-none");
+    if (cont === 0 && evento==null) {
+        $("#agenda, .agenda-link").addClass("d-none");
+        return [];
+    } else {
+        if (cont==0) {
+            $(`#${evento}-cont`).addClass("d-none")
+        } else {
+            $(`#${evento}-cont`).removeClass("d-none")
+        }
+    }
+    $("#agenda").removeClass("d-none");
 
     // Creamos el arreglo final
     const resultado = Object.keys(actividadesPorDia)
@@ -297,6 +356,7 @@ const formatearActividades = (expositores, evento=null) => {
 };
 
 const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
+    // para el calendario
     // para el calendario
     const eventos = [];
 
