@@ -17,3 +17,13 @@
 .content-calendar {
     min-width: 900px;
 }
+
+.fc-event-title-container {
+    white-space: normal !important;
+}
+
+.fc-timegrid-event {
+    height: auto !important;
+    min-height: 40px;
+    overflow: visible !important;
+}

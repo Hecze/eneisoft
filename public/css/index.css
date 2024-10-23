@@ -78,7 +78,9 @@ h2{
     font-size: 33px;
     text-transform: uppercase;
 }
-
+h3 {
+    font-weight: bold;
+}
 header a, h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
 }
