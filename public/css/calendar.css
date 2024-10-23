@@ -16,6 +16,7 @@
 
 .content-calendar {
     min-width: 900px;
+    padding: 2rem;
 }
 
 .fc-event-title-container {
@@ -27,28 +28,6 @@
     min-height: 40px;
     overflow: visible !important;
 }
-.fc-toolbar-title{
-    text-transform: lowercase;
-}
-.fc-toolbar-title::first-letter{
-    text-transform: uppercase;
-}
-
-.fc-event-title{
-    white-space: normal;
-}
-
-.fc-col-header-cell-cushion{
-    text-transform: uppercase;
-}
-
-.content-calendar{
-    padding: 2rem;
-}
-
-.fc-col-header-cell-cushion{
-    text-transform: uppercase;
-}
 
 .fc-col-header-cell{
     background-color: var(--main);
@@ -57,10 +36,6 @@
 .fc-col-header-cell * {
     color: white;
     text-decoration: none;
-}
-
-.fc-toolbar-title::first-letter {
-    text-transform: uppercase;
 }
 
 .fc-event-title-container{
