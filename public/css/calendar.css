@@ -51,13 +51,12 @@
 }
 
 .fc-col-header-cell{
-    background-color: #003050;
+    background-color: var(--main);
     color: white;
 }
 
 .fc-toolbar-title{
     text-transform: lowercase;
-    color: #003050;
     color: white;
     text-decoration: none;
 }
@@ -72,7 +71,7 @@
 
 .fc-event-main{
     background-color: var(--main);
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .fc-event-title{ /* Varias líneas */
