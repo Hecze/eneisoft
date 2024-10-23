@@ -168,7 +168,7 @@ function fillAgenda(agenda) {
         if (index!=agenda.length-1) {
             $("#agenda-container").append(`
                 <div class="container-fluid">
-                    <div class="square bg-black m-auto" style="width: 40px; height: 40px;"></div>
+                    <div class="square bg-main m-auto" style="width: 40px; height: 40px;"></div>
                 </div>
             `);
         }

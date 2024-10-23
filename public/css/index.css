@@ -76,6 +76,7 @@ p, address{
 
 h2{
     font-size: 33px;
+    text-transform: uppercase;
 }
 
 header a, h1, h2, h3, h4, h5, h6 {
