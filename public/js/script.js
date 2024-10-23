@@ -352,6 +352,11 @@ function calendar(eventos) {
                 html: `<div>${info.event.extendedProps.description}</div>`
             };
         },
+        slotLabelFormat: {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false // Para el formato 24 horas
+          },
         events: formatearEventos(eventos),
       });
       calendar.render()
