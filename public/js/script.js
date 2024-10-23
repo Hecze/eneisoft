@@ -347,7 +347,7 @@ function calendar(eventos) {
           },
         eventContent: function(info) {
             return { 
-                html: `<div style="white-space: normal;"><b>${info.event.extendedProps.description}</b></div>`
+                html: `<div><b>${info.event.extendedProps.description}</b></div>`
             };
         },
         events: formatearEventos(eventos),
