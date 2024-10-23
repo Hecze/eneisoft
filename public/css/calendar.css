@@ -58,6 +58,8 @@
 .fc-toolbar-title{
     text-transform: lowercase;
     color: #003050;
+    color: white;
+    text-decoration: none;
 }
 
 .fc-toolbar-title::first-letter {
@@ -69,7 +71,8 @@
 }
 
 .fc-event-main{
-    background-color: #00a5b6;
+    background-color: var(--main);
+    font-size: 12px;
 }
 
 .fc-event-title{ /* Varias líneas */
