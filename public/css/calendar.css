@@ -45,3 +45,33 @@
 .content-calendar{
     padding: 2rem;
 }
+
+.fc-col-header-cell-cushion{
+    text-transform: uppercase;
+}
+
+.fc-col-header-cell{
+    background-color: #003050;
+    color: white;
+}
+
+.fc-toolbar-title{
+    text-transform: lowercase;
+    color: #003050;
+}
+
+.fc-toolbar-title::first-letter {
+    text-transform: uppercase;
+}
+
+.fc-event-title-container{
+    margin: 0.5rem;
+}
+
+.fc-event-main{
+    background-color: #00a5b6;
+}
+
+.fc-event-title{ /* Varias líneas */
+    white-space: normal;
+}
