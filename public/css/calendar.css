@@ -71,7 +71,7 @@
 
 .fc-event-main{
     background-color: var(--main);
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .fc-event-title{ /* Varias líneas */
