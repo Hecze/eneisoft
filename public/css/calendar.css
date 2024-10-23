@@ -22,7 +22,7 @@
     white-space: normal !important;
 }
 
-.fc-timegrid-event {
+.fc-timegrid-event, .fc-event-main {
     height: auto !important;
     min-height: 40px;
     overflow: visible !important;
