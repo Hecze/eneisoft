@@ -50,3 +50,7 @@
 .fc-event-title{ /* Varias líneas */
     white-space: normal;
 }
+
+.fc-license-message {
+    display: none;
+}

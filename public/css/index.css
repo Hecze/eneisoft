@@ -56,12 +56,12 @@ p, address{
     background-color: var(--white-soft);
 }
 
-.scroll-hide::-webkit-scrollbar, .fc-scrollgrid-liquid::-webkit-scrollbar {
+.scroll-hide::-webkit-scrollbar, .fc-scrollgrid-liquid thead::-webkit-scrollbar {
     display: none;
 }
   
   /* Hide scrollbar for IE, Edge and Firefox */
-.scroll-hide, .fc-scrollgrid-liquid {
+.scroll-hide, .fc-scrollgrid-liquid thead {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
