@@ -300,7 +300,16 @@ const formatearActividades = (expositores, evento=null) => {
 
 const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
     // para el calendario
-    const eventos = [];
+    const eventos = [
+        {
+            title: 'Ceremonia de apertura',
+            start: '2024-11-04T08:00:00',
+            end: '2024-11-04T09:00:00',
+            extendedProps: {
+                description: 'Ceremonia de apertura',
+            }
+        }
+    ];
 
     actividadesPorDia.forEach((diaObj) => {
         const dia = diaObj.dia;
@@ -317,6 +326,7 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
             });
         });
     });
+
 
     return eventos;
 };
