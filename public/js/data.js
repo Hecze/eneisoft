@@ -205,7 +205,7 @@ const speakers = [
     {
         nombres: 'Oliver',
         apellidos: 'Sandoval',
-        perfil: "Ingeniero Informático, Fundador de Developer.pe donde comparto tutoriales de programación con Python, Django y demás, además soy miembro de la comunidad de Python Piura y Tech Lead en Muchticket.",
+        perfil: "Ingeniero Informático, Fundador de Developer.pe, plataforma donde comparte tutoriales de programación en Python, Django y otros temas. Además, es miembro de la comunidad de Python Piura y Tech Lead en Muchticket.",
         social_media: {
             linkedin: "https://www.linkedin.com/in/oliver-sandoval-developer ",
             youtube: "https://www.youtube.com/@Developerpe ",
