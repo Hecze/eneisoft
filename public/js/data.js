@@ -207,8 +207,11 @@ const speakers = [
         apellidos: 'Sandoval',
         perfil: "Ingeniero Informático, Fundador de Developer.pe donde comparto tutoriales de programación con Python, Django y demás, además soy miembro de la comunidad de Python Piura y Tech Lead en Muchticket.",
         social_media: {
-            instagram: "https://www.instagram.com/hackemate.pe/ ",
-            youtube: "https://www.youtube.com/@HackeMate",
+            linkedin: "https://www.linkedin.com/in/oliver-sandoval-developer ",
+            youtube: "https://www.youtube.com/@Developerpe ",
+            instagram: "https://www.instagram.com/developer.pe ",
+            github: "https://github.com/developerpe ",
+            facebook: "https://www.facebook.com/developerper",
         },
         pais: "peru",
         visible: true,
