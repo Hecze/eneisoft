@@ -403,3 +403,54 @@ const aliados_sponsors = [
     },
 
 ]
+
+const eventos = [
+    {
+        title: 'Ceremonia de apertura',
+        start: '2024-11-04T08:00:00',
+        end: '2024-11-04T09:00:00',
+        extendedProps: {
+            description: 'Ceremonia de apertura',
+        }
+    },
+    {
+        title: 'Inicio hackathon (ELIMINATORIAS)',
+        start: '2024-11-04T09:00:00',
+        end: '2024-11-04T10:00:00',
+        extendedProps: {
+            description: 'Inicio hackathon (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Inicio Programación competitiva (ELIMINATORIAS)',
+        start: '2024-11-04T12:00:00',
+        end: '2024-11-04T13:00:00',
+        extendedProps: {
+            description: 'Inicio Programación competitiva (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Fin Programación competitiva (ELIMINATORIAS)',
+        start: '2024-11-04T21:00:00',
+        end: '2024-11-04T22:00:00',
+        extendedProps: {
+            description: 'Fin Programación competitiva (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Publicación de resultados Programación competitiva (ELIMINATORIAS)',
+        start: '2024-11-04T22:00:00',
+        end: '2024-11-04T23:00:00',
+        extendedProps: {
+            description: 'Publicación de resultados Programación competitiva (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Fin Hackathon (ELIMINATORIAS)',
+        start: '2024-11-04T23:00:00',
+        end: '2024-11-04T22:00:00',
+        extendedProps: {
+            description: 'Fin Hackathon (ELIMINATORIAS)',
+        }
+    },
+]
