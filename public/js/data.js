@@ -211,7 +211,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@HackeMate",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
             {
                 dia: '05',
