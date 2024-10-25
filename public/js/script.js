@@ -248,22 +248,24 @@ const formatearActividades = (expositores, evento=null) => {
             }
     
             actividades.forEach((actividad) => {
-                const { dia, inicio, fin, nombre, detalles, lugar, link } = actividad;
-    
-                // Si el día no existe en el objeto, lo creamos
-                if (!actividadesPorDia[dia]) {
-                    actividadesPorDia[dia] = [];
+                if (actividad.visible) {
+                    const { dia, inicio, fin, nombre, detalles, lugar, link, visible } = actividad;
+        
+                    // Si el día no existe en el objeto, lo creamos
+                    if (!actividadesPorDia[dia]) {
+                        actividadesPorDia[dia] = [];
+                    }
+                    const exp = {
+                        nombres: expositor.nombres,
+                        apellidos: expositor.apellidos,
+                        perfil: expositor.perfil,
+                        social_media: expositor.social_media,
+                        pais: expositor.pais,
+                        visible: expositor.visible,
+                    }
+                    // Añadimos la actividad al día correspondiente
+                    actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, visible, exp });
                 }
-                const exp = {
-                    nombres: expositor.nombres,
-                    apellidos: expositor.apellidos,
-                    perfil: expositor.perfil,
-                    social_media: expositor.social_media,
-                    pais: expositor.pais,
-                    visible: expositor.visible,
-                }
-                // Añadimos la actividad al día correspondiente
-                actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, exp });
             });
         }
     });
