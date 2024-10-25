@@ -190,7 +190,7 @@ function fillEventos(speakers, event) {
                         <p class="text-negro text-center my-3">${evento.exp.perfil}</p>
                         <div class="d-flex justify-content-center align-items-center gap-1">
                             ${Object.keys(evento.exp.social_media).map(social => {
-                                return `<a class="text-decoration-none" href="${evento.exp.social_media[social]}">
+                                return `<a class="text-decoration-none" target="_blank" href="${evento.exp.social_media[social]}">
                                     <div class="social-media media-speaker bg-main text-white fs-6">
                                         <i class="fa-brands fa-${social}"></i>
                                     </div>
@@ -215,7 +215,7 @@ function fillEventos(speakers, event) {
                                 ${evento.lugar}
                             </div>
                         </div>
-                        <a href="#" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Inscribirme</a>
+                        <a target="_blank" href="${evento.link}" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Inscribirme</a>
                     </div>
                 </div>    
             `);
@@ -248,7 +248,7 @@ const formatearActividades = (expositores, evento=null) => {
             }
     
             actividades.forEach((actividad) => {
-                const { dia, inicio, fin, nombre, detalles, lugar } = actividad;
+                const { dia, inicio, fin, nombre, detalles, lugar, link } = actividad;
     
                 // Si el día no existe en el objeto, lo creamos
                 if (!actividadesPorDia[dia]) {
@@ -263,7 +263,7 @@ const formatearActividades = (expositores, evento=null) => {
                     visible: expositor.visible,
                 }
                 // Añadimos la actividad al día correspondiente
-                actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, exp });
+                actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, exp });
             });
         }
     });

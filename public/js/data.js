@@ -223,6 +223,7 @@ const speakers = [
                 nombre: 'Python desde Cero',
                 detalles: 'En este taller descubrirás qué es Python y por qué es importante aprenderlo. Aprenderás sobre variables, tipos de datos, operadores, condicionales, bucles, listas, tuplas y diccionarios. Además, exploraremos funciones, lambdas, clases, decoradores, POO en Python, y el manejo de excepciones y errores, brindándote una base sólida en este lenguaje.',
                 lugar: 'Auditorio de la FISI',
+                link: 'https://forms.gle/9sJBBZ7uFE3mWua7A'
             },            
             {
                 dia: '06',
@@ -231,6 +232,7 @@ const speakers = [
                 nombre: 'Tu Primera API con Django Rest Framework',
                 detalles: 'En este taller aprenderás qué es una API y cómo utilizar Django Rest Framework para desarrollarlas. Exploraremos temas clave como serializers, vistas, viewsets, routers, autenticación y el uso de decoradores, proporcionándote las herramientas necesarias para crear APIs robustas y seguras.',
                 lugar: 'Auditorio de la FISI',
+                link: 'https://forms.gle/6zCr4fQqc4uqKqtR7'
             },            
         ],
         charlas: [  
