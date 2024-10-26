@@ -418,7 +418,7 @@ const eventos_programados = [
         start: '2024-11-04T09:00:00',
         end: '2024-11-04T10:00:00',
         extendedProps: {
-            description: 'Inicio hackathon (ELIMINATORIAS)',
+            description: '<a href="/hackathon">Inicio hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
