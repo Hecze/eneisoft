@@ -218,7 +218,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@HackeMate",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
             {
                 dia: 'por definir',
@@ -228,7 +228,7 @@ const speakers = [
                 detalles: 'Este taller está diseñado para brindar a los participantes una comprensión profunda del proceso de creación de aplicaciones APK maliciosas mediante la inyección de código malicioso utilizando Metasploit Framework. Exploraremos cómo se puede modificar una aplicación verdadera, ocultar un payload malicioso en su interior y obtener acceso remoto al dispositivo móvil de un usuario desprevenido. A lo largo del taller, se hará hincapié en las implicaciones éticas y defensivas de estas técnicas, destacando cómo pueden ser utilizadas para identificar y mitigar amenazas reales en el entorno móvil. ',
                 lugar: 'Auditorio de la FISI',
                 link: '', 
-                visible: false,
+                visible: true,
             },            
         ],
         charlas: [            
@@ -244,7 +244,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@HackeMate",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
             {
                 dia: '06',
@@ -254,7 +254,7 @@ const speakers = [
                 detalles: 'Introducción básica de análisis de datos desde nociones básicas de datos, introducción a SQL y Python y un roadmap para el desarrollo en este rubro.',
                 lugar: 'Auditorio de la FISI',
                 link: '', 
-                visible: false,
+                visible: true,
             },               
         ],
         charlas: [  
