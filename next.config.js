@@ -26,6 +26,16 @@ const nextConfig = {
         destination: '/index.html',
         permanent: true, 
       },
+      {
+        source: '/schedule',
+        destination: '/index.html',
+        permanent: true, 
+      },
+      {
+        source: '/activities/:path*',
+        destination: '/index.html',
+        permanent: true, 
+      },
     ];
   },
   async rewrites() {
