@@ -1,6 +1,6 @@
 const speakers = [
     // aca van los speakers y talleristas
-    // lesly samaritano
+    
     // Oliver Sandoval
     {
         nombres: 'Oliver',
@@ -41,6 +41,66 @@ const speakers = [
                       
         ],
     },
+    // yasmina gonzales
+    {
+        nombres: 'Yasmina',
+        apellidos: 'Gonzales',
+        perfil: "Ingeniera de Software y emprendedora, con Máster en Tecnologías de Análisis de Datos Masivos. CEO de Lucerna Software y creadora de contenido en ciencias de la computación. Trabaja en proyectos de IoT, sistemas inteligentes y ciencia de datos.",
+        social_media: {
+            instagram: "https://www.instagram.com/yasminacodes/",
+            linkedin: "https://www.linkedin.com/in/yasgalmon",
+            github: "https://github.com/yasminacodes",
+            discord: "https://discord.com/invite/MpTj5bvd8G",
+            tiktok: "https://www.tiktok.com/@yasminacodes",
+            youtube: "https://www.youtube.com/@yasminacodes",
+        },
+        pais: "spain",
+        visible: true,
+        talleres: [
+        ],
+        charlas: [
+            {
+                dia: '06',
+                inicio: '14:00',
+                fin: '15:00',
+                nombre: 'IoT, datos y su relación en proyectos de impacto real',
+                detalles: 'En esta conferencia, hablamos de cómo los sectores de IoT y data se relacionan de forma bastante habitual para conformar proyectos de relevancia en el ámbito corporativo e industrial. Concretamente, hablaremos de un proyecto del que formo parte, en el cual se monitorizan y analizan grifos de cerveza.',
+                lugar: 'Google Meet',
+                link: 'https://forms.gle/EdqkvFXDWCMoi2Vf8',
+                visible: true,
+            },            
+        ],
+    },
+    // javier blanco
+    {
+        nombres: 'Javier',
+        apellidos: 'Blanco',
+        perfil: "Cloud Full Stack Developer & AWS Community Builder Serverless, Solution Architect MultiCloud, Google Cloud Innovator, GenAI enthusiast apasionado por la educación inclusiva, autodidacta dispuesto a asumir nuevos retos, técnico, competitivo, curioso con los problemas para convertirlos en oportunidades y contribuir a la comunidad con cada nueva experiencia adquirida",
+        social_media: {
+            github: "https://github.com/javierblancoch",
+            instagram: "https://www.instagram.com/javierblancoch/",
+            youtube: 'https://www.youtube.com/channel/UCPw7LcyXAmIxt5uCkIGnStg',
+            linkedin: "https://pe.linkedin.com/in/javier-esmith-blanco-chuquizuta",
+            twitter: "https://twitter.com/javierblancoch",
+        },
+        pais: "peru",
+        visible: true,
+        talleres: [
+        ],
+        charlas: [
+            {
+                dia: '08',
+                inicio: '11:00',
+                fin: '12:00',
+                nombre: 'Un ser de anclaje en el multiverso Cloud',
+                detalles: '¿La nube sigue de moda? ¿Qué se puede construir ahí? y aún mejor, ¿cómo puedes construir ahí?',
+                lugar: 'Auditorio de la FISI',
+                link: '',
+                visible: true,
+            },
+        ],
+    },
+    // lesly samaritano
     {
         nombres: 'Lesly',
         apellidos: 'Samaritano',
@@ -53,7 +113,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@flutterinastudio",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
             {
                 dia: '04',
@@ -63,7 +123,7 @@ const speakers = [
                 detalles: 'En este taller aprenderás a crear repositorios públicos y privados en GitHub, gestionar proyectos mediante issues y ramas, y elaborar un README y una licencia. También cubriremos cómo generar pull requests y realizar merges para facilitar la colaboración en proyectos de desarrollo.',
                 lugar: 'Auditorio de la FISI',
                 link: '',
-                visible: false,
+                visible: true,
             },            
             {
                 dia: '06',
@@ -87,35 +147,6 @@ const speakers = [
             },            
         ],
         charlas: [
-        ],
-    },
-    // javier blanco
-    {
-        nombres: 'Javier',
-        apellidos: 'Blanco',
-        perfil: "Cloud Full Stack Developer & AWS Community Builder Serverless, Solution Architect MultiCloud, Google Cloud Innovator, GenAI enthusiast apasionado por la educación inclusiva, autodidacta dispuesto a asumir nuevos retos, técnico, competitivo, curioso con los problemas para convertirlos en oportunidades y contribuir a la comunidad con cada nueva experiencia adquirida",
-        social_media: {
-            github: "https://github.com/javierblancoch",
-            instagram: "https://www.instagram.com/javierblancoch/",
-            youtube: 'https://www.youtube.com/channel/UCPw7LcyXAmIxt5uCkIGnStg',
-            linkedin: "https://pe.linkedin.com/in/javier-esmith-blanco-chuquizuta",
-            twitter: "https://twitter.com/javierblancoch",
-        },
-        pais: "peru",
-        visible: false,
-        talleres: [
-        ],
-        charlas: [
-            {
-                dia: '08',
-                inicio: '11:00',
-                fin: '12:00',
-                nombre: 'Un ser de anclaje en el multiverso Cloud',
-                detalles: '¿La nube sigue de moda? ¿Qué se puede construir ahí? y aún mejor, ¿cómo puedes construir ahí?',
-                lugar: 'Auditorio de la FISI',
-                link: '',
-                visible: false,
-            },
         ],
     },
     // maybemar hernandez
@@ -175,36 +206,6 @@ const speakers = [
                  link: '',
                  visible: false,
              },
-        ],
-    },
-    // yasmina gonzales
-    {
-        nombres: 'Yasmina',
-        apellidos: 'Gonzales',
-        perfil: "Ingeniera de Software y emprendedora, con Máster en Tecnologías de Análisis de Datos Masivos. CEO de Lucerna Software y creadora de contenido en ciencias de la computación. Trabaja en proyectos de IoT, sistemas inteligentes y ciencia de datos.",
-        social_media: {
-            instagram: "https://www.instagram.com/yasminacodes/",
-            linkedin: "https://www.linkedin.com/in/yasgalmon",
-            github: "https://github.com/yasminacodes",
-            discord: "https://discord.com/invite/MpTj5bvd8G",
-            tiktok: "https://www.tiktok.com/@yasminacodes",
-            youtube: "https://www.youtube.com/@yasminacodes",
-        },
-        pais: "spain",
-        visible: true,
-        talleres: [
-        ],
-        charlas: [
-            {
-                dia: '06',
-                inicio: '14:00',
-                fin: '15:00',
-                nombre: 'IoT, datos y su relación en proyectos de impacto real',
-                detalles: 'En esta conferencia, hablamos de cómo los sectores de IoT y data se relacionan de forma bastante habitual para conformar proyectos de relevancia en el ámbito corporativo e industrial. Concretamente, hablaremos de un proyecto del que formo parte, en el cual se monitorizan y analizan grifos de cerveza.',
-                lugar: 'Google Meet',
-                link: 'https://forms.gle/EdqkvFXDWCMoi2Vf8',
-                visible: true,
-            },            
         ],
     },
     // gianpaul custodio (hackemate)
