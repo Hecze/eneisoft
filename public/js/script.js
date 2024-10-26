@@ -381,6 +381,8 @@ function coloresCalendar() {
             } else if (valor.includes("workshops")) {
                 $(this).addClass('bg-pink'); // Agrega clase al abuelo
             } else if (valor.includes("hackathon")) {
+                $(this).addClass('bg-main'); // Agrega clase al abuelo
+            } else if (valor.includes("programacion-competitiva")) {
                 $(this).addClass('bg-sky'); // Agrega clase al abuelo
             }
         }
