@@ -21,6 +21,11 @@ const nextConfig = {
         destination: '/index.html',
         permanent: true,  // Sirve directamente el archivo index.html de public/
       },
+      {
+        source: '/about',
+        destination: '/index.html',
+        permanent: true, 
+      },
     ];
   },
   async rewrites() {
