@@ -64,7 +64,16 @@ $(document).ready(function () {
 function fillSpeakers(speakers) {
     var cont = 0;
     speakers.forEach(function (speaker, index) {
-        if (speaker.visible) {
+        let visible = false;
+        const today = new Date();
+        const events = [...speaker.talleres, ...speaker.charlas];
+        for (let i = 0; i < events.length; i++) {
+            if (new Date(events[i].publicacion) <= today) {
+                visible = true;
+                break;
+            }
+        }
+        if (visible) {
             cont++;
             $("#speakers-container").append(`
                 <div class="col-sm-12 col-md-6 p-3 p-md-5">
