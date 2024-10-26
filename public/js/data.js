@@ -234,32 +234,6 @@ const speakers = [
         charlas: [            
         ],
     },
-    // Mirna Ampuero
-    {
-        nombres: 'Mirna',
-        apellidos: 'Ampuero',
-        perfil: "Ingeniera mecatrónica con experiencia en desarrollo de proyectos blockchain. Ha participado en hackatones internacionales, enfocándose en la creación de soluciones tecnológicas innovadoras que aprovechan blockchain. Su trayectoria combina habilidades técnicas con una visión para aplicar la tecnología en problemas reales y generar impacto positivo.",
-        social_media: {
-            instagram: "https://www.instagram.com/hackemate.pe/ ",
-            youtube: "https://www.youtube.com/@HackeMate",
-        },
-        pais: "peru",
-        visible: false,
-        talleres: [
-        ],
-        charlas: [            
-            {
-                dia: '07',
-                inicio: '16:00',
-                fin: '17:00',
-                nombre: 'Blockchain y Sostenibilidad: Tecnología para un Mundo Mejor',
-                detalles: 'Esta conferencia aborda cómo blockchain está ayudando a resolver desafíos ambientales mediante la trazabilidad en las cadenas de suministro, la tokenización de créditos de carbono y la descentralización a través de DAOs. Exploraremos su papel en la creación de un futuro más sostenible y equitativo.',
-                lugar: 'Auditorio de la FISI',
-                link: '', 
-                visible: false,
-            },            
-        ],
-    },
     // Yera Flores Sempertegui
     {
         nombres: 'Yera',
@@ -294,6 +268,32 @@ const speakers = [
                 link: '', 
                 visible: false,
             },         
+        ],
+    },
+    // Mirna Ampuero
+    {
+        nombres: 'Mirna',
+        apellidos: 'Ampuero',
+        perfil: "Ingeniera mecatrónica con experiencia en desarrollo de proyectos blockchain. Ha participado en hackatones internacionales, enfocándose en la creación de soluciones tecnológicas innovadoras que aprovechan blockchain. Su trayectoria combina habilidades técnicas con una visión para aplicar la tecnología en problemas reales y generar impacto positivo.",
+        social_media: {
+            instagram: "https://www.instagram.com/hackemate.pe/ ",
+            youtube: "https://www.youtube.com/@HackeMate",
+        },
+        pais: "peru",
+        visible: false,
+        talleres: [
+        ],
+        charlas: [            
+            {
+                dia: '07',
+                inicio: '16:00',
+                fin: '17:00',
+                nombre: 'Blockchain y Sostenibilidad: Tecnología para un Mundo Mejor',
+                detalles: 'Esta conferencia aborda cómo blockchain está ayudando a resolver desafíos ambientales mediante la trazabilidad en las cadenas de suministro, la tokenización de créditos de carbono y la descentralización a través de DAOs. Exploraremos su papel en la creación de un futuro más sostenible y equitativo.',
+                lugar: 'Auditorio de la FISI',
+                link: '', 
+                visible: false,
+            },            
         ],
     },
     // Jair Manrique
