@@ -210,8 +210,8 @@ const speakers = [
     },
     // gianpaul custodio (hackemate)
     {
-        nombres: 'HackeMate',
-        apellidos: '',
+        nombres: 'Gianpaul',
+        apellidos: 'Custodio',
         perfil: "Creador de contenido relacionado a la Programación y Ciberseguridad. Más de 4 años de experiencia en análisis y gestión de vulnerabilidades web.",
         social_media: {
             instagram: "https://www.instagram.com/hackemate.pe/ ",
