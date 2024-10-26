@@ -352,7 +352,7 @@ function calendar(eventos) {
           },
         eventContent: function(info) {
             return { 
-                html: `<div>${info.event.extendedProps.description}</div>`
+                html: `<div class="text-ellipsis">${info.event.extendedProps.description}</div>`
             };
         },
         slotLabelFormat: {
