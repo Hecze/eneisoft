@@ -93,7 +93,7 @@ const speakers = [
                 inicio: '11:00',
                 fin: '12:00',
                 nombre: 'Un ser de anclaje en el multiverso Cloud',
-                detalles: '¿La nube sigue de moda? ¿Qué se puede construir ahí? y aún mejor, ¿cómo puedes construir ahí?',
+                detalles: '¿La nube sigue de moda? En esta charla, exploraremos cómo la tecnología Cloud está transformando la manera de construir soluciones innovadoras. Descubre los recursos que ofrece, desde infraestructuras hasta servicios avanzados, y conoce el roadmap ideal para dar tus primeros pasos y crecer en grande.',
                 lugar: 'Auditorio de la FISI',
                 link: '',
                 visible: true,
@@ -153,7 +153,7 @@ const speakers = [
     {
         nombres: 'Maybemar',
         apellidos: 'Hernandez',
-        perfil: "Licenciada en Física de la Universidad Central de Venezuela y Magíster en Ingeniería electrónica de la Universidad Simón Bolívar. Con 14 años de experiencia en proyectos tecnológicos para sistemas embebidos, sistemas navales y sistemas de pruebas de hardware, llegando a ser gerente de Ingeniería de Software. Actualmente trabaja para Scale AI como “Software Engineer for AI training data” utilizando Python para entrenamiento de IA",
+        perfil: "Licenciada en Física y Magíster en Ingeniería electrónica con más de 14 años de experiencia en proyectos TI para sistemas embebidos, navales y de pruebas de hardware. Software Engineer for AI training data en Scale AI y creadora de contenido.",
         social_media: {
             github: "https://github.com/maybemarhs",
             instagram: "https://www.instagram.com/maybemarhs/",
