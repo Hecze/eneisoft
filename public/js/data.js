@@ -426,7 +426,7 @@ const eventos_programados = [
         start: '2024-11-04T12:00:00',
         end: '2024-11-04T13:00:00',
         extendedProps: {
-            description: 'Inicio Programación competitiva (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Inicio Programación competitiva (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -434,7 +434,7 @@ const eventos_programados = [
         start: '2024-11-04T21:00:00',
         end: '2024-11-04T22:00:00',
         extendedProps: {
-            description: 'Fin Programación competitiva (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Fin Programación competitiva (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -442,7 +442,7 @@ const eventos_programados = [
         start: '2024-11-04T22:00:00',
         end: '2024-11-04T23:00:00',
         extendedProps: {
-            description: 'Publicación de resultados Programación competitiva (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Publicación de resultados Programación competitiva (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -474,7 +474,7 @@ const eventos_programados = [
         start: '2024-11-07T18:00:00',
         end: '2024-11-07T21:00:00',
         extendedProps: {
-            description: 'Programación competitiva (FINAL)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Programación competitiva (FINAL)</a>',
         }
     },
     {

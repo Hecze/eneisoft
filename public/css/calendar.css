@@ -58,8 +58,10 @@
 .link-horario {
     color: white;
     text-decoration: none;
+    transition: all ease-in-out .1s;
 }
 .link-horario:hover {
     cursor: pointer;
-    color: white;
+    color: var(--main);
+    text-decoration: underline;
 }
