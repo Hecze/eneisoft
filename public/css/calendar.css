@@ -63,7 +63,7 @@
     text-overflow: ellipsis !important;
 }
 .fc-v-event:hover {
-    background-color: var(--main) !important;
+    filter: brightness(1.2);
 }
 .link-horario {
     color: white;
