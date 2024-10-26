@@ -60,7 +60,7 @@
     padding: .2rem;
     white-space: normal; /* Evita el salto de línea */
     overflow: hidden !important; /* Oculta el texto que se desborda */
-    text-overflow: ellipsis;
+    text-overflow: ellipsis !important;
 }
 .fc-v-event:hover {
     background-color: var(--main) !important;
