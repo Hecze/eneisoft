@@ -54,7 +54,12 @@
 .fc-license-message {
     display: none;
 }
-
+.fc-v-event {
+    border: 0 !important;
+}
+.fc-v-event:hover {
+    background-color: var(--main) !important;
+}
 .link-horario {
     color: white;
     text-decoration: none;
@@ -62,6 +67,5 @@
 }
 .link-horario:hover {
     cursor: pointer;
-    color: var(--main);
-    text-decoration: underline;
+    color: white;
 }
