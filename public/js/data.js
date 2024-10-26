@@ -159,7 +159,7 @@ const speakers = [
                 dia: '06',
                 inicio: '14:00',
                 fin: '15:00',
-                nombre: 'IoT, data y cómo se relacionan en un proyecto de impacto real',
+                nombre: 'IoT, datos y su relación en proyectos de impacto real',
                 detalles: 'En esta conferencia, hablamos de cómo los sectores de IoT y data se relacionan de forma bastante habitual para conformar proyectos de relevancia en el ámbito corporativo e industrial. Concretamente, hablaremos de un proyecto del que formo parte, en el cual se monitorizan y analizan grifos de cerveza.',
                 lugar: 'Google Meet',
                 link: '',
