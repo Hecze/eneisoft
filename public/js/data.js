@@ -237,7 +237,7 @@ const speakers = [
     // Yera Flores Sempertegui
     {
         nombres: 'Yera',
-        apellidos: 'Flores Sempertegui',
+        apellidos: 'Flores',
         perfil: "Ingeniera Industrial MBA con 11 años de experiencia laboral y amplia experiencia en los sectores de tecnología y startups. Experta en datos analítica, Machine Learning y gestión y desarrollo comercial.",
         social_media: {
             instagram: "https://www.instagram.com/hackemate.pe/ ",
