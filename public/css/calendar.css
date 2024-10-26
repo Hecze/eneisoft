@@ -54,3 +54,8 @@
 .fc-license-message {
     display: none;
 }
+
+.link-horario {
+    color: white;
+    text-decoration: none;
+}
