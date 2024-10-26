@@ -89,5 +89,7 @@ header a, h1, h2, h3, h4, h5, h6 {
 .text-ellipsis {
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Número máximo de líneas antes de truncar */
+    -webkit-box-orient: vertical;
 }
