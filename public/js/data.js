@@ -117,7 +117,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@flutterinastudio",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
             {
                 dia: '04',
@@ -170,7 +170,7 @@ const speakers = [
             twitter: "https://x.com/kevindaviladev",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
         ],
         charlas: [            
