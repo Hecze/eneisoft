@@ -369,7 +369,7 @@ function calendar(eventos) {
 
 function coloresCalendar() {
     $(".fc-v-event").each(function (index) {
-        var nieto = $(this).children().children('.link-horario'); // Hijo de hijo con clase 'x'
+        var nieto = $(this).children().children().children('.link-horario'); // Hijo de hijo con clase 'x'
 
         if (nieto.length > 0) {  // Verificamos que el nieto exista
             // Obtenemos el valor del atributo que te interesa (por ejemplo, 'data-valor')
