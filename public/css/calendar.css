@@ -57,6 +57,7 @@
 .fc-v-event {
     border: 0 !important;
     transition: all ease-in-out .1s;
+    padding: .1rem;
 }
 .fc-v-event:hover {
     background-color: var(--main) !important;
