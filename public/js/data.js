@@ -84,7 +84,7 @@ const speakers = [
             twitter: "https://twitter.com/javierblancoch",
         },
         pais: "peru",
-        visible: true,
+        visible: false,
         talleres: [
         ],
         charlas: [
@@ -113,7 +113,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@flutterinastudio",
         },
         pais: "peru",
-        visible: true,
+        visible: false,
         talleres: [
             {
                 dia: '04',
@@ -163,7 +163,7 @@ const speakers = [
             twitter: "https://x.com/kevindaviladev",
         },
         pais: "peru",
-        visible: true,
+        visible: false,
         talleres: [
         ],
         charlas: [            
@@ -192,7 +192,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@maybemarhs",
         },
         pais: "venezuela",
-        visible: true,
+        visible: false,
         talleres: [
         ],
         charlas: [
@@ -218,7 +218,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@HackeMate",
         },
         pais: "peru",
-        visible: true,
+        visible: false,
         talleres: [
             {
                 dia: 'por definir',
@@ -244,7 +244,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@HackeMate",
         },
         pais: "peru",
-        visible: true,
+        visible: false,
         talleres: [
             {
                 dia: '06',
