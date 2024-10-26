@@ -365,3 +365,19 @@ function calendar(eventos) {
       });
       calendar.render()
 }
+
+function coloresCalendar() {
+    $(".fc-v-event").each(function (index) {
+        var nieto = $(this).children().children('.link-horario'); // Hijo de hijo con clase 'x'
+
+        if (nieto.length > 0) {  // Verificamos que el nieto exista
+            // Obtenemos el valor del atributo que te interesa (por ejemplo, 'data-valor')
+            var valor = nieto.attr('href');
+            
+            // Dependiendo del valor del atributo, agregamos una clase al abuelo
+            if (valor.includes("keynotes")) {
+                $(this).addClass('bg-yellow'); // Agrega clase al abuelo
+            } 
+        }
+    })
+}
