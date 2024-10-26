@@ -337,7 +337,7 @@ function calendar(eventos) {
           start: '2024-11-03',
           end: '2024-11-10'
         },
-        slotMinTime: '08:00:00', // Empieza a las 8:00 AM
+        slotMinTime: '07:00:00', // Empieza a las 8:00 AM
         slotMaxTime: '23:59:59',
         allDaySlot: false,
         dayHeaderFormat: { 
