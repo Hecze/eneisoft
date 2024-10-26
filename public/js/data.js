@@ -87,7 +87,7 @@ const speakers = [
             twitter: "https://twitter.com/javierblancoch",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
         ],
         charlas: [
@@ -98,7 +98,7 @@ const speakers = [
                 nombre: 'Un ser de anclaje en el multiverso Cloud',
                 detalles: '¿La nube sigue de moda? En esta charla, exploraremos cómo la tecnología Cloud está transformando la manera de construir soluciones innovadoras. Descubre los recursos que ofrece, desde infraestructuras hasta servicios avanzados, y conoce el roadmap ideal para dar tus primeros pasos y crecer en grande.',
                 lugar: 'Auditorio de la FISI',
-                link: '',
+                link: 'https://forms.gle/hw143rYBKYE2S3zv5',
                 visible: true,
                 publicacion: '2024-11-25T08:00:00',
             },
