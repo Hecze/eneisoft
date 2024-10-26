@@ -75,7 +75,7 @@ const speakers = [
     {
         nombres: 'Javier',
         apellidos: 'Blanco',
-        perfil: "Cloud Full Stack Developer & AWS Community Builder Serverless, Solution Architect MultiCloud, Google Cloud Innovator, GenAI enthusiast apasionado por la educación inclusiva, autodidacta dispuesto a asumir nuevos retos, técnico, competitivo, curioso con los problemas para convertirlos en oportunidades y contribuir a la comunidad con cada nueva experiencia adquirida",
+        perfil: "Cloud Full Stack Developer & AWS Community Builder Serverless, Solution Architect MultiCloud, Google Cloud Innovator. Consultor TI, Speaker y Creador de contenido. GenAI enthusiast y autodidacta apasionado por la educación inclusiva.",
         social_media: {
             github: "https://github.com/javierblancoch",
             instagram: "https://www.instagram.com/javierblancoch/",
