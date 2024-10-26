@@ -161,8 +161,8 @@ const speakers = [
             tiktok: "https://tiktok.com/@maybemarhs",
             youtube: "https://www.youtube.com/@maybemarhs",
         },
-        pais: "peru",
-        visible: false,
+        pais: "venezuela",
+        visible: true,
         talleres: [
         ],
         charlas: [
