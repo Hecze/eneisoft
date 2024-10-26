@@ -364,6 +364,7 @@ function calendar(eventos) {
         events: formatearEventos(eventos),
       });
       calendar.render()
+      coloresCalendar();
 }
 
 function coloresCalendar() {
