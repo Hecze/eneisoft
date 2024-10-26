@@ -63,8 +63,19 @@ $(document).ready(function () {
 
 function fillSpeakers(speakers) {
     var cont = 0;
-    speakers.forEach(function (speaker, index) {
-        if (speaker.visible) {
+    speakers.forEach(function (speaker) {
+        const events = [...speaker.talleres, ...speaker.charlas];
+        const today = new Date();
+        let visible = false;
+
+        for (let i = 0; i < events.length; i++) {
+            const date = new Date(events[i].publicacion);
+            if (date <= today) {
+                visible = true;
+                break;
+            }
+        }
+        if (visible) {
             cont++;
             $("#speakers-container").append(`
                 <div class="col-sm-12 col-md-6 p-3 p-md-5">
@@ -234,41 +245,39 @@ const formatearActividades = (expositores, evento=null) => {
 
     // Recorremos todos los expositores
     expositores.forEach((expositor) => {
-        if (expositor.visible) {
-            // Recorremos las actividades (talleres y charlas)
-            let actividades;
-            if (!evento) {
-                actividades = [...expositor.talleres, ...expositor.charlas];
+        // Recorremos las actividades (talleres y charlas)
+        let actividades;
+        if (!evento) {
+            actividades = [...expositor.talleres, ...expositor.charlas];
+            cont++;
+        } else {
+            actividades = [...expositor[evento]];
+            if (expositor[evento].length !== 0) {
                 cont++;
-            } else {
-                actividades = [...expositor[evento]];
-                if (expositor[evento].length !== 0) {
-                    cont++;
-                }
             }
-    
-            actividades.forEach((actividad) => {
-                if (actividad.visible) {
-                    const { dia, inicio, fin, nombre, detalles, lugar, link, visible } = actividad;
-                    const tipo = expositor.talleres.includes(actividad) ? "workshops" : "keynotes";
-        
-                    // Si el día no existe en el objeto, lo creamos
-                    if (!actividadesPorDia[dia]) {
-                        actividadesPorDia[dia] = [];
-                    }
-                    const exp = {
-                        nombres: expositor.nombres,
-                        apellidos: expositor.apellidos,
-                        perfil: expositor.perfil,
-                        social_media: expositor.social_media,
-                        pais: expositor.pais,
-                        visible: expositor.visible,
-                    }
-                    // Añadimos la actividad al día correspondiente
-                    actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, visible, tipo, exp });
-                }
-            });
         }
+
+        actividades.forEach((actividad) => {
+            if (new Date(actividad.publicacion) <= new Date()) {
+                const { dia, inicio, fin, nombre, detalles, lugar, link } = actividad;
+                const tipo = expositor.talleres.includes(actividad) ? "workshops" : "keynotes";
+    
+                // Si el día no existe en el objeto, lo creamos
+                if (!actividadesPorDia[dia]) {
+                    actividadesPorDia[dia] = [];
+                }
+                const exp = {
+                    nombres: expositor.nombres,
+                    apellidos: expositor.apellidos,
+                    perfil: expositor.perfil,
+                    social_media: expositor.social_media,
+                    pais: expositor.pais,
+                }
+                // Añadimos la actividad al día correspondiente
+                actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, tipo, exp });
+            }
+        });
+        
     });
     if (cont === 0 && evento==null) {
         $("#agenda, .agenda-link").addClass("d-none");
@@ -306,7 +315,7 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
     actividadesPorDia.forEach((diaObj) => {
         const dia = diaObj.dia;
         diaObj.actividades.forEach((actividad) => {
-            const { nombre, inicio, fin, detalles, exp, tipo } = actividad;            
+            const { nombre, inicio, fin, exp, tipo } = actividad;            
 
             eventos.push({
                 title: nombre,
