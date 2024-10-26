@@ -153,7 +153,7 @@ const speakers = [
     {
         nombres: 'Kevin',
         apellidos: 'Dávila',
-        perfil: "Google Developer Expert en Angular & Microsoft Most Valuable Professional en Web. Software Engineer y creador de contenido sobre programación Web.",
+        perfil: "Google Developer Expert en Angular y Microsoft Most Valuable Professional en Web, es un ingeniero de software y creador de contenido enfocado en programación web. Comparte sus conocimientos y experiencias para ayudar a otros en el desarrollo de aplicaciones efectivas.",
         social_media: {
             github: "https://github.com/kevindaviladev",
             instagram: "https://www.instagram.com/kevindaviladev",
