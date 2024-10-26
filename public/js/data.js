@@ -104,7 +104,7 @@ const speakers = [
     {
         nombres: 'Lesly',
         apellidos: 'Samaritano',
-        perfil: "Ingeniera en Sistemas e Informática y embajadora del Programa Google Developers Women Techmakers. Experiencia en RPA (Automatización robótica de procesos) y BD (Base de datos). Actual desarrolladora de aplicaciones móviles con Flutter de manera independiente.",
+        perfil: "Ingeniera en Sistemas e Informática y embajadora del programa Google Developers Women Techmakers, con experiencia en RPA (Robotic Process Automation). Desarrolladora de aplicaciones móviles con Flutter y consultora TI independiente.",
         social_media: {
             instagram: "https://www.instagram.com/flutterinastudio",
             linkedin: "https://www.linkedin.com/in/leslysamaritano/",
