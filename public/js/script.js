@@ -250,6 +250,7 @@ const formatearActividades = (expositores, evento=null) => {
             actividades.forEach((actividad) => {
                 if (actividad.visible) {
                     const { dia, inicio, fin, nombre, detalles, lugar, link, visible } = actividad;
+                    const tipo = expositor.talleres.includes(actividad) ? "workshops" : "keynotes";
         
                     // Si el día no existe en el objeto, lo creamos
                     if (!actividadesPorDia[dia]) {
@@ -264,7 +265,7 @@ const formatearActividades = (expositores, evento=null) => {
                         visible: expositor.visible,
                     }
                     // Añadimos la actividad al día correspondiente
-                    actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, visible, exp });
+                    actividadesPorDia[dia].push({ inicio, fin, nombre, detalles, lugar, link, visible, tipo, exp });
                 }
             });
         }
@@ -305,14 +306,14 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
     actividadesPorDia.forEach((diaObj) => {
         const dia = diaObj.dia;
         diaObj.actividades.forEach((actividad) => {
-            const { nombre, inicio, fin, detalles, exp } = actividad;            
+            const { nombre, inicio, fin, detalles, exp, tipo } = actividad;            
 
             eventos.push({
                 title: nombre,
                 start: `${anio}-${mes}-${dia}T${inicio}:00`,
                 end: `${anio}-${mes}-${dia}T${fin}:00`,
                 extendedProps: {
-                    description: `<b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}`,
+                    description: `<a class="link-horario" href="/${tipo}"><b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}</a>`,
                 },
             });
         });
