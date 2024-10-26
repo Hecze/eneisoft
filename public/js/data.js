@@ -212,7 +212,7 @@ const speakers = [
     {
         nombres: 'Gianpaul',
         apellidos: 'Custodio',
-        perfil: "Creador de contenido relacionado a la Programación y Ciberseguridad. Más de 4 años de experiencia en análisis y gestión de vulnerabilidades web.",
+        perfil: "Creador de contenido especializado en programación y ciberseguridad, con más de 4 años de experiencia en análisis y gestión de vulnerabilidades web. Enfocado en educar y concienciar sobre la importancia de la seguridad informática.",
         social_media: {
             instagram: "https://www.instagram.com/hackemate.pe/ ",
             youtube: "https://www.youtube.com/@HackeMate",
