@@ -225,7 +225,7 @@ function fillEventos(speakers, event) {
 }
 
 function formatSpeakerName(name, surname) {
-    return name.toLowerCase() + "_" + surname.toLowerCase() + ".png"
+    return name.toLowerCase().replace(' ', '_') + "_" + surname.replace(' ', '_').toLowerCase() + ".png"
 }
 
 const formatearActividades = (expositores, evento=null) => {
