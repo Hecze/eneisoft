@@ -43,7 +43,7 @@
 }
 
 .fc-event-main{
-    background-color: var(--main);
+    /* background-color: var(--main); */
     font-size: 10px;
 }
 
@@ -53,4 +53,15 @@
 
 .fc-license-message {
     display: none;
+}
+
+.link-horario {
+    color: white;
+    text-decoration: none;
+    transition: all ease-in-out .1s;
+}
+.link-horario:hover {
+    cursor: pointer;
+    color: var(--main);
+    text-decoration: underline;
 }

@@ -419,7 +419,7 @@ const eventos_programados = [
         start: '2024-11-04T09:00:00',
         end: '2024-11-04T10:00:00',
         extendedProps: {
-            description: 'Inicio hackathon (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/hackathon">Inicio hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -427,7 +427,7 @@ const eventos_programados = [
         start: '2024-11-04T12:00:00',
         end: '2024-11-04T13:00:00',
         extendedProps: {
-            description: 'Inicio Programación competitiva (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Inicio Programación competitiva (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -435,7 +435,7 @@ const eventos_programados = [
         start: '2024-11-04T21:00:00',
         end: '2024-11-04T22:00:00',
         extendedProps: {
-            description: 'Fin Programación competitiva (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Fin Programación competitiva (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -443,7 +443,7 @@ const eventos_programados = [
         start: '2024-11-04T22:00:00',
         end: '2024-11-04T23:00:00',
         extendedProps: {
-            description: 'Publicación de resultados Programación competitiva (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Publicación de resultados Programación competitiva (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -451,7 +451,7 @@ const eventos_programados = [
         start: '2024-11-04T23:00:00',
         end: '2024-11-04T23:59:59',
         extendedProps: {
-            description: 'Fin Hackathon (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/hackathon">Fin Hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -459,7 +459,7 @@ const eventos_programados = [
         start: '2024-11-05T08:00:00',
         end: '2024-11-05T09:00:00',
         extendedProps: {
-            description: 'Selección Hackathon (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/hackathon">Selección Hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -467,7 +467,7 @@ const eventos_programados = [
         start: '2024-11-05T12:00:00',
         end: '2024-11-05T13:00:00',
         extendedProps: {
-            description: 'Publicación de resultados Hackathon (ELIMINATORIAS)',
+            description: '<a class="link-horario" href="/hackathon">Publicación de resultados Hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
@@ -475,7 +475,7 @@ const eventos_programados = [
         start: '2024-11-07T18:00:00',
         end: '2024-11-07T21:00:00',
         extendedProps: {
-            description: 'Programación competitiva (FINAL)',
+            description: '<a class="link-horario" href="/programacion_competitiva">Programación competitiva (FINAL)</a>',
         }
     },
     {
@@ -483,7 +483,7 @@ const eventos_programados = [
         start: '2024-11-08T16:00:00',
         end: '2024-11-08T17:00:00',
         extendedProps: {
-            description: 'Recepción de participantes Hackathon (FINAL)',
+            description: '<a class="link-horario" href="/hackathon">Recepción de participantes Hackathon (FINAL)</a>',
         }
     },
     {
@@ -491,7 +491,7 @@ const eventos_programados = [
         start: '2024-11-08T17:00:00',
         end: '2024-11-08T18:00:00',
         extendedProps: {
-            description: 'Inicio Hackathon (FINAL)',
+            description: '<a class="link-horario" href="/hackathon">Inicio Hackathon (FINAL)</a>',
         }
     },
     {
@@ -499,7 +499,7 @@ const eventos_programados = [
         start: '2024-11-09T07:00:00',
         end: '2024-11-09T08:00:00',
         extendedProps: {
-            description: 'Desayuno Hackathon (FINAL)',
+            description: '<a class="link-horario" href="/hackathon">Desayuno Hackathon (FINAL)</a>',
         }
     },
     {
@@ -507,7 +507,7 @@ const eventos_programados = [
         start: '2024-11-09T12:00:00',
         end: '2024-11-09T13:00:00',
         extendedProps: {
-            description: 'Almuerzo Hackathon (FINAL)',
+            description: '<a class="link-horario" href="/hackathon">Almuerzo Hackathon (FINAL)</a>',
         }
     },
     {
@@ -515,7 +515,7 @@ const eventos_programados = [
         start: '2024-11-09T16:00:00',
         end: '2024-11-09T17:00:00',
         extendedProps: {
-            description: 'Fin Hackathon (FINAL)',
+            description: '<a class="link-horario" href="/hackathon">Fin Hackathon (FINAL)</a>',
         }
     },
     {
@@ -523,7 +523,7 @@ const eventos_programados = [
         start: '2024-11-09T17:00:00',
         end: '2024-11-09T19:00:00',
         extendedProps: {
-            description: 'Pitch Hackathon (FINAL)',
+            description: '<a class="link-horario" href="/hackathon">Pitch Hackathon (FINAL)</a>',
         }
     },
     {
