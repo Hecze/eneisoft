@@ -137,11 +137,11 @@ const speakers = [
              },
         ],
     },
-    // yazmina codes
+    // yazmina gonzales
     {
-        nombres: 'Yasmina Gonzales',
-        apellidos: '',
-        perfil: "Ingeniera de Software y emprendedora, con Máster en Tecnologías de Análisis de Datos Masivos: Big Data por la Universidade de Santiago de Compostela. CEO y cofundadora de Lucerna Software y creadora de contenido sobre ciencias de la computación. Ha trabajado en proyectos de IoT, sistemas inteligentes en tiempo real y ciencia de datos",
+        nombres: 'Yasmina',
+        apellidos: 'Gonzales',
+        perfil: "Ingeniera de Software y emprendedora, con Máster en Big Data por la Universidade de Santiago de Compostela. Es CEO y cofundadora de Lucerna Software y creadora de contenido en ciencias de la computación. Ha trabajado en proyectos de IoT, sistemas inteligentes y ciencia de datos.",
         social_media: {
             instagram: "https://www.instagram.com/yasminacodes/",
             linkedin: "https://www.linkedin.com/in/yasgalmon",
