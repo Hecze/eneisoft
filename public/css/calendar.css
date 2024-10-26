@@ -59,7 +59,7 @@
     transition: all ease-in-out .1s;
     padding: .2rem;
     white-space: normal; /* Evita el salto de línea */
-    overflow: hidden; /* Oculta el texto que se desborda */
+    overflow: hidden !important; /* Oculta el texto que se desborda */
     text-overflow: ellipsis;
 }
 .fc-v-event:hover {
