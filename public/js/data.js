@@ -151,6 +151,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@yasminacodes",
         },
         pais: "spain",
+        link: "https://forms.gle/EdqkvFXDWCMoi2Vf8",
         visible: true,
         talleres: [
         ],
