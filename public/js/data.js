@@ -404,7 +404,7 @@ const aliados_sponsors = [
 
 ]
 
-const eventos = [
+const eventos_programados = [
     {
         title: 'Ceremonia de apertura',
         start: '2024-11-04T08:00:00',
@@ -448,9 +448,97 @@ const eventos = [
     {
         title: 'Fin Hackathon (ELIMINATORIAS)',
         start: '2024-11-04T23:00:00',
-        end: '2024-11-04T22:00:00',
+        end: '2024-11-04T23:59:59',
         extendedProps: {
             description: 'Fin Hackathon (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Selección Hackathon (ELIMINATORIAS)',
+        start: '2024-11-05T08:00:00',
+        end: '2024-11-05T09:00:00',
+        extendedProps: {
+            description: 'Selección Hackathon (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Publicación de resultados Hackathon (ELIMINATORIAS)',
+        start: '2024-11-05T12:00:00',
+        end: '2024-11-05T13:00:00',
+        extendedProps: {
+            description: 'Publicación de resultados Hackathon (ELIMINATORIAS)',
+        }
+    },
+    {
+        title: 'Programación competitiva (FINAL)',
+        start: '2024-11-07T18:00:00',
+        end: '2024-11-07T21:00:00',
+        extendedProps: {
+            description: 'Programación competitiva (FINAL)',
+        }
+    },
+    {
+        title: 'Recepción de participantes Hackathon (FINAL)',
+        start: '2024-11-08T16:00:00',
+        end: '2024-11-08T17:00:00',
+        extendedProps: {
+            description: 'Recepción de participantes Hackathon (FINAL)',
+        }
+    },
+    {
+        title: 'Inicio Hackathon (FINAL)',
+        start: '2024-11-08T17:00:00',
+        end: '2024-11-08T18:00:00',
+        extendedProps: {
+            description: 'Inicio Hackathon (FINAL)',
+        }
+    },
+    {
+        title: 'Desayuno Hackathon (FINAL)',
+        start: '2024-11-09T07:00:00',
+        end: '2024-11-09T08:00:00',
+        extendedProps: {
+            description: 'Desayuno Hackathon (FINAL)',
+        }
+    },
+    {
+        title: 'Almuerzo Hackathon (FINAL)',
+        start: '2024-11-09T12:00:00',
+        end: '2024-11-09T13:00:00',
+        extendedProps: {
+            description: 'Almuerzo Hackathon (FINAL)',
+        }
+    },
+    {
+        title: 'Fin Hackathon (FINAL)',
+        start: '2024-11-09T16:00:00',
+        end: '2024-11-09T17:00:00',
+        extendedProps: {
+            description: 'Fin Hackathon (FINAL)',
+        }
+    },
+    {
+        title: 'Pitch Hackathon (FINAL)',
+        start: '2024-11-09T17:00:00',
+        end: '2024-11-09T19:00:00',
+        extendedProps: {
+            description: 'Pitch Hackathon (FINAL)',
+        }
+    },
+    {
+        title: 'Premiaciones',
+        start: '2024-11-09T19:00:00',
+        end: '2024-11-09T20:00:00',
+        extendedProps: {
+            description: 'Premiaciones',
+        }
+    },
+    {
+        title: 'Ceremonia de cierre',
+        start: '2024-11-09T20:00:00',
+        end: '2024-11-09T21:00:00',
+        extendedProps: {
+            description: 'Ceremonia de cierre',
         }
     },
 ]
