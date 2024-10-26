@@ -58,7 +58,7 @@
     border: 0 !important;
     transition: all ease-in-out .1s;
     padding: .2rem;
-    white-space: nowrap; /* Evita el salto de línea */
+    white-space: normal; /* Evita el salto de línea */
     overflow: hidden; /* Oculta el texto que se desborda */
     text-overflow: ellipsis;
 }
