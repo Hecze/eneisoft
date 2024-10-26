@@ -1,6 +1,46 @@
 const speakers = [
     // aca van los speakers y talleristas
     // lesly samaritano
+    // Oliver Sandoval
+    {
+        nombres: 'Oliver',
+        apellidos: 'Sandoval',
+        perfil: "Ingeniero Informático, Fundador de Developer.pe, plataforma donde comparte tutoriales de programación en Python, Django y otros temas. Además, es miembro de la comunidad de Python Piura y Tech Lead en Muchticket.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/oliver-sandoval-developer ",
+            youtube: "https://www.youtube.com/@Developerpe ",
+            instagram: "https://www.instagram.com/developer.pe ",
+            github: "https://github.com/developerpe ",
+            facebook: "https://www.facebook.com/developerper",
+        },
+        pais: "peru",
+        visible: true,
+        talleres: [
+            {
+                dia: '05',
+                inicio: '15:00',
+                fin: '17:00',
+                nombre: 'Python desde Cero',
+                detalles: 'En este taller descubrirás qué es Python y por qué es importante aprenderlo. Aprenderás sobre variables, tipos de datos, operadores, condicionales, bucles, listas, tuplas y diccionarios. Además, exploraremos funciones, lambdas, clases, decoradores, POO en Python, y el manejo de excepciones y errores, brindándote una base sólida en este lenguaje.',
+                lugar: 'Auditorio de la FISI',
+                link: 'https://forms.gle/9sJBBZ7uFE3mWua7A',
+                visible: true,
+            },            
+            {
+                dia: '06',
+                inicio: '15:00',
+                fin: '18:00',
+                nombre: 'Tu Primera API con Django Rest Framework',
+                detalles: 'En este taller aprenderás qué es una API y cómo utilizar Django Rest Framework para desarrollarlas. Exploraremos temas clave como serializers, vistas, viewsets, routers, autenticación y el uso de decoradores, proporcionándote las herramientas necesarias para crear APIs robustas y seguras.',
+                lugar: 'Auditorio de la FISI',
+                link: 'https://forms.gle/6zCr4fQqc4uqKqtR7',
+                visible: false,
+            },            
+        ],
+        charlas: [  
+                      
+        ],
+    },
     {
         nombres: 'Lesly',
         apellidos: 'Samaritano',
@@ -218,46 +258,6 @@ const speakers = [
                 link: '', 
                 visible: false,
             },            
-        ],
-    },
-    // Oliver Sandoval
-    {
-        nombres: 'Oliver',
-        apellidos: 'Sandoval',
-        perfil: "Ingeniero Informático, Fundador de Developer.pe, plataforma donde comparte tutoriales de programación en Python, Django y otros temas. Además, es miembro de la comunidad de Python Piura y Tech Lead en Muchticket.",
-        social_media: {
-            linkedin: "https://www.linkedin.com/in/oliver-sandoval-developer ",
-            youtube: "https://www.youtube.com/@Developerpe ",
-            instagram: "https://www.instagram.com/developer.pe ",
-            github: "https://github.com/developerpe ",
-            facebook: "https://www.facebook.com/developerper",
-        },
-        pais: "peru",
-        visible: true,
-        talleres: [
-            {
-                dia: '05',
-                inicio: '15:00',
-                fin: '17:00',
-                nombre: 'Python desde Cero',
-                detalles: 'En este taller descubrirás qué es Python y por qué es importante aprenderlo. Aprenderás sobre variables, tipos de datos, operadores, condicionales, bucles, listas, tuplas y diccionarios. Además, exploraremos funciones, lambdas, clases, decoradores, POO en Python, y el manejo de excepciones y errores, brindándote una base sólida en este lenguaje.',
-                lugar: 'Auditorio de la FISI',
-                link: 'https://forms.gle/9sJBBZ7uFE3mWua7A',
-                visible: true,
-            },            
-            {
-                dia: '06',
-                inicio: '15:00',
-                fin: '18:00',
-                nombre: 'Tu Primera API con Django Rest Framework',
-                detalles: 'En este taller aprenderás qué es una API y cómo utilizar Django Rest Framework para desarrollarlas. Exploraremos temas clave como serializers, vistas, viewsets, routers, autenticación y el uso de decoradores, proporcionándote las herramientas necesarias para crear APIs robustas y seguras.',
-                lugar: 'Auditorio de la FISI',
-                link: 'https://forms.gle/6zCr4fQqc4uqKqtR7',
-                visible: false,
-            },            
-        ],
-        charlas: [  
-                      
         ],
     },
     // Yera Flores Sempertegui
