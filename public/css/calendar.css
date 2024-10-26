@@ -43,7 +43,7 @@
 }
 
 .fc-event-main{
-    background-color: var(--main);
+    /* background-color: var(--main); */
     font-size: 10px;
 }
 
