@@ -305,14 +305,14 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
     actividadesPorDia.forEach((diaObj) => {
         const dia = diaObj.dia;
         diaObj.actividades.forEach((actividad) => {
-            const { nombre, inicio, fin, detalles, exp } = actividad;
+            const { nombre, inicio, fin, detalles, exp } = actividad;            
 
             eventos.push({
                 title: nombre,
                 start: `${anio}-${mes}-${dia}T${inicio}:00`,
                 end: `${anio}-${mes}-${dia}T${fin}:00`,
                 extendedProps: {
-                    description: `<b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. ${inicio} - ${fin}`,
+                    description: `<b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}`,
                 },
             });
         });
