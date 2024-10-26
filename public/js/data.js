@@ -149,6 +149,36 @@ const speakers = [
         charlas: [
         ],
     },
+    // kevin davila
+    {
+        nombres: 'Kevin',
+        apellidos: 'Dávila',
+        perfil: "Google Developer Expert en Angular & Microsoft Most Valuable Professional en Web. Software Engineer y creador de contenido sobre programación Web.",
+        social_media: {
+            github: "https://github.com/kevindaviladev",
+            instagram: "https://www.instagram.com/kevindaviladev",
+            tiktok: "https://www.tiktok.com/@kevindaviladev",
+            youtube: "https://www.youtube.com/channel/UCgu_s0iHevVNatUGXnINEHg",
+            linkedin: "https://pe.linkedin.com/in/kevin-davila-dev",
+            twitter: "https://x.com/kevindaviladev",
+        },
+        pais: "peru",
+        visible: true,
+        talleres: [
+        ],
+        charlas: [            
+            {
+                    dia: '04',
+                    inicio: '16:00',
+                    fin: '17:00',
+                    nombre: 'Desarrollo Web con Typescript: Un viaje sin retorno',
+                    detalles: 'Hablaremos sobre Typescript, el superset de Javascript que permite escribir aplicaciones web escalables y mantenibles en el tiempo.',
+                    lugar: 'Auditorio de la FISI',
+                    link: '',
+                    visible: true,
+                },
+        ],
+    },
     // maybemar hernandez
     {
         nombres: 'Maybemar',
@@ -176,36 +206,6 @@ const speakers = [
                 link: '',
                 visible: true,
             },            
-        ],
-    },
-    // kevin davila
-    {
-        nombres: 'Kevin',
-        apellidos: 'Dávila',
-        perfil: "Google Developer Expert en Angular & Microsoft Most Valuable Professional en Web. Software Engineer y creador de contenido sobre programación Web.",
-        social_media: {
-            github: "https://github.com/kevindaviladev",
-            instagram: "https://www.instagram.com/kevindaviladev",
-            tiktok: "https://www.tiktok.com/@kevindaviladev",
-            youtube: "https://www.youtube.com/channel/UCgu_s0iHevVNatUGXnINEHg",
-            linkedin: "https://pe.linkedin.com/in/kevin-davila-dev",
-            twitter: "https://x.com/kevindaviladev",
-        },
-        pais: "peru",
-        visible: false,
-        talleres: [
-        ],
-        charlas: [            
-            {
-                 dia: '04',
-                 inicio: '16:00',
-                 fin: '17:00',
-                 nombre: 'Desarrollo Web con Typescript: Un viaje sin retorno',
-                 detalles: 'Hablaremos sobre Typescript, el superset de Javascript que permite escribir aplicaciones web escalables y mantenibles en el tiempo.',
-                 lugar: 'Auditorio de la FISI',
-                 link: '',
-                 visible: false,
-             },
         ],
     },
     // gianpaul custodio (hackemate)
