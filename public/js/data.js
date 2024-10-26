@@ -174,7 +174,7 @@ const speakers = [
                 detalles: 'En esta conferencia aprenderemos cuáles son esas habilidades técnicas y blandas que debemos adquirir para convertirnos en programadores expertos y cotizados en el mercado laboral.',
                 lugar: 'Google Meet',
                 link: '',
-                visible: false,
+                visible: true,
             },            
         ],
     },
