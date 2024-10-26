@@ -170,7 +170,7 @@ const speakers = [
             twitter: "https://x.com/kevindaviladev",
         },
         pais: "peru",
-        visible: false,
+        visible: true,
         talleres: [
         ],
         charlas: [            
