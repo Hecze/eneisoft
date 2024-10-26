@@ -378,7 +378,9 @@ function coloresCalendar() {
             // Dependiendo del valor del atributo, agregamos una clase al abuelo
             if (valor.includes("keynotes")) {
                 $(this).addClass('bg-yellow'); // Agrega clase al abuelo
-            } 
+            } else if (valor.includes("workshops")) {
+                $(this).addClass('bg-pink'); // Agrega clase al abuelo
+            }
         }
     })
 }
