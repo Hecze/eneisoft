@@ -240,6 +240,7 @@ const speakers = [
             youtube: "https://www.youtube.com/@HackeMate",
             tiktok: "https://www.tiktok.com/@layeraxd",
             twitch: "https://www.twitch.tv/missyera",
+            github: "https://github.com/gflores1092",
         },
         pais: "peru",        
         talleres: [
