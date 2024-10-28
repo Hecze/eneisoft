@@ -350,6 +350,7 @@ const speakers = [
         perfil: "Ingeniero de Software por la UNMSM y magíster en Ciencia de Datos por UTEC, donde es Docente y Coordinador de la Maestría en Ciencia de Datos e IA. Speaker en temas de IA e ingeniería de software, con amplia experiencia en el área.",
         social_media: {
             linkedin: "https://pe.linkedin.com/in/villavant",
+            instagram: "https://www.instagram.com/villavant",
         },
         pais: "peru",        
         talleres: [
