@@ -236,11 +236,12 @@ const speakers = [
         perfil: "Ingeniera Industrial con MBA y 11 años de experiencia en los sectores de tecnología y startups. Especializada en analítica de datos, Machine Learning y gestión y desarrollo comercial, impulsando la innovación en las organizaciones.",
         social_media: {
             linkedin: "https://www.linkedin.com/in/gflores1092/",
-            instagram: "https://www.instagram.com/hackemate.pe/",
-            youtube: "https://www.youtube.com/@HackeMate",
+            instagram: "https://www.instagram.com/layeraxd",
+            youtube: "https://www.youtube.com/@layeraxd",
             tiktok: "https://www.tiktok.com/@layeraxd",
             twitch: "https://www.twitch.tv/missyera",
             github: "https://github.com/gflores1092",
+            twitter: "https://x.com/i/flow/login?redirect_after_login=%2Fgerafs92",
         },
         pais: "peru",        
         talleres: [
