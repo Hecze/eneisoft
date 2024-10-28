@@ -215,6 +215,8 @@ const speakers = [
         },
         pais: "peru",        
         talleres: [
+        ],
+        charlas: [            
             {
                 dia: '04',
                 inicio: '17:00',
@@ -225,8 +227,6 @@ const speakers = [
                 link: 'https://forms.gle/3G1i152A1JZQK2uu8',                 
                 publicacion: '2024-10-27T13:00:00',
             },            
-        ],
-        charlas: [            
         ],
     },
     // Yera Flores Sempertegui
@@ -263,7 +263,7 @@ const speakers = [
                 nombre: 'Aplicaciones de ML en logística y retail',
                 detalles: 'Descripción de distintos usos de ML en logística y retail entendiendo el contexto de los problemas, sus aplicaciones e impactos.',
                 lugar: 'Auditorio de la FISI - UNMSM',
-                link: '',                 
+                link: 'https://docs.google.com/forms/u/1/d/1QDOUrL-xdqoSJvURqLQoNVU28Qb1hPHsbztm29dsRNU/edit?usp=drivesdk&chromeless=1',                 
                 publicacion: '2024-10-27T19:00:00',
             },         
         ],
