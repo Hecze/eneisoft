@@ -241,7 +241,7 @@ const speakers = [
             tiktok: "https://www.tiktok.com/@layeraxd",
             twitch: "https://www.twitch.tv/missyera",
             github: "https://github.com/gflores1092",
-            twitter: "https://x.com/i/flow/login?redirect_after_login=%2Fgerafs92",
+            twitter: "https://x.com/gerafs92",
         },
         pais: "peru",        
         talleres: [
