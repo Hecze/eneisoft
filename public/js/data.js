@@ -257,7 +257,7 @@ const speakers = [
         ],
         charlas: [  
             {
-                dia: '07 ',
+                dia: '07',
                 inicio: '15:00',
                 fin: '16:00',
                 nombre: 'Aplicaciones de ML en logística y retail',
