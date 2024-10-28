@@ -388,7 +388,7 @@ const speakers = [
                 detalles: '',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/tRdV1QfagETkdFq37',                 
-                publicacion: '2024-10-27T18:00:00',
+                publicacion: '2024-10-28T18:00:00',
             },               
         ],
     },
