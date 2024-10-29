@@ -514,14 +514,14 @@ const aliados_sponsors = [
         type: 'aliado',
         nombre: 'Maker Lab',
         slogan: 'Maker Lab, comunidad de desarrolladores de tecnología',
-        visible: false,
+        visible: true,
     },
     // Sponsors
     {
         type: 'sponsor',
         nombre: 'DSRP',
         slogan: 'Data Science Reserach Perú',
-        visible: false,
+        visible: true,
     },
     {
         type: 'sponsor',
