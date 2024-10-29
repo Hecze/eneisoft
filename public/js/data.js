@@ -252,9 +252,9 @@ const speakers = [
                 nombre: 'Introducción a análisis de datos',
                 detalles: 'Introducción básica de análisis de datos desde nociones básicas de datos, introducción a SQL y Python y un roadmap para el desarrollo en este rubro.',
                 lugar: 'Auditorio de la FISI - UNMSM',
-                link: 'https://forms.gle/5A3DgPgxQz1SJL6EA',                 
+                link: 'https://forms.gle/5A3DgPgxQz1SJL6EA',
                 publicacion: '2024-10-27T14:00:00',
-            },               
+            },
         ],
         charlas: [  
             {
@@ -262,11 +262,11 @@ const speakers = [
                 inicio: '15:00',
                 fin: '16:00',
                 nombre: 'Aplicaciones de ML en logística y retail',
-                detalles: 'Descripción de distintos usos de ML en logística y retail entendiendo el contexto de los problemas, sus aplicaciones e impactos.',
+                detalles: 'Exploración de los distintos usos de Machine Learning en logística y retail, abordando cómo esta tecnología puede optimizar procesos y predecir tendencias. Entenderemos el contexto de los desafíos en cada sector, sus aplicaciones prácticas e impactos, desde la gestión de inventarios hasta la personalización de la experiencia del cliente.',
                 lugar: 'Auditorio de la FISI - UNMSM',
-                link: 'https://docs.google.com/forms/u/1/d/1QDOUrL-xdqoSJvURqLQoNVU28Qb1hPHsbztm29dsRNU/edit?usp=drivesdk&chromeless=1',                 
+                link: 'https://forms.gle/6NQGSwWefmqcYmyBA',
                 publicacion: '2024-10-27T19:00:00',
-            },         
+            },
         ],
     },
     // Mirna Ampuero
@@ -309,7 +309,7 @@ const speakers = [
             {
                 dia: '05',
                 inicio: '14:00',
-                fin: '13:00',
+                fin: '15:00',
                 nombre: '',
                 detalles: '',
                 lugar: 'Auditorio de la FISI - UNMSM',
