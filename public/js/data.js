@@ -576,7 +576,7 @@ const aliados_sponsors = [
     {
         type: 'sponsor',
         nombre: 'Peru Hacking',
-        slogan: 'Perú Hacking',
+        slogan: 'Perú Hacking, Hacking en entornos reales',
         visible: true,
     },
     {
