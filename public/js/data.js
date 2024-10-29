@@ -425,8 +425,7 @@ const speakers = [
         apellidos: 'Cuicapuza',
         perfil: "Fundador de Data Science Research Perú, consultor en TI con más de 9 años de experiencia y candidato a MBA con especialización en Analytics. Apasionado por la innovación y la transformación de empresas y organizaciones con data.",
         social_media: {
-            linkedin: "https://www.linkedin.com/in/emiliapaz",
-            github: "https://github.com/EmiliaPaz",
+            linkedin: "https://www.linkedin.com/in/javier-richard-cuicapuza-antonio",
         },
         pais: "peru",        
         talleres: [
