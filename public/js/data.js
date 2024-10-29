@@ -333,8 +333,8 @@ const speakers = [
         charlas: [  
             {
                 dia: '05',
-                inicio: '17:00',
-                fin: '19:00',
+                inicio: '13:00',
+                fin: '14:00',
                 nombre: 'Más Allá del Testing: Innovación y buenas prácticas en Calidad de Software',
                 detalles: 'En esta charla exploraremos las tendencias y mejores prácticas en calidad de software, destacando cómo la innovación está transformando el testing. Revisaremos metodologías ágiles y casos prácticos que optimizan el aseguramiento de calidad, elevan la satisfacción del cliente y mejoran la eficiencia en el desarrollo.',
                 lugar: 'Auditorio de la FISI - UNMSM',
