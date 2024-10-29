@@ -443,6 +443,32 @@ const speakers = [
             },               
         ],
     },
+    // Laren Osorio
+    {
+        nombres: 'Laren',
+        apellidos: 'Osorio',
+        perfil: "Ingeniero de Sistemas de la UNI con 10+ años en IA, Big Data y Cloud Computing. Diplomado en Analítica de Negocios en Centrum PUCP y Micromaster en Data Science en MITx. Actualmente es Data & Analytics Lead en Finerio Connect, con amplia experiencia.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/losoriot",
+            instagram: "https://www.instagram.com/larenwell",
+            facebook: "https://www.facebook.com/larenosoriotoribio",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '08',
+                inicio: '15:00',
+                fin: '16:00',
+                nombre: 'Entre intentos y lecciones: Una carrera en el mundo de los datos',
+                detalles: 'En esta conferencia, compartiré los pasos, habilidades y proyectos que construyeron mi carrera en ciencia de datos. Desde experiencias universitarias hasta trabajos en IA y Big Data, exploraremos mi ruta de aprendizaje y los desafíos enfrentados. Una guía práctica con lecciones para quienes aspiran a crecer en esta industria.',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/swpTUrLnqKNaY8wg9',                 
+                publicacion: '2024-10-28T09:00:00',
+            },               
+        ],
+    },
     // Edwin Maraví
     {
         nombres: 'Edwin',
