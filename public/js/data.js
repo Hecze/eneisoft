@@ -497,29 +497,73 @@ const speakers = [
 
 const aliados_sponsors = [
     // colocar el tipo (aliado - sponsor)
+    // Aliados
     {
         type: 'aliado',
         nombre: '1551',
-        slogan: 'Incubadora de Empresas Innovadoras de la UNMSM',
+        slogan: '1551, Incubadora de Empresas Innovadoras de la UNMSM',
         visible: true,
     },
     {
         type: 'aliado',
-        nombre: 'Google',
-        slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
+        nombre: 'Scale',
+        slogan: 'Scale, Incubadora de Impacto',
         visible: false,
+    },
+    {
+        type: 'aliado',
+        nombre: 'Maker Lab',
+        slogan: 'Maker Lab, comunidad de desarrolladores de tecnología',
+        visible: false,
+    },
+    // Sponsors
+    {
+        type: 'sponsor',
+        nombre: 'DSRP',
+        slogan: 'Data Science Reserach Perú',
+        visible: false,
+    },
+    {
+        type: 'sponsor',
+        nombre: 'BDA',
+        slogan: 'Big Data Academy',
+        visible: false,
+    },
+    {
+        type: 'sponsor',
+        nombre: 'Datapath',
+        slogan: 'Datapath',
+        visible: false,
+    },
+    {
+        type: 'sponsor',
+        nombre: 'CJava',
+        slogan: 'CJava',
+        visible: true,
     },
     {
         type: 'sponsor',
         nombre: 'Levo',
-        slogan: 'Learning Center',
+        slogan: 'Levo, Learning Center',
         visible: true,
     },
     {
         type: 'sponsor',
-        nombre: 'Google',
-        slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: false,
+        nombre: 'Peru Hacking',
+        slogan: 'Perú Hacking, Ethical Hacking y Ciberseguridad',
+        visible: true,
+    },
+    {
+        type: 'sponsor',
+        nombre: 'Divelia',
+        slogan: 'Divelia Studio, Transformación digital para negocios',
+        visible: true,
+    },
+    {
+        type: 'sponsor',
+        nombre: 'GIM',
+        slogan: 'Go Insame Media, Influencer Marketing y Social Media',
+        visible: true,
     },
 
 ]
