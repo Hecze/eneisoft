@@ -500,7 +500,7 @@ const aliados_sponsors = [
     {
         type: 'aliado',
         nombre: '1551',
-        slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
+        slogan: 'Incubadora de Empresas Innovadoras de la UNMSM',
         visible: true,
     },
     {
@@ -511,9 +511,9 @@ const aliados_sponsors = [
     },
     {
         type: 'sponsor',
-        nombre: 'Google',
-        slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: false,
+        nombre: 'Levo',
+        slogan: 'Learning Center',
+        visible: true,
     },
     {
         type: 'sponsor',
