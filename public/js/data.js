@@ -382,7 +382,7 @@ const speakers = [
         ],
         charlas: [  
             {
-                dia: '07',
+                dia: '05',
                 inicio: '17:00',
                 fin: '18:00',
                 nombre: 'Introducción a Chrome Extensions',
