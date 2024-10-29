@@ -359,7 +359,7 @@ const speakers = [
             {
                 dia: '07',
                 inicio: '17:00',
-                fin: '19:00',
+                fin: '18:00',
                 nombre: 'Transformando la Ingeniería de Software con IA Generativa: Aplicaciones Prácticas y Futuro',
                 detalles: 'Esta ponencia aborda el impacto de la IA generativa en ingeniería de software, desde creación de código hasta automatización de pruebas. Con herramientas como ChatGPT y Copilot, veremos cómo aceleran el desarrollo, mejoran la calidad y redefinen el rol del ingeniero, con ejemplos prácticos y una actividad interactiva.',
                 lugar: 'Auditorio de la FISI - UNMSM',
