@@ -501,7 +501,7 @@ const aliados_sponsors = [
         type: 'aliado',
         nombre: '1551',
         slogan: 'Ing. de Software UNMSM CEO de Tortuga & Caballo Inc.',
-        visible: false,
+        visible: true,
     },
     {
         type: 'aliado',
