@@ -298,7 +298,7 @@ const speakers = [
     {
         nombres: 'Jair',
         apellidos: 'Manrique',
-        perfil: "",
+        perfil: "Egresado de la UNI con postgrado en Transformación Digital por el MIT. Docente de Blockchain en INICTEL UNI y 1551 UNMSM, CTO y fundador de Solvi, ganadora de StartUp Perú 6G. Fundador de Divelia Studio, con más de 200 proyectos en tecnología avanzada para 100 clientes en 10 países.",
         social_media: {
             linkedin: "https://pe.linkedin.com/in/manrico",
         },
