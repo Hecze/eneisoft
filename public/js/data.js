@@ -464,7 +464,7 @@ const speakers = [
                 nombre: 'Entre intentos y lecciones: Una carrera en el mundo de los datos',
                 detalles: 'En esta conferencia, compartiré los pasos, habilidades y proyectos que construyeron mi carrera en ciencia de datos. Desde experiencias universitarias hasta trabajos en IA y Big Data, exploraremos mi ruta de aprendizaje y los desafíos enfrentados. Una guía práctica con lecciones para quienes aspiran a crecer en esta industria.',
                 lugar: 'Auditorio de la FISI - UNMSM',
-                link: 'https://forms.gle/swpTUrLnqKNaY8wg9',                 
+                link: 'https://forms.gle/LW31zUEKZ89pygRz8',                 
                 publicacion: '2024-10-28T09:00:00',
             },               
         ],
