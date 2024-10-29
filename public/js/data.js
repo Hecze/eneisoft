@@ -463,7 +463,32 @@ const speakers = [
                 nombre: '',
                 detalles: '',
                 lugar: 'Auditorio de la FISI - UNMSM',
-                link: 'https://forms.gle/EpLXBZSqLyDRmknJ9',                 
+                link: 'https://forms.gle/ikZHg8isZyZkQvdg6',                 
+                publicacion: '2024-10-30T09:00:00',
+            },               
+        ],
+    },
+    // Alonso Melgarejo
+    {
+        nombres: 'Alonso',
+        apellidos: 'Melgarejo',
+        perfil: "",
+        social_media: {
+            linkedin: "",
+            github: "",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '07',
+                inicio: '17:00',
+                fin: '18:00',
+                nombre: '',
+                detalles: '',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/swpTUrLnqKNaY8wg9',                 
                 publicacion: '2024-10-30T09:00:00',
             },               
         ],
