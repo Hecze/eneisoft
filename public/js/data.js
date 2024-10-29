@@ -384,12 +384,87 @@ const speakers = [
             {
                 dia: '07',
                 inicio: '17:00',
-                fin: '19:00',
+                fin: '18:00',
                 nombre: 'Introducción a Chrome Extensions',
                 detalles: 'Sumérgete en el desarrollo de extensiones para Chrome y descubre cómo potenciar la experiencia del usuario en la web. Aprenderás desde los fundamentos, APIs clave y las mejores prácticas de seguridad hasta cómo crear y publicar tus propias extensiones.',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/tRdV1QfagETkdFq37',                 
                 publicacion: '2024-10-28T18:00:00',
+            },               
+        ],
+    },
+    // Ronald Barzola
+    {
+        nombres: 'Ronald',
+        apellidos: 'Barzola',
+        perfil: "Ingeniera de software de Arequipa, Perú, radicada en San Francisco, EE. UU. Graduada en Ciencias de la Computación en la Universidad de Kansas, lidera el trabajo de UI para Chrome Extensions en Google. Promueve la diversidad en tecnología como panelista, profesora en comunidades latinas y organizadora de eventos en Perú.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/emiliapaz",
+            github: "https://github.com/EmiliaPaz",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '07',
+                inicio: '17:00',
+                fin: '18:00',
+                nombre: 'Introducción a Chrome Extensions',
+                detalles: 'Sumérgete en el desarrollo de extensiones para Chrome y descubre cómo potenciar la experiencia del usuario en la web. Aprenderás desde los fundamentos, APIs clave y las mejores prácticas de seguridad hasta cómo crear y publicar tus propias extensiones.',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/tRdV1QfagETkdFq37',                 
+                publicacion: '2024-10-30T18:00:00',
+            },               
+        ],
+    },
+    // Javier Cuicapuza
+    {
+        nombres: 'Javier',
+        apellidos: 'Cuicapuza',
+        perfil: "Ingeniera de software de Arequipa, Perú, radicada en San Francisco, EE. UU. Graduada en Ciencias de la Computación en la Universidad de Kansas, lidera el trabajo de UI para Chrome Extensions en Google. Promueve la diversidad en tecnología como panelista, profesora en comunidades latinas y organizadora de eventos en Perú.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/emiliapaz",
+            github: "https://github.com/EmiliaPaz",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '07',
+                inicio: '17:00',
+                fin: '18:00',
+                nombre: 'Introducción a Chrome Extensions',
+                detalles: 'Sumérgete en el desarrollo de extensiones para Chrome y descubre cómo potenciar la experiencia del usuario en la web. Aprenderás desde los fundamentos, APIs clave y las mejores prácticas de seguridad hasta cómo crear y publicar tus propias extensiones.',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/tRdV1QfagETkdFq37',                 
+                publicacion: '2024-10-30T18:00:00',
+            },               
+        ],
+    },
+    // Edwin Maraví
+    {
+        nombres: 'Edwin',
+        apellidos: 'Maraví',
+        perfil: "Ingeniera de software de Arequipa, Perú, radicada en San Francisco, EE. UU. Graduada en Ciencias de la Computación en la Universidad de Kansas, lidera el trabajo de UI para Chrome Extensions en Google. Promueve la diversidad en tecnología como panelista, profesora en comunidades latinas y organizadora de eventos en Perú.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/emiliapaz",
+            github: "https://github.com/EmiliaPaz",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '07',
+                inicio: '17:00',
+                fin: '18:00',
+                nombre: 'Introducción a Chrome Extensions',
+                detalles: 'Sumérgete en el desarrollo de extensiones para Chrome y descubre cómo potenciar la experiencia del usuario en la web. Aprenderás desde los fundamentos, APIs clave y las mejores prácticas de seguridad hasta cómo crear y publicar tus propias extensiones.',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/tRdV1QfagETkdFq37',                 
+                publicacion: '2024-10-30T18:00:00',
             },               
         ],
     },
