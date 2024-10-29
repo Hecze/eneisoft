@@ -87,8 +87,8 @@ const speakers = [
         charlas: [
             {
                 dia: '08',
-                inicio: '11:00',
-                fin: '12:00',
+                inicio: '14:00',
+                fin: '15:00',
                 nombre: 'Un ser de anclaje en el multiverso Cloud',
                 detalles: '¿La nube sigue de moda? En esta charla, exploraremos cómo la tecnología Cloud está transformando la manera de construir soluciones innovadoras. Descubre los recursos que ofrece, desde infraestructuras hasta servicios avanzados, y conoce el roadmap ideal para dar tus primeros pasos y crecer en grande.',
                 lugar: 'Auditorio de la FISI - UNMSM',
