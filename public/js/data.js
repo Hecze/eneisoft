@@ -547,7 +547,7 @@ const aliados_sponsors = [
         type: 'sponsor',
         nombre: 'DSRP',
         slogan: 'Data Science Reserach Perú',
-        visible: true,
+        visible: false,
     },
     {
         type: 'sponsor',
