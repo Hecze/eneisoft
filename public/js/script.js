@@ -327,7 +327,7 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
                 start: `${anio}-${mes}-${dia}T${inicio}:00`,
                 end: `${anio}-${mes}-${dia}T${fin}:00`,
                 extendedProps: {
-                    description: `<a class="link-horario" href="/${tipo}#${sneakString(nombre)}"><b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}</a>`,
+                    description: `<a class="link-horario" href="/${tipo}/#${sneakString(nombre)}"><b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}</a>`,
                 },
             });
         });
