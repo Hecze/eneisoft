@@ -7,10 +7,11 @@ const speakers = [
         apellidos: 'Sandoval',
         perfil: "Ingeniero Informático, Fundador de Developer.pe, plataforma donde comparte tutoriales de programación en Python, Django y otros temas. Además, es miembro de la comunidad de Python Piura y Tech Lead en Muchticket.",
         social_media: {
-            linkedin: "https://www.linkedin.com/in/oliver-sandoval-developer ",
-            youtube: "https://www.youtube.com/@Developerpe ",
-            instagram: "https://www.instagram.com/developer.pe ",
-            github: "https://github.com/developerpe ",
+            github: "https://github.com/developerpe",
+            instagram: "https://www.instagram.com/developer.pe",
+            youtube: "https://www.youtube.com/@Developerpe",
+            linkedin: "https://www.linkedin.com/in/oliver-sandoval-developer",
+            threads: "https://www.threads.net/@developer.pe",
             facebook: "https://www.facebook.com/developerper",
         },
         pais: "peru",        
@@ -46,12 +47,12 @@ const speakers = [
         apellidos: 'Gonzales',
         perfil: "Ingeniera de Software y emprendedora, con Máster en Tecnologías de Análisis de Datos Masivos. CEO de Lucerna Software y creadora de contenido en ciencias de la computación. Trabaja en proyectos de IoT, sistemas inteligentes y ciencia de datos.",
         social_media: {
-            instagram: "https://www.instagram.com/yasminacodes/",
-            linkedin: "https://www.linkedin.com/in/yasgalmon",
             github: "https://github.com/yasminacodes",
-            discord: "https://discord.com/invite/MpTj5bvd8G",
+            instagram: "https://www.instagram.com/yasminacodes/",
             tiktok: "https://www.tiktok.com/@yasminacodes",
             youtube: "https://www.youtube.com/@yasminacodes",
+            discord: "https://discord.com/invite/MpTj5bvd8G",
+            linkedin: "https://www.linkedin.com/in/yasgalmon",
         },
         pais: "spain",        
         talleres: [
@@ -104,10 +105,10 @@ const speakers = [
         perfil: "Ingeniera en Sistemas e Informática y embajadora del programa Google Developers Women Techmakers, con experiencia en RPA (Robotic Process Automation). Desarrolladora de aplicaciones móviles con Flutter y consultora TI independiente.",
         social_media: {
             instagram: "https://www.instagram.com/flutterinastudio",
-            linkedin: "https://www.linkedin.com/in/leslysamaritano/",
-            twitter: "https://x.com/samaritanoayala",
             tiktok: "https://www.tiktok.com/@flutterinastudio",
             youtube: "https://www.youtube.com/@flutterinastudio",
+            linkedin: "https://www.linkedin.com/in/leslysamaritano/",
+            twitter: "https://x.com/samaritanoayala",
         },
         pais: "peru",        
         talleres: [
@@ -182,9 +183,9 @@ const speakers = [
         social_media: {
             github: "https://github.com/maybemarhs",
             instagram: "https://www.instagram.com/maybemarhs/",
-            twitter: "https://twitter.com/maybemarhs",
             tiktok: "https://tiktok.com/@maybemarhs",
             youtube: "https://www.youtube.com/@maybemarhs",
+            twitter: "https://twitter.com/maybemarhs",
         },
         pais: "venezuela",        
         talleres: [
@@ -235,12 +236,12 @@ const speakers = [
         apellidos: 'Flores',
         perfil: "Ingeniera Industrial con MBA y 11 años de experiencia en los sectores de tecnología y startups. Especializada en analítica de datos, Machine Learning y gestión y desarrollo comercial, impulsando la innovación en las organizaciones.",
         social_media: {
-            linkedin: "https://www.linkedin.com/in/gflores1092/",
-            instagram: "https://www.instagram.com/layeraxd",
-            youtube: "https://www.youtube.com/@layeraxd",
-            tiktok: "https://www.tiktok.com/@layeraxd",
-            twitch: "https://www.twitch.tv/missyera",
             github: "https://github.com/gflores1092",
+            instagram: "https://www.instagram.com/layeraxd",
+            tiktok: "https://www.tiktok.com/@layeraxd",
+            youtube: "https://www.youtube.com/@layeraxd",
+            twitch: "https://www.twitch.tv/missyera",
+            linkedin: "https://www.linkedin.com/in/gflores1092/",
             twitter: "https://x.com/gerafs92",
         },
         pais: "peru",        
@@ -275,8 +276,7 @@ const speakers = [
         apellidos: 'Ampuero',
         perfil: "Ingeniera mecatrónica con experiencia en proyectos blockchain, participante en hackatones internacionales. Enfocada en crear soluciones tecnológicas innovadoras que aprovechan blockchain, aplicando tecnología para impactar positivamente.",
         social_media: {
-            instagram: "https://www.instagram.com/hackemate.pe/ ",
-            youtube: "https://www.youtube.com/@HackeMate",
+            linkedin: "https://www.linkedin.com/in/mirnaampuero",
         },
         pais: "peru",        
         talleres: [
@@ -374,8 +374,8 @@ const speakers = [
         apellidos: 'Paz',
         perfil: "Ingeniera de software de Arequipa, Perú, radicada en San Francisco, EE. UU. Graduada en Ciencias de la Computación en la Universidad de Kansas, lidera el trabajo de UI para Chrome Extensions en Google. Promueve la diversidad en tecnología como panelista, profesora en comunidades latinas y organizadora de eventos en Perú.",
         social_media: {
-            linkedin: "https://www.linkedin.com/in/emiliapaz",
             github: "https://github.com/EmiliaPaz",
+            linkedin: "https://www.linkedin.com/in/emiliapaz",
         },
         pais: "peru",        
         talleres: [
@@ -399,8 +399,8 @@ const speakers = [
         apellidos: 'Barzola',
         perfil: "YLAI Alumni, Director de Innovación e Impacto en Incubadora Scale y Program Manager en Impact Startup Competition, enfocado en desarrollo de proyectos de alto impacto y fomento del emprendimiento con soluciones innovadoras y sostenibles.",
         social_media: {
-            linkedin: "https://www.linkedin.com/in/ronaldbarzola",
             instagram: "https://www.instagram.com/ronaldbarzolape",
+            linkedin: "https://www.linkedin.com/in/ronaldbarzola",
             facebook: "https://www.facebook.com/ronaldbarzolape",
         },
         pais: "peru",        
@@ -449,8 +449,8 @@ const speakers = [
         apellidos: 'Osorio',
         perfil: "Ingeniero de Sistemas de la UNI con 10+ años en IA, Big Data y Cloud Computing. Diplomado en Analítica de Negocios en Centrum PUCP y Micromaster en Data Science en MITx. Actualmente es Data & Analytics Lead en Finerio Connect, con amplia experiencia.",
         social_media: {
-            linkedin: "https://www.linkedin.com/in/losoriot",
             instagram: "https://www.instagram.com/larenwell",
+            linkedin: "https://www.linkedin.com/in/losoriot",
             facebook: "https://www.facebook.com/larenosoriotoribio",
         },
         pais: "peru",        

@@ -240,7 +240,6 @@ function formatSpeakerName(name, surname) {
 }
 
 function sneakString(str) {
-    console.log(str.toLowerCase().replaceAll(' ', '_'))
     return str.toLowerCase().replaceAll(' ', '_')
 }
 
