@@ -168,7 +168,7 @@ function fillAgenda(agenda) {
                                 ${actividad.inicio} - ${actividad.fin}
                             </div>
                             <div class="col-sm-12 col-xl-9" style="font-size: 20px;">
-                                <p class="fw-bold">${actividad.nombre} por ${actividad.exp.nombres}</p>
+                                <p class="fw-bold">${actividad.nombre} por <span class="text-pink">${actividad.exp.nombres} ${actividad.exp.apellidos}</span></p>
                                 <p class="text-negro">${actividad.detalles}</p>
                             </div>
                         </div>`
@@ -240,6 +240,7 @@ function formatSpeakerName(name, surname) {
 }
 
 function sneakString(str) {
+    console.log(str.toLowerCase().replace(' ', '_'))
     return str.toLowerCase().replace(' ', '_')
 }
 
