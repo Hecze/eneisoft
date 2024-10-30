@@ -168,11 +168,11 @@ function fillAgenda(agenda) {
                                 ${actividad.inicio} - ${actividad.fin}
                             </div>
                             <div class="col-sm-12 col-xl-9" style="font-size: 20px;">
-                                <p class="fw-bold">${actividad.nombre}</p>
+                                <p class="fw-bold">${actividad.nombre} por ${actividad.exp.nombres}</p>
                                 <p class="text-negro">${actividad.detalles}</p>
                             </div>
                         </div>`
-                    })}                    
+                    }).toString().replace(/,/g, '')}                    
                 </div>
             </div>
         </div>`)
@@ -189,9 +189,9 @@ function fillAgenda(agenda) {
 function fillEventos(speakers, event) {
     const fechas = formatearActividades(speakers, event);
     fechas.forEach((fecha) => {
-        fecha.actividades.forEach(evento=>{
+        fecha.actividades.forEach((evento, index)=>{
             $(`#${event}-container`).append(`
-                <div class="row agenda p-3 py-md-4 mb-3 mb-md-5">
+                <div class="row agenda p-3 py-md-4 mb-3 mb-md-5" id="${sneakString(evento.nombre)}">
                     <div class="col-sm-12 col-md-6 py-3 py-md-0 px-md-4 day-agenda">
                         <img src="./img/speakers/${formatSpeakerName(evento.exp.nombres, evento.exp.apellidos)}" width=150 alt="user" class="img-fluid rounded-circle d-block m-auto">                            
                         <h5 class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
@@ -237,6 +237,10 @@ function fillEventos(speakers, event) {
 
 function formatSpeakerName(name, surname) {
     return name.toLowerCase().replace(' ', '_') + "_" + surname.replace(' ', '_').toLowerCase() + ".png"
+}
+
+function sneakString(str) {
+    return str.toLowerCase().replace(' ', '_')
 }
 
 const formatearActividades = (expositores, evento=null) => {
@@ -322,7 +326,7 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
                 start: `${anio}-${mes}-${dia}T${inicio}:00`,
                 end: `${anio}-${mes}-${dia}T${fin}:00`,
                 extendedProps: {
-                    description: `<a class="link-horario" href="/${tipo}"><b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}</a>`,
+                    description: `<a class="link-horario" href="/${tipo}#${sneakString(nombre)}"><b>${nombre}<b> por <b>${exp.nombres} ${exp.apellidos}<b>. </br> ${inicio} - ${fin}</a>`,
                 },
             });
         });
