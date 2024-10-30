@@ -2,8 +2,10 @@
 <html lang="en" class="scroll-hide">
 <head>
     <script>
-        if (window.location.pathname === '/index.html') {
-          window.history.replaceState(null, '', '/');
+        const loc = window.location.pathname;
+        if (loc === '/index.html') {
+            let index = loc.indexOf("#");
+            window.history.replaceState(null, '', `/${index>0  ? '#'+loc.substring(index) : ''}`);
         }
       </script>      
     <meta charset="UTF-8">
