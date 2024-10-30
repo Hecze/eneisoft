@@ -1,7 +1,7 @@
 const speakers = [
     // aca van los speakers y talleristas
     
-    // Oliver Sandoval
+    // Oliver Sandoval (CORRECTO)
     {
         nombres: 'Oliver',
         apellidos: 'Sandoval',
@@ -41,7 +41,7 @@ const speakers = [
                       
         ],
     },
-    // yasmina gonzales
+    // yasmina gonzales (CORRECTO)
     {
         nombres: 'Yasmina',
         apellidos: 'Gonzales',
@@ -70,7 +70,7 @@ const speakers = [
             },            
         ],
     },
-    // javier blanco
+    // javier blanco (CORRECTO)
     {
         nombres: 'Javier',
         apellidos: 'Blanco',
@@ -98,7 +98,7 @@ const speakers = [
             },
         ],
     },
-    // lesly samaritano
+    // lesly samaritano (CORRECTO)
     {
         nombres: 'Lesly',
         apellidos: 'Samaritano',
@@ -146,7 +146,7 @@ const speakers = [
         charlas: [
         ],
     },
-    // kevin davila
+    // kevin davila (CORRECTO)
     {
         nombres: 'Kevin',
         apellidos: 'Dávila',
@@ -175,7 +175,7 @@ const speakers = [
             },
         ],
     },
-    // maybemar hernandez
+    // maybemar hernandez (CORRECTO)
     {
         nombres: 'Maybemar',
         apellidos: 'Hernandez',
@@ -203,7 +203,7 @@ const speakers = [
             },            
         ],
     },
-    // gianpaul custodio (hackemate)
+    // gianpaul custodio (hackemate) (CORRECTO)
     {
         nombres: 'Gianpaul',
         apellidos: 'Custodio',
@@ -230,7 +230,7 @@ const speakers = [
             },            
         ],
     },
-    // Yera Flores Sempertegui
+    // Yera Flores Sempertegui (CORRECTO)
     {
         nombres: 'Yera',
         apellidos: 'Flores',
@@ -270,7 +270,7 @@ const speakers = [
             },
         ],
     },
-    // Mirna Ampuero
+    // Mirna Ampuero (CORRECTO)
     {
         nombres: 'Mirna',
         apellidos: 'Ampuero',
@@ -294,7 +294,7 @@ const speakers = [
             },            
         ],
     },
-    // Jair Manrique
+    // Jair Manrique (CORRECTO)
     {
         nombres: 'Jair',
         apellidos: 'Manrique',
@@ -318,7 +318,7 @@ const speakers = [
             },               
         ],
     },
-    // Jhunely Santos
+    // Jhunely Santos (CORRECTO)
     {
         nombres: 'Jhunely',
         apellidos: 'Santos',
@@ -343,7 +343,7 @@ const speakers = [
             },               
         ],
     },
-    // Jorge Villavicencio
+    // Jorge Villavicencio (CORRECTO)
     {
         nombres: 'Jorge',
         apellidos: 'Villavicencio',
@@ -368,7 +368,7 @@ const speakers = [
             },               
         ],
     },
-    // Emilia Paz
+    // Emilia Paz (CORRECTO)
     {
         nombres: 'Emilia',
         apellidos: 'Paz',
@@ -393,7 +393,7 @@ const speakers = [
             },               
         ],
     },
-    // Ronald Barzola
+    // Ronald Barzola (CORRECTO)
     {
         nombres: 'Ronald',
         apellidos: 'Barzola',
@@ -419,7 +419,7 @@ const speakers = [
             },               
         ],
     },
-    // Javier Cuicapuza
+    // Javier Cuicapuza (CORRECTO)
     {
         nombres: 'Javier',
         apellidos: 'Cuicapuza',
@@ -443,7 +443,7 @@ const speakers = [
             },               
         ],
     },
-    // Laren Osorio
+    // Laren Osorio (CORRECTO)
     {
         nombres: 'Laren',
         apellidos: 'Osorio',
@@ -490,7 +490,7 @@ const speakers = [
                 detalles: '',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/ikZHg8isZyZkQvdg6',                 
-                publicacion: '2024-10-30T09:00:00',
+                publicacion: '2025-10-30T09:00:00',
             },               
         ],
     },
@@ -515,7 +515,7 @@ const speakers = [
                 detalles: '',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/swpTUrLnqKNaY8wg9',                 
-                publicacion: '2024-10-30T09:00:00',
+                publicacion: '2025-10-30T09:00:00',
             },               
         ],
     },
