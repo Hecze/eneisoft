@@ -469,6 +469,30 @@ const speakers = [
             },               
         ],
     },
+    // Alonso Melgarejo
+    {
+        nombres: 'Alonso',
+        apellidos: 'Melgarejo',
+        perfil: "Director Ejecutivo en BigCloudDev y Gerente General de Big Data Academy. Profesional con 14 años de experiencia en Big Data, Cloud e IA. Lidera proyectos en banca, telecomunicaciones y gobierno, aportando innovación y liderazgo tecnológico.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/alonsoraulmg/",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '04',
+                inicio: '11:00',
+                fin: '12:00',
+                nombre: '¿Cómo usan ChatGPT las grandes empresas?',
+                detalles: 'La Inteligencia Artificial Generativa está transformando la forma en que trabajamos, ofreciendo herramientas poderosas para optimizar procesos y potenciar la productividad. Sin embargo, su implementación en el entorno empresarial presenta varios desafíos clave que es fundamental comprender y saber afrontar.',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/swpTUrLnqKNaY8wg9',                 
+                publicacion: '2024-10-29T09:00:00',
+            },               
+        ],
+    },
     // Edwin Maraví
     {
         nombres: 'Edwin',
@@ -494,31 +518,6 @@ const speakers = [
             },               
         ],
     },
-    // Alonso Melgarejo
-    {
-        nombres: 'Alonso',
-        apellidos: 'Melgarejo',
-        perfil: "",
-        social_media: {
-            linkedin: "",
-            github: "",
-        },
-        pais: "peru",        
-        talleres: [
-        ],
-        charlas: [  
-            {
-                dia: '07',
-                inicio: '17:00',
-                fin: '18:00',
-                nombre: '',
-                detalles: '',
-                lugar: 'Auditorio de la FISI - UNMSM',
-                link: 'https://forms.gle/swpTUrLnqKNaY8wg9',                 
-                publicacion: '2025-10-30T09:00:00',
-            },               
-        ],
-    },
 ];
 
 const aliados_sponsors = [
@@ -534,7 +533,7 @@ const aliados_sponsors = [
         type: 'aliado',
         nombre: 'Scale',
         slogan: 'Scale, Incubadora de Impacto',
-        visible: false,
+        visible: true,
     },
     {
         type: 'aliado',
@@ -547,13 +546,13 @@ const aliados_sponsors = [
         type: 'sponsor',
         nombre: 'DSRP',
         slogan: 'Data Science Reserach Perú',
-        visible: false,
+        visible: true,
     },
     {
         type: 'sponsor',
         nombre: 'BDA',
         slogan: 'Big Data Academy',
-        visible: false,
+        visible: true,
     },
     {
         type: 'sponsor',
