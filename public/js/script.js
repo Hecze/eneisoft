@@ -236,12 +236,12 @@ function fillEventos(speakers, event) {
 }
 
 function formatSpeakerName(name, surname) {
-    return name.toLowerCase().replace(/ /g, '_') + "_" + surname.replace(/ /g, '_').toLowerCase() + ".png"
+    return name.toLowerCase().replaceAll(' ', '_') + "_" + surname.replaceAll(' ', '_').toLowerCase() + ".png"
 }
 
 function sneakString(str) {
-    console.log(str.toLowerCase().replace(/ /g, '_'))
-    return str.toLowerCase().replace(/ /g, '_')
+    console.log(str.toLowerCase().replaceAll(' ', '_'))
+    return str.toLowerCase().replaceAll(' ', '_')
 }
 
 const formatearActividades = (expositores, evento=null) => {
