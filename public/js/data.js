@@ -223,7 +223,7 @@ const speakers = [
                 inicio: '17:00',
                 fin: '19:00',
                 nombre: 'Creando una aplicación maliciosa y tener acceso al móvil',
-                detalles: 'Este taller ofrece una comprensión profunda sobre cómo crear aplicaciones APK maliciosas mediante la inyección de código usando Metasploit Framework. Aprenderemos a modificar aplicaciones legítimas, ocultar payloads maliciosos y acceder de forma remota a dispositivos móviles. También abordaremos las implicaciones éticas y defensivas de estas técnicas para identificar y mitigar amenazas en el entorno móvil.',
+                detalles: 'Esta conferencia ofrece una comprensión profunda sobre cómo crear aplicaciones APK maliciosas mediante la inyección de código usando Metasploit Framework. Aprenderemos a modificar aplicaciones legítimas, ocultar payloads maliciosos y acceder de forma remota a dispositivos móviles. También abordaremos las implicaciones éticas y defensivas de estas técnicas para identificar y mitigar amenazas en el entorno móvil.',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/3G1i152A1JZQK2uu8',                 
                 publicacion: '2024-10-27T13:00:00',
