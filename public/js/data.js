@@ -497,10 +497,9 @@ const speakers = [
     {
         nombres: 'Edwin',
         apellidos: 'Maraví',
-        perfil: "",
+        perfil: "Director General de CJava y Arquitecto de sistemas basados en tecnología Java. Con amplia experiencia en Consultoría TI para entidades gubernamentales y organizaciones del sector privado.",
         social_media: {
-            linkedin: "",
-            github: "",
+            linkedin: "https://www.linkedin.com/in/emaravi",
         },
         pais: "peru",        
         talleres: [
@@ -508,13 +507,13 @@ const speakers = [
         charlas: [  
             {
                 dia: '07',
-                inicio: '17:00',
-                fin: '18:00',
-                nombre: '',
-                detalles: '',
+                inicio: '12:00',
+                fin: '13:00',
+                nombre: 'Lo que conoces hoy no será lo mismo mañana',
+                detalles: 'Tecnologías disruptivas en constante cambio, nuevos paradigmas en cuestión de horas, el conocimiento humano está evolucionando más lento que la IA. La brecha entre el futuro y el presente se acorta y gran parte de nosotros aún no toma conciencia de esta nueva revolución tecnológica. ¿Qué debemos hacer? ¿Qué es bueno o qué es malo? ¿A dónde debemos concentrar nuestras energías? ¿Cuál es nuestro rol como ingenieros en este nuevo mundo?'
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/ikZHg8isZyZkQvdg6',                 
-                publicacion: '2025-10-30T09:00:00',
+                publicacion: '2025-10-28T09:00:00',
             },               
         ],
     },
