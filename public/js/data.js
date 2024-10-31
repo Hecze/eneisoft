@@ -517,6 +517,30 @@ const speakers = [
             },               
         ],
     },
+    // Fiorella Nuñez
+    {
+        nombres: 'Fiorella',
+        apellidos: 'Nuñez',
+        perfil: "Especialista en ciberseguridad con experiencia en PCI DSS, pentesting y DevSecOps. Destaca en gestión de vulnerabilidades y liderazgo en transformación digital. Cuenta con certificaciones como Lead Cybersecurity y Scrum Foundation.",
+        social_media: {
+            linkedin: "https://www.linkedin.com/in/fiorella-araceli-nu%C3%B1ez-zegarra-44884616a/",
+        },
+        pais: "peru",        
+        talleres: [
+        ],
+        charlas: [  
+            {
+                dia: '07',
+                inicio: '12:00',
+                fin: '13:00',
+                nombre: 'Lo que conoces hoy no será lo mismo mañana',
+                detalles: 'Tecnologías disruptivas en constante cambio, nuevos paradigmas en cuestión de horas, el conocimiento humano está evolucionando más lento que la IA. La brecha entre el futuro y el presente se acorta y gran parte de nosotros aún no toma conciencia de esta nueva revolución tecnológica. ¿Qué debemos hacer? ¿Qué es bueno o qué es malo? ¿A dónde debemos concentrar nuestras energías? ¿Cuál es nuestro rol como ingenieros en este nuevo mundo?',
+                lugar: 'Auditorio de la FISI - UNMSM',
+                link: 'https://forms.gle/d5mpjDvpPjL25wQM8',                 
+                publicacion: '2024-10-28T09:00:00',
+            },               
+        ],
+    },
 ];
 
 const aliados_sponsors = [
@@ -568,7 +592,7 @@ const aliados_sponsors = [
     {
         type: 'sponsor',
         nombre: 'Levo',
-        slogan: 'Levo, Learning Center',
+        slogan: 'Levo Learning Center, Sé disruptivo en el mundo tecnológico',
         visible: true,
     },
     {
