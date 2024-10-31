@@ -570,6 +570,12 @@ const aliados_sponsors = [
         slogan: 'Maker Lab, comunidad de desarrolladores de tecnología',
         visible: true,
     },
+    {
+        type: 'aliado',
+        nombre: 'CPC UNMSM',
+        slogan: 'Club de Programación Competitiva de la UNMSM',
+        visible: true,
+    },
     // Sponsors
     {
         type: 'sponsor',
