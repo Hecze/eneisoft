@@ -513,7 +513,7 @@ const speakers = [
                 detalles: 'Tecnologías disruptivas en constante cambio, nuevos paradigmas en cuestión de horas, el conocimiento humano está evolucionando más lento que la IA. La brecha entre el futuro y el presente se acorta y gran parte de nosotros aún no toma conciencia de esta nueva revolución tecnológica. ¿Qué debemos hacer? ¿Qué es bueno o qué es malo? ¿A dónde debemos concentrar nuestras energías? ¿Cuál es nuestro rol como ingenieros en este nuevo mundo?',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/ikZHg8isZyZkQvdg6',                 
-                publicacion: '2025-10-28T09:00:00',
+                publicacion: '2024-10-28T09:00:00',
             },               
         ],
     },
