@@ -554,6 +554,12 @@ const aliados_sponsors = [
     },
     {
         type: 'aliado',
+        nombre: 'Innovation Lab',
+        slogan: 'Laboratorio de Innovación de la UNI',
+        visible: true,
+    },
+    {
+        type: 'aliado',
         nombre: 'Scale',
         slogan: 'Scale, Incubadora de Impacto',
         visible: true,
