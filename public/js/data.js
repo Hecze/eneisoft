@@ -496,7 +496,7 @@ const speakers = [
     // Edwin Maraví
     {
         nombres: 'Edwin',
-        apellidos: 'Maravi',
+        apellidos: 'Maraví',
         perfil: "Director General de CJava y Arquitecto de sistemas basados en tecnología Java. Con amplia experiencia en Consultoría TI para entidades gubernamentales y organizaciones del sector privado.",
         social_media: {
             linkedin: "https://www.linkedin.com/in/emaravi",
