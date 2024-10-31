@@ -408,9 +408,9 @@ const speakers = [
         ],
         charlas: [  
             {
-                dia: '04',
-                inicio: '10:00',
-                fin: '11:00',
+                dia: '07',
+                inicio: '13:00',
+                fin: '14:00',
                 nombre: 'Habilidades del Futuro: Aprender a Aprender',
                 detalles: 'En un mundo donde la tecnología y la automatización están transformando los trabajos a una velocidad sin precedentes, la habilidad de aprender de forma ágil y continua se convierte en una de las competencias más valiosas. Esta conferencia busca inspirar y capacitar a los asistentes en el arte de aprender a aprender, facilitando herramientas prácticas de productividad, gestión del tiempo y recursos digitales para desarrollar un enfoque de aprendizaje eficiente y adaptativo.',
                 lugar: 'Auditorio de la FISI - UNMSM',
@@ -537,7 +537,7 @@ const speakers = [
                 detalles: 'Tecnologías disruptivas en constante cambio, nuevos paradigmas en cuestión de horas, el conocimiento humano está evolucionando más lento que la IA. La brecha entre el futuro y el presente se acorta y gran parte de nosotros aún no toma conciencia de esta nueva revolución tecnológica. ¿Qué debemos hacer? ¿Qué es bueno o qué es malo? ¿A dónde debemos concentrar nuestras energías? ¿Cuál es nuestro rol como ingenieros en este nuevo mundo?',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/d5mpjDvpPjL25wQM8',                 
-                publicacion: '2024-10-28T09:00:00',
+                publicacion: '2025-10-28T09:00:00',
             },               
         ],
     },
