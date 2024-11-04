@@ -34,6 +34,14 @@ header a {
     background-color: var(--main);
 }
 
+.navbar .dropdown-toggle {
+    color: white !important; /* Asegura que el enlace de la lista desplegable mantenga el color blanco */
+}
+
+.navbar .dropdown-toggle::after {
+    color: white !important; /* Asegura que el icono del caret también sea blanco */
+}
+
 @media (max-width: 1200px) {
     .dropdown-menu {
         background-color: black;
