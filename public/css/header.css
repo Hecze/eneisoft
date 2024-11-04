@@ -25,3 +25,23 @@ header {
 header a {
     font-size: 15px;
 }
+
+.dropdown-item:hover {
+    background-color: var(--main);
+}
+
+.dropdown-menu {
+    background-color: var(--main);
+}
+
+@media (max-width: 1200px) {
+    .dropdown-menu {
+        background-color: black;
+    }
+    .dropdown-item:hover{
+        background-color: black;
+    }
+    .dropdown-menu a {
+        text-align: center !important;
+    }
+}

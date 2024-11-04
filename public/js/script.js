@@ -54,10 +54,12 @@ $(document).ready(function () {
     const offcanvasLinks = document.querySelectorAll('.offcanvas-body .nav-link');
 
     offcanvasLinks.forEach(link => {
-        link.addEventListener('click', function () {
-            const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
-            offcanvas.hide();
-        });
+        if (link.getAttribute("id") !== "actividades-link") {
+            link.addEventListener('click', function () {
+                const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
+                offcanvas.hide();
+            });
+        }
     });
 });
 
