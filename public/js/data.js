@@ -537,7 +537,7 @@ const speakers = [
                 detalles: 'Analizaremos los fundamentos de la ciberseguridad y sus buenas prácticas aplicadas en sectores clave como la banca, salud y telecomunicaciones. Abordaremos el manejo seguro de datos, gestión de vulnerabilidades y autenticación, destacando la importancia de proteger la información financiera en el ámbito bancario de manera efectiva.',
                 lugar: 'Auditorio de la FISI - UNMSM',
                 link: 'https://forms.gle/d5mpjDvpPjL25wQM8',                 
-                publicacion: '2024-10-28T09:00:00',
+                publicacion: '2025-10-28T09:00:00',
             },               
         ],
     },
@@ -631,16 +631,16 @@ const aliados_sponsors = [
 const eventos_programados = [
     {
         title: 'Ceremonia de apertura',
-        start: '2024-11-04T08:00:00',
-        end: '2024-11-04T09:00:00',
+        start: '2024-11-04T10:00:00',
+        end: '2024-11-04T11:00:00',
         extendedProps: {
             description: 'Ceremonia de apertura',
         }
     },
     {
         title: 'Inicio hackathon (ELIMINATORIAS)',
-        start: '2024-11-04T09:00:00',
-        end: '2024-11-04T10:00:00',
+        start: '2024-11-05T08:00:00',
+        end: '2024-11-05T09:00:00',
         extendedProps: {
             description: '<a class="link-horario" href="/hackathon">Inicio hackathon (ELIMINATORIAS)</a>',
         }
@@ -671,24 +671,24 @@ const eventos_programados = [
     },
     {
         title: 'Fin Hackathon (ELIMINATORIAS)',
-        start: '2024-11-04T23:00:00',
-        end: '2024-11-04T23:59:59',
+        start: '2024-11-05T23:00:00',
+        end: '2024-11-05T23:59:59',
         extendedProps: {
             description: '<a class="link-horario" href="/hackathon">Fin Hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
         title: 'Selección Hackathon (ELIMINATORIAS)',
-        start: '2024-11-05T08:00:00',
-        end: '2024-11-05T09:00:00',
+        start: '2024-11-06T08:00:00',
+        end: '2024-11-06T09:00:00',
         extendedProps: {
             description: '<a class="link-horario" href="/hackathon">Selección Hackathon (ELIMINATORIAS)</a>',
         }
     },
     {
         title: 'Publicación de resultados Hackathon (ELIMINATORIAS)',
-        start: '2024-11-05T12:00:00',
-        end: '2024-11-05T13:00:00',
+        start: '2024-11-06T12:00:00',
+        end: '2024-11-06T13:00:00',
         extendedProps: {
             description: '<a class="link-horario" href="/hackathon">Publicación de resultados Hackathon (ELIMINATORIAS)</a>',
         }
