@@ -387,7 +387,7 @@ const speakers = [
                 fin: '18:00',
                 nombre: 'Introducción a Chrome Extensions',
                 detalles: 'Sumérgete en el desarrollo de extensiones para Chrome y descubre cómo potenciar la experiencia del usuario en la web. Aprenderás desde los fundamentos, APIs clave y las mejores prácticas de seguridad hasta cómo crear y publicar tus propias extensiones.',
-                lugar: 'Auditorio de la FISI - UNMSM',
+                lugar: 'Google Meet',
                 link: 'https://forms.gle/tRdV1QfagETkdFq37',                 
                 publicacion: '2024-10-28T16:00:00',
             },               
@@ -617,6 +617,12 @@ const aliados_sponsors = [
         type: 'sponsor',
         nombre: 'Divelia',
         slogan: 'Divelia Studio, Transformación digital para negocios',
+        visible: true,
+    },
+    {
+        type: 'sponsor',
+        nombre: 'AQUI',
+        slogan: 'AQUI, Donde Gastronomía, Sabor e Innovación se Encuentran',
         visible: true,
     },
     {
