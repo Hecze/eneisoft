@@ -551,97 +551,99 @@ const aliados_sponsors = [
         nombre: '1551',
         slogan: '1551, Incubadora de Empresas Innovadoras de la UNMSM',
         visible: true,
-        link: '#'
+        link: 'https://1551.unmsm.edu.pe/'
     },
     {
         type: 'aliado',
         nombre: 'Innovation Lab',
         slogan: 'Laboratorio de Innovación de la UNI',
         visible: true,
-        link: '#'
+        link: 'https://innovationlab.uni.edu.pe/'
     },
     {
         type: 'aliado',
         nombre: 'Scale',
         slogan: 'Scale, Incubadora de Impacto',
         visible: true,
-        link: '#'
+        link: 'https://scaleup4.com/'
     },
     {
         type: 'aliado',
         nombre: 'Maker Lab',
         slogan: 'Maker Lab, comunidad de desarrolladores de tecnología',
         visible: true,
-        link: '#'
+        link: 'https://www.makerlabperu.org/'
     },
     {
         type: 'aliado',
         nombre: 'CPC UNMSM',
         slogan: 'Club de Programación Competitiva de la UNMSM',
         visible: true,
-        link: '#'
+        link: 'https://cpcunmsm.github.io/'
     },
     // Sponsors
     {
         type: 'sponsor',
         nombre: 'DSRP',
-        slogan: 'Data Science Reserach Perú',
+        slogan: 'Data Science Research Perú',
         visible: true,
-        link: '#'
+        link: 'https://datascience.pe/'
     },
     {
         type: 'sponsor',
         nombre: 'BDA',
         slogan: 'Big Data Academy',
         visible: true,
-        link: '#'
+        link: 'https://bigdataacademy.org/'
     },
     {
         type: 'sponsor',
         nombre: 'Datapath',
         slogan: 'Datapath',
-        visible: false,
+        visible: true,
+        link: 'https://www.datapath.ai/'
     },
     {
         type: 'sponsor',
         nombre: 'CJava',
         slogan: 'CJava',
         visible: true,
-        link: '#'
+        link: 'https://cjavaperu.com/'
     },
     {
         type: 'sponsor',
         nombre: 'Levo',
         slogan: 'Levo Learning Center, Sé disruptivo en el mundo tecnológico',
         visible: true,
-        link: '#'
+        link: 'https://levolearning.edu.pe/'
     },
     {
         type: 'sponsor',
         nombre: 'Peru Hacking',
         slogan: 'Perú Hacking, Hacking en entornos reales',
         visible: true,
-        link: '#'
+        link: 'https://peruhacking.com/'
     },
     {
         type: 'sponsor',
         nombre: 'Divelia',
         slogan: 'Divelia Studio, Transformación digital para negocios',
         visible: true,
-        link: '#'
+        link: 'https://instagram.com/diveliastudio/'
     },
     {
         type: 'sponsor',
         nombre: 'AQUI',
         slogan: 'AQUI, Donde Gastronomía, Sabor e Innovación se Encuentran',
         visible: true,
+        link: 'https://instagram.com/aquimenu/'
     },
     {
         type: 'sponsor',
         nombre: 'GIM',
         slogan: 'Go Insame Media, Influencer Marketing y Social Media',
         visible: true,
-        link: '#'
+        link: 'https://goinsanemedia.com/'
     },
 
 ]
