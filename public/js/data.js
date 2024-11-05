@@ -551,30 +551,35 @@ const aliados_sponsors = [
         nombre: '1551',
         slogan: '1551, Incubadora de Empresas Innovadoras de la UNMSM',
         visible: true,
+        link: '#'
     },
     {
         type: 'aliado',
         nombre: 'Innovation Lab',
         slogan: 'Laboratorio de Innovación de la UNI',
         visible: true,
+        link: '#'
     },
     {
         type: 'aliado',
         nombre: 'Scale',
         slogan: 'Scale, Incubadora de Impacto',
         visible: true,
+        link: '#'
     },
     {
         type: 'aliado',
         nombre: 'Maker Lab',
         slogan: 'Maker Lab, comunidad de desarrolladores de tecnología',
         visible: true,
+        link: '#'
     },
     {
         type: 'aliado',
         nombre: 'CPC UNMSM',
         slogan: 'Club de Programación Competitiva de la UNMSM',
         visible: true,
+        link: '#'
     },
     // Sponsors
     {
@@ -582,12 +587,14 @@ const aliados_sponsors = [
         nombre: 'DSRP',
         slogan: 'Data Science Reserach Perú',
         visible: true,
+        link: '#'
     },
     {
         type: 'sponsor',
         nombre: 'BDA',
         slogan: 'Big Data Academy',
         visible: true,
+        link: '#'
     },
     {
         type: 'sponsor',
@@ -600,30 +607,35 @@ const aliados_sponsors = [
         nombre: 'CJava',
         slogan: 'CJava',
         visible: true,
+        link: '#'
     },
     {
         type: 'sponsor',
         nombre: 'Levo',
         slogan: 'Levo Learning Center, Sé disruptivo en el mundo tecnológico',
         visible: true,
+        link: '#'
     },
     {
         type: 'sponsor',
         nombre: 'Peru Hacking',
         slogan: 'Perú Hacking, Hacking en entornos reales',
         visible: true,
+        link: '#'
     },
     {
         type: 'sponsor',
         nombre: 'Divelia',
         slogan: 'Divelia Studio, Transformación digital para negocios',
         visible: true,
+        link: '#'
     },
     {
         type: 'sponsor',
         nombre: 'GIM',
         slogan: 'Go Insame Media, Influencer Marketing y Social Media',
         visible: true,
+        link: '#'
     },
 
 ]

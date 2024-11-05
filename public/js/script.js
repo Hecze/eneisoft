@@ -117,14 +117,14 @@ function fillAliados(aliados_sponsors) {
     aliados_sponsors.forEach(element => {
         if (element.visible) {
             $(`#${element.type}s-container`).append(`<div class="col-sm-12 col-md-6 col-lg-4 p-2 py-md-5 px-md-2">
-                <div class="text-center px-2 py-4 bg-white h-100 d-flex flex-column">
+                <a class="text-center px-2 py-4 bg-white h-100 d-flex flex-column" style="text-decoration: none;" href="${element.link}" target="_blank">
                     <h5 class="text-white d-flex justify-content-center align-items-center gap-2 fs-4 fw-bold text-nowrap flex-grow-1">
                         <img src="./img/${element.type}s/${sneakString(element.nombre.toLowerCase())}.png" height=250/>
                     </h5>
                     <p class="text-negro py-2 mx-1 mx-lg-5 text-center" style="font-size: 18px;">
                         ${element.slogan}
                     </p>
-                </div>
+                </a>
             </div>
             `);
             if (element.type === 'aliado') {
