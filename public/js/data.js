@@ -636,7 +636,7 @@ const aliados_sponsors = [
         nombre: 'AQUI',
         slogan: 'AQUI, Donde Gastronomía, Sabor e Innovación se Encuentran',
         visible: true,
-        link: 'https://instagram.com/aquimenu/'
+        link: 'https://instagram.com/aquimperu/'
     },
     {
         type: 'sponsor',
