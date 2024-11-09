@@ -645,7 +645,13 @@ const aliados_sponsors = [
         visible: true,
         link: 'https://goinsanemedia.com/'
     },
-
+    {
+        type: 'sponsor',
+        nombre: 'GDG Lima',
+        slogan: 'Google Developer Group Lima',
+        visible: true,
+        link: 'https://gdg.community.dev/gdg-lima/'
+    },
 ]
 
 const eventos_programados = [
