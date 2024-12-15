@@ -49,4 +49,11 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Equipo -->
+  <url>
+    <loc>https://eneisoft.org/equipo</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
