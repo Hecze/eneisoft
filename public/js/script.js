@@ -170,7 +170,7 @@ function fillAgenda(agenda) {
                                 ${actividad.inicio} - ${actividad.fin}
                             </div>
                             <div class="col-sm-12 col-xl-9" style="font-size: 20px;">
-                                <p class="fw-bold">${actividad.nombre} por <span class="text-pink">${actividad.exp.nombres} ${actividad.exp.apellidos}</span></p>
+                                <p class="fw-bold">${actividad.nombre} por <span class="text-orange">${actividad.exp.nombres} ${actividad.exp.apellidos}</span></p>
                                 <p class="text-negro">${actividad.detalles}</p>
                             </div>
                         </div>`
@@ -394,7 +394,7 @@ function coloresCalendar() {
             if (valor.includes("keynotes")) {
                 $(this).addClass('bg-yellow'); // Agrega clase al abuelo
             } else if (valor.includes("workshops")) {
-                $(this).addClass('bg-pink'); // Agrega clase al abuelo
+                $(this).addClass('bg-orange'); // Agrega clase al abuelo
             } else if (valor.includes("hackathon")) {
                 $(this).addClass('bg-main'); // Agrega clase al abuelo
             } else if (valor.includes("programacion-competitiva")) {

@@ -1,4 +1,3 @@
-
 .navbar-nav a {
     position: relative;
     padding-bottom: 5px;
@@ -10,8 +9,9 @@
     color: white;
 }
 
-.navbar-nav a:hover, .navbar-nav a.link-active {
-    color: var(--pink);
+.navbar-nav a:hover,
+.navbar-nav a.link-active {
+    color: var(--orange);
 }
 
 header {
@@ -35,20 +35,24 @@ header a {
 }
 
 .navbar .dropdown-toggle {
-    color: white !important; /* Asegura que el enlace de la lista desplegable mantenga el color blanco */
+    color: white !important;
+    /* Asegura que el enlace de la lista desplegable mantenga el color blanco */
 }
 
 .navbar .dropdown-toggle::after {
-    color: white !important; /* Asegura que el icono del caret también sea blanco */
+    color: white !important;
+    /* Asegura que el icono del caret también sea blanco */
 }
 
 @media (max-width: 1200px) {
     .dropdown-menu {
         background-color: black;
     }
-    .dropdown-item:hover{
+
+    .dropdown-item:hover {
         background-color: black;
     }
+
     .dropdown-menu a {
         text-align: center !important;
     }
