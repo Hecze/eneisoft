@@ -1,6 +1,6 @@
-
 :root {
-    --pink: #e95d2c; /* Cambiar nombre de variable */
+    --orange: #e95d2c;
+    /* Cambiar nombre de variable */
     --main: #0D1639;
     --main-hover: #172664;
     --sky: #ADBBFD;
@@ -14,56 +14,72 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Lexend", sans-serif;;
+    font-family: "Lexend", sans-serif;
+    ;
 }
-p, address{
+
+p,
+address {
     margin: 0;
     padding: 0;
 }
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text-pink {
-    color: var(--pink);
+
+.text-orange {
+    color: var(--orange);
 }
+
 .text-yellow {
     color: var(--yellow);
 }
+
 .text-negro {
     color: var(--negro);
 }
+
 .text-main {
     color: var(--main);
 }
+
 .bg-main {
     background-color: var(--main);
 }
-.bg-pink {
-    background-color: var(--pink);
+
+.bg-orange {
+    background-color: var(--orange);
 }
+
 .bg-negro {
     background-color: var(--negro);
 }
+
 .bg-sky {
     background-color: var(--sky);
 }
-.bg-yellow{
+
+.bg-yellow {
     background-color: var(--yellow);
 }
-.bg-white-soft{
+
+.bg-white-soft {
     background-color: var(--white-soft);
 }
 
 .scroll-hide::-webkit-scrollbar {
     display: none;
 }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
+
+/* Hide scrollbar for IE, Edge and Firefox */
 .scroll-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .btn-main {
@@ -71,25 +87,36 @@ p, address{
     color: white;
     text-align: center;
 }
+
 .btn-main:hover {
     background-color: var(--main-hover);
     color: white;
 }
 
-h2{
+h2 {
     font-size: 33px;
     text-transform: uppercase;
 }
+
 h3 {
     font-weight: bold;
 }
-header a, h1, h2, h3, h4, h5, h6 {
+
+header a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Poppins", sans-serif;
 }
+
 .text-ellipsis {
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Número máximo de líneas antes de truncar */
+    -webkit-line-clamp: 3;
+    /* Número máximo de líneas antes de truncar */
     -webkit-box-orient: vertical;
 }
