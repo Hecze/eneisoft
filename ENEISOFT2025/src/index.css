@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.primary {
+  background-color: #0a2138;
+  color: white;
+}
+
+.primarytext{
+  color: #0a2138;
+}
+
+.secondary {
+  color: #ee6334;
+}
+
+.tertiaryBG {
+  background-color: #00c8df;
+}
+
+.tertiary {
+  color: #00c8df;
+}
+
+.font-impact {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-comic {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+@keyframes scroll-smooth {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Mueve la mitad de la lista duplicada */
+  }
+}
+
+.animate-scroll {
+  animation: scroll-smooth 5s linear infinite;
+}
+
+.bg-eneisoft {
+  background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('/src/assets/Hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
