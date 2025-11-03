@@ -11,6 +11,10 @@ html, body {
   color: white;
 }
 
+.primaryBG {
+  background-color: #0a2138;
+}
+
 .primarytext{
   color: #0a2138;
 }
@@ -20,7 +24,7 @@ html, body {
 }
 
 .tertiaryBG {
-  background-color: #00c8df;
+  background-color: #123b64;
 }
 
 .tertiary {

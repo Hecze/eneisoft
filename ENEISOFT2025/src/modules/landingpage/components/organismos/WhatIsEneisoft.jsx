@@ -70,10 +70,10 @@ export function WhatIsEneisoft() {
 
           <motion.div
             className="flex justify-end"
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, x: -200 }}
             animate={{
               opacity: isInView ? 1 : 0,
-              scale: isInView ? 1 : 0.9,
+              x: isInView ? 0 : 200,
             }}
             transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
           >

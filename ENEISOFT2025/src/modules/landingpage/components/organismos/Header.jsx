@@ -71,7 +71,7 @@ export const Header = () => {
             )}
 
             <div className="flex items-center gap-4">
-              <Boton texto="EN" />
+              <Boton texto="VIVO" />
             </div>
           </div>
         </motion.header>

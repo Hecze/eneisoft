@@ -1,122 +1,11 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Linkedin } from "lucide-react";
-
-import uno from "../../../../assets/ponentes/uno.jpg";
-import dos from "../../../../assets/ponentes/uno.jpg";
-import tres from "../../../../assets/ponentes/uno.jpg";
-
-const ponentes = [
-  {
-    nombre: "Diana Inkpen",
-    institucion: "University of Ottawa, Canada",
-    descripcion:
-      "Professor at the University of Ottawa, School of Electrical Engineering and Computer Science.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Uottawa_logo.svg",
-    linkedin: "https://www.linkedin.com/in/diana-inkpen/",
-    imagen: uno,
-  },
-  {
-    nombre: "Ravi Kumar",
-    institucion: "Google Research scientist, USA",
-    descripcion:
-      "Senior staff research scientist at Google since 2012. Expert in algorithms and data analysis.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    linkedin: "https://www.linkedin.com/in/ravi-kumar/",
-    imagen: dos,
-  },
-  {
-    nombre: "Pierre Zweigenbaum",
-    institucion: "CNRS, France",
-    descripcion:
-      "Senior Researcher at the Interdisciplinary Laboratory for Digital Sciences in France.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Logo_CNRS.svg",
-    linkedin: "https://www.linkedin.com/in/pierre-zweigenbaum/",
-    imagen: tres,
-  },{
-    nombre: "Diana Inkpen",
-    institucion: "University of Ottawa, Canada",
-    descripcion:
-      "Professor at the University of Ottawa, School of Electrical Engineering and Computer Science.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Uottawa_logo.svg",
-    linkedin: "https://www.linkedin.com/in/diana-inkpen/",
-    imagen: uno,
-  },
-  {
-    nombre: "Ravi Kumar",
-    institucion: "Google Research scientist, USA",
-    descripcion:
-      "Senior staff research scientist at Google since 2012. Expert in algorithms and data analysis.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    linkedin: "https://www.linkedin.com/in/ravi-kumar/",
-    imagen: dos,
-  },
-  {
-    nombre: "Pierre Zweigenbaum",
-    institucion: "CNRS, France",
-    descripcion:
-      "Senior Researcher at the Interdisciplinary Laboratory for Digital Sciences in France.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Logo_CNRS.svg",
-    linkedin: "https://www.linkedin.com/in/pierre-zweigenbaum/",
-    imagen: tres,
-  },{
-    nombre: "Diana Inkpen",
-    institucion: "University of Ottawa, Canada",
-    descripcion:
-      "Professor at the University of Ottawa, School of Electrical Engineering and Computer Science.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Uottawa_logo.svg",
-    linkedin: "https://www.linkedin.com/in/diana-inkpen/",
-    imagen: uno,
-  },
-  {
-    nombre: "Ravi Kumar",
-    institucion: "Google Research scientist, USA",
-    descripcion:
-      "Senior staff research scientist at Google since 2012. Expert in algorithms and data analysis.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    linkedin: "https://www.linkedin.com/in/ravi-kumar/",
-    imagen: dos,
-  },
-  {
-    nombre: "Pierre Zweigenbaum",
-    institucion: "CNRS, France",
-    descripcion:
-      "Senior Researcher at the Interdisciplinary Laboratory for Digital Sciences in France.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Logo_CNRS.svg",
-    linkedin: "https://www.linkedin.com/in/pierre-zweigenbaum/",
-    imagen: tres,
-  },{
-    nombre: "Diana Inkpen",
-    institucion: "University of Ottawa, Canada",
-    descripcion:
-      "Professor at the University of Ottawa, School of Electrical Engineering and Computer Science.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Uottawa_logo.svg",
-    linkedin: "https://www.linkedin.com/in/diana-inkpen/",
-    imagen: uno,
-  },
-  {
-    nombre: "Ravi Kumar",
-    institucion: "Google Research scientist, USA",
-    descripcion:
-      "Senior staff research scientist at Google since 2012. Expert in algorithms and data analysis.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    linkedin: "https://www.linkedin.com/in/ravi-kumar/",
-    imagen: dos,
-  },
-  {
-    nombre: "Pierre Zweigenbaum",
-    institucion: "CNRS, France",
-    descripcion:
-      "Senior Researcher at the Interdisciplinary Laboratory for Digital Sciences in France.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Logo_CNRS.svg",
-    linkedin: "https://www.linkedin.com/in/pierre-zweigenbaum/",
-    imagen: tres,
-  },
-];
+import { ponentesData } from "../../../../data/ponentes/ponentes";
 
 export const Ponentes = () => {
   const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { once: false, amount: 0.3 });
+  const isInView = useInView(sectionRef, { once: false, amount: 0.1 });
 
   return (
     <section
@@ -137,7 +26,7 @@ export const Ponentes = () => {
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
       >
-        {ponentes.map((p, i) => (
+        {ponentesData.map((p, i) => (
           <motion.div
             key={i}
             className="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col items-center text-center transition-all duration-300"

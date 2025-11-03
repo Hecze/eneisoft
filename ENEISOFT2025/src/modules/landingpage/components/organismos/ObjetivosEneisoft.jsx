@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 import { Users, Code, Lightbulb, Rocket } from "lucide-react";
 
 export function ObjetivosEneisoft() {
@@ -35,36 +36,33 @@ export function ObjetivosEneisoft() {
       opacity: 1,
       transition: {
         delayChildren: 0.2,
-        staggerChildren: 0.15,
+        staggerChildren: 0.25,
       },
     },
-    exit: { opacity: 0, transition: { duration: 0.5 } },
   };
 
   const cardVariants = {
-    hidden: { opacity: 0, y: 60, scale: 0.9 },
+    hidden: { opacity: 0, y: 80, scale: 0.9 },
     visible: {
       opacity: 1,
       y: 0,
       scale: 1,
-      transition: { duration: 0.5, ease: "easeInOut" },
-    },
-    exit: {
-      opacity: 0,
-      y: -50,
-      scale: 0.95,
-      transition: { duration: 0.4, ease: "easeInOut" },
+      transition: { duration: 0.6, ease: "easeOut" },
     },
   };
 
+  const titleRef = useRef(null);
+  const isInView = useInView(titleRef, { once: false, amount: 0.6 });
+
   return (
     <section className="py-20 text-center overflow-hidden">
+
       <motion.h2
-        className="text-4xl md:text-5xl font-bold mb-16 text-[#0a2138]"
-        initial={{ opacity: 0, y: -40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        viewport={{ once: true }}
+        ref={titleRef}
+        className="text-4xl md:text-5xl font-bold mb-16 text-[#0a2138] relative"
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -30 }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
       >
         OBJETIVOS DEL{" "}
         <span className="bg-gradient-to-r from-[#0a2138] to-[#334a69] bg-clip-text text-transparent">
@@ -72,12 +70,10 @@ export function ObjetivosEneisoft() {
         </span>
       </motion.h2>
 
-      {/* Contenedor animado */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        exit="exit"
         viewport={{ once: false, amount: 0.3 }}
         className="max-w-7xl mx-auto grid gap-10 sm:grid-cols-2 lg:grid-cols-4 px-6"
       >
@@ -111,8 +107,8 @@ export function ObjetivosEneisoft() {
               className="text-gray-600 text-sm"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: false }}
             >
               {obj.description}
             </motion.p>

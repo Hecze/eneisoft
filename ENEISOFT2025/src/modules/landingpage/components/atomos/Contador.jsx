@@ -24,7 +24,7 @@ export function Contador({ targetDate }) {
   }, [targetDate]);
 
   return (
-    <div className="bg-gradient-to-r tertiaryBG text-white p-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-around gap-20">
+    <div className="bg-gradient-to-r tertiaryBG text-white p-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-around gap-6 md:gap-20">
       <h2 className="text-2xl font-bold">¡Prepárate!</h2>
       <div className="flex gap-8 text-center">
         <div>
