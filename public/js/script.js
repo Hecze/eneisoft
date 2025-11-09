@@ -317,7 +317,6 @@ function fillEventos(speakers, event) {
                                 ${evento.lugar}
                             </div>
                         </div>
-                        <a target="_blank" href="${evento.link}" class="btn btn-main my-3 py-1 px-5 rounded rounded-pill">Inscribirme</a>
                     </div>
                 </div>    
             `);
