@@ -83,27 +83,28 @@ function fillSpeakers(speakers) {
         if (visible) {
             cont++;
 
-            // 🔄 alternar animación: impar -> left, par -> right
-            const animationClass = cont % 2 === 1 ? "fade-in-left" : "fade-in-right";
+            // 🔁 alternar animación en orden: 1→left, 2→pop-in, 3→right
+            const animationOptions = ["fade-in-left", "pop-in", "fade-in-right"];
+            const animationClass = animationOptions[(cont - 1) % animationOptions.length];
 
             $("#speakers-container").append(`
-                <div class="col-sm-12 col-md-6 p-3 p-md-5 ${animationClass}">
-                    <div class="p-2 h-100 d-flex flex-column">
-                        <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" 
-                             width="100dvw" alt="user" 
-                             class="m-auto">
-                        <h5 style="font-size: 25px;" 
-                            class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
+                <div class="col-sm-12 col-md-6 col-lg-4 p-3 ${animationClass}">
+                    <div class="card-speaker p-4 h-100 d-flex flex-column align-items-center text-center shadow-sm rounded-4">
+                        <div class="speaker-photo mb-3">
+                            <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" 
+                                 alt="${speaker.nombres}" 
+                                 class="speaker-img">
+                        </div>
+                        <h5 class="speaker-name text-main fw-bold mb-2 d-flex align-items-center justify-content-center gap-2">
                             ${speaker.nombres} ${speaker.apellidos}
                             <img width="30" height="30" 
                                  src="https://img.icons8.com/color/48/${speaker.pais}.png" 
                                  alt="${speaker.pais}-emoji"/>
                         </h5>
-                        <p style="font-size: 18px;" 
-                           class="text-negro text-center my-3 flex-grow-1">
+                        <p class="speaker-profile text-negro flex-grow-1">
                            ${speaker.perfil}
                         </p>
-                        <div class="d-flex justify-content-center align-items-center gap-1">
+                        <div class="d-flex justify-content-center align-items-center gap-2">
                             ${Object.keys(speaker.social_media).map(social => {
                                 return `
                                     <a class="text-decoration-none" target="_blank" href="${speaker.social_media[social]}">
@@ -145,6 +146,7 @@ function fillSpeakers(speakers) {
 
     elements.forEach((el) => observer.observe(el));
 }
+
 
 
 
