@@ -409,35 +409,28 @@ const eventos_programados = [
     start: '2025-11-10T13:00:00',
     end: '2025-11-10T14:00:00',
     extendedProps: {
-      description: 'Ceremonia de apertura',
+      description: 'Ceremonia de apertura del ENEISOFT 2025',
     }
   },
+  // 🧠 TORNEO DE PROGRAMACIÓN COMPETITIVA
   {
-    title: 'Difusión del evento',
-    start: '2025-11-05T08:00:00',
-    end: '2025-11-05T09:00:00',
-    extendedProps: {
-      description: 'Inicio de difusión del evento ENEISOFT 2025',
-    }
-  },
-  {
-    title: 'Apertura de inscripciones',
-    start: '2025-11-07T08:00:00',
-    end: '2025-11-07T09:00:00',
+    title: 'Apertura de inscripciones - Torneo de Programación Competitiva',
+    start: '2025-11-09T08:00:00',
+    end: '2025-11-09T09:00:00',
     extendedProps: {
       description: '<a class="link-horario" href="/programacion-competitiva">Inicio del periodo de inscripción al Torneo de Programación Competitiva</a>',
     }
   },
   {
-    title: 'Cierre de inscripciones',
-    start: '2025-11-15T23:00:00',
-    end: '2025-11-15T23:59:59',
+    title: 'Cierre de inscripciones - Torneo de Programación Competitiva',
+    start: '2025-11-14T23:00:00',
+    end: '2025-11-14T23:59:59',
     extendedProps: {
       description: '<a class="link-horario" href="/programacion-competitiva">Cierre de inscripciones al Torneo de Programación Competitiva</a>',
     }
   },
   {
-    title: 'Primera Fase - Eliminatoria Virtual',
+    title: 'Primera Fase - Eliminatoria Virtual (Torneo)',
     start: '2025-11-17T12:00:00',
     end: '2025-11-17T23:59:00',
     extendedProps: {
@@ -445,7 +438,7 @@ const eventos_programados = [
     }
   },
   {
-    title: 'Fase Final Presencial',
+    title: 'Fase Final Presencial - Torneo de Programación Competitiva',
     start: '2025-11-19T18:00:00',
     end: '2025-11-19T21:00:00',
     extendedProps: {
@@ -453,7 +446,7 @@ const eventos_programados = [
     }
   },
   {
-    title: 'Publicación de Ganadores',
+    title: 'Publicación de Ganadores - Torneo de Programación Competitiva',
     start: '2025-11-20T10:00:00',
     end: '2025-11-20T11:00:00',
     extendedProps: {
@@ -468,12 +461,56 @@ const eventos_programados = [
       description: '<a class="link-horario" href="/programacion-competitiva">Ceremonia de premiación del Torneo de Programación Competitiva - ENEISOFT 2025</a>',
     }
   },
+
+  // 💡 HACKATHON ENEISOFT 2025
   {
-    title: 'Ceremonia de cierre',
+    title: 'Difusión del evento - Hackathon',
+    start: '2025-11-05T08:00:00',
+    end: '2025-11-05T09:00:00',
+    extendedProps: {
+      description: 'Inicio de difusión de la Hackathon ENEISOFT 2025',
+    }
+  },
+  {
+    title: 'Convocatoria de equipos - Hackathon',
+    start: '2025-11-07T08:00:00',
+    end: '2025-11-07T10:00:00',
+    extendedProps: {
+      description: '<a class="link-horario" href="/hackathon">Convocatoria abierta para la inscripción de equipos a la Hackathon ENEISOFT 2025</a>',
+    }
+  },
+  {
+    title: 'Convocatoria de equipos - Hackathon',
+    start: '2025-11-12T08:00:00',
+    end: '2025-11-12T10:00:00',
+    extendedProps: {
+      description: '<a class="link-horario" href="/hackathon">Cierre de Convocatoria de equipos a la Hackathon ENEISOFT 2025</a>',
+    }
+  },
+  {
+    title: 'Semifinal - Hackathon',
+    start: '2025-11-16T09:00:00',
+    end: '2025-11-16T18:00:00',
+    extendedProps: {
+      description: '<a class="link-horario" href="/hackathon">Etapa semifinal de la Hackathon ENEISOFT 2025</a>',
+    }
+  },
+  {
+    title: 'Final y Premiación - Hackathon',
+    start: '2025-11-21T08:00:00',
+    end: '2025-11-21T13:00:00',
+    extendedProps: {
+      description: '<a class="link-horario" href="/hackathon">Etapa final y ceremonia de premiación de la Hackathon ENEISOFT 2025</a>',
+    }
+  },
+
+  // 🏁 CIERRE GENERAL DEL ENEISOFT
+  {
+    title: 'Ceremonia de cierre del ENEISOFT 2025',
     start: '2025-11-21T13:00:00',
     end: '2025-11-21T14:00:00',
     extendedProps: {
-      description: 'Ceremonia de clausura del ENEISOFT 2025',
+      description: 'Ceremonia de clausura del evento ENEISOFT 2025',
     }
   }
 ];
