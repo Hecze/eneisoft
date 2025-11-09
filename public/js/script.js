@@ -314,7 +314,7 @@ const formatearActividades = (expositores, evento=null) => {
     return resultado;
 };
 
-const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
+const formatearEventos = (actividadesPorDia, anio='2025', mes='11') => {
     // para el calendario
     const eventos = [...eventos_programados]
 
@@ -339,48 +339,64 @@ const formatearEventos = (actividadesPorDia, anio='2024', mes='11') => {
 };
 
 function calendar(eventos) {
-    var elementCalendar = document.getElementById('calendar');
-    var calendar = new FullCalendar.Calendar(elementCalendar, {
-        locale: 'es',
-        initialView: 'timeGridWeek', // Vista de semana
-        initialDate: '2024-11-04',   // Fecha inicial (4 de noviembre de 2024)
-        headerToolbar: {
-          left: '',
-          center: 'title',
-          right: ''
-        },
-        validRange: {
-          start: '2024-11-03',
-          end: '2024-11-10'
-        },
-        slotMinTime: '06:00:00', // Empieza a las 8:00 AM
-        slotMaxTime: '23:59:59',
-        allDaySlot: false,
-        dayHeaderFormat: { 
-            weekday: 'long',  // Día completo (Lunes, Martes, etc.)
-            day: '2-digit'    // Número del día (04, 05, etc.)
-          },
-      
-          // Personalización del título (Nombre del mes centrado)
-          titleFormat: { 
-            year: 'numeric',  // Año numérico completo
-            month: 'long'     // Nombre completo del mes
-          },
-        eventContent: function(info) {
-            return { 
-                html: `<div class="text-ellipsis">${info.event.extendedProps.description}</div>`
-            };
-        },
-        slotLabelFormat: {
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: false // Para el formato 24 horas
-          },
-        events: formatearEventos(eventos),
-      });
-      calendar.render()
-      coloresCalendar();
+  var elementCalendar = document.getElementById('calendar');
+  var calendar = new FullCalendar.Calendar(elementCalendar, {
+    locale: 'es',
+    initialView: 'timeGridWeek',
+    initialDate: '2025-11-10',
+    slotDuration: '00:30:00',
+    headerToolbar: {
+      left: '',
+      center: 'title',
+      right: ''
+    },
+    validRange: {
+      start: '2025-11-09',
+      end: '2025-11-23'
+    },
+    slotMinTime: '08:00:00',
+    slotMaxTime: '23:59:59',
+    allDaySlot: false,
+    dayHeaderFormat: { 
+      weekday: 'long',
+      day: '2-digit'
+    },
+    titleFormat: { 
+      year: 'numeric',
+      month: 'long'
+    },
+    eventContent: function(info) {
+      return { 
+        html: `<div class="text-ellipsis">${info.event.extendedProps.description}</div>`
+      };
+    },
+    slotLabelFormat: {
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    },
+    events: formatearEventos(eventos),
+
+    // 👇 ESTA LÍNEA ES LA CLAVE
+    datesSet: function() {
+      coloresCalendar(); // vuelve a aplicar tus colores después de cambiar de semana
+    }
+  });
+
+  calendar.render();
+  coloresCalendar();
+
+  // 👇 Botones de navegación
+  document.getElementById('btnNext').addEventListener('click', function() {
+    calendar.next();
+  });
+
+  document.getElementById('btnPrev').addEventListener('click', function() {
+    calendar.prev();
+  });
 }
+
+
 
 function coloresCalendar() {
     $(".fc-v-event").each(function (index) {

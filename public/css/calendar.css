@@ -14,8 +14,20 @@
     text-transform: uppercase;
 }
 
+#btnPrev, #btnNext {
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+#btnPrev:hover, #btnNext:hover {
+  transform: scale(1.05);
+}
+
 .content-calendar {
     min-width: 900px;
+    max-height: 960px;
     padding: 2rem;
 }
 
