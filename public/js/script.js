@@ -90,8 +90,8 @@ function fillSpeakers(speakers) {
                 <div class="col-sm-12 col-md-6 p-3 p-md-5 ${animationClass}">
                     <div class="p-2 h-100 d-flex flex-column">
                         <img src="./img/speakers/${formatSpeakerName(speaker.nombres, speaker.apellidos)}" 
-                             width="150" alt="user" 
-                             class="img-fluid rounded-circle d-block m-auto">
+                             width="100dvw" alt="user" 
+                             class="m-auto">
                         <h5 style="font-size: 25px;" 
                             class="my-3 text-main fw-bold d-flex align-items-center justify-content-center gap-2">
                             ${speaker.nombres} ${speaker.apellidos}
