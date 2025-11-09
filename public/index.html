@@ -43,7 +43,7 @@
     <title>ENEISOFT 2025 | Encuentro Nacional de Estudiantes de Ingeniería de Software</title>
 </head>
 <body class="bg-black">
-    <header class="bg-main">
+    <header class="bg-main ">
         <nav class="navbar navbar-expand-xl py-4">
             <div class="container px-3 px-md-5">
                 <a class="navbar-brand" href="#">
@@ -92,7 +92,7 @@
          <section class="container-fluid bg-main pt-5 position-relative px-0" id="inicio">
             
              <div class="container banner py-5">
-                 <div class="row text-center py-2 text-white">
+                 <div class="row text-center py-2 text-white pop-in">
                      <div class="home-container py-5">
                          <h1 class="title text-uppercase">ENEISOFT Perú <span class="text-orange">2025</span></h1>
                          <p class="fw-bold" style="font-size: 22px;">¡Ahora sí es nacional!</p>
@@ -143,7 +143,7 @@
                              <div class="px-4 center gap-3">
                                 <i class="fa-solid fs-3 fa-calendar-days"></i>
                                 <div>
-                                    <p>Fecha</p>
+                                    <p>Fecha (Ponencias)</p>
                                     <p>Del 10 al 15 de noviembre</p>
                                 </div>
                              </div>
@@ -158,7 +158,7 @@
 
             <img src="/img/bolitas1.png" alt="bg" class="bolitas">
 
-             <div class="container py-5 px-lg-5">
+             <div class="container py-5 px-lg-5 fade-in-left">
                  <div class="row text-negro justify-content-center px-lg-5">
                      <h2 class="mb-5 text-center text-orange fw-bold text-uppercase">¿Qué es el ENEISOFT?</h2>
                      <div class="col-sm-12 col-lg-6 p-4">
@@ -184,7 +184,7 @@
                 
                 <img src="/img/bolitas2.png" alt="bg" class="bolitas">
 
-                 <div class="container text-main py-5">
+                 <div class="container text-main py-5 fade-in-right">
                      <div class="row mx-auto" style="max-width: 850px;">
                          <div class="col-12">
                              <h2 class="mb-5 text-center text-orange fw-bold text-uppercase">OBJETIVOS DEL ENEISOFT 2025</h2>
@@ -249,9 +249,9 @@
               <!-- invitaciones -->
              <div class="container-fluid bg-main position-relative">
 
-                 <div class="container p-5">
+                 <div class="container p-5 fade-in-left">
                      <div class="row text-white">
-                         <div class="col-sm-12 col-md-6 col-lg-3 center">
+                         <div class="col-sm-12 col-md-6 col-lg-3 center ">
                              <div class="text-center invitacion h-100 center flex-column">
                                  <p class="number-info">
                                      +40
@@ -316,10 +316,10 @@
 
              <div class="container p-2 pt-5 p-md-5" style="font-size: .8em;">
                 <div class="row">
-                    <h2 class="fw-bold text-center mb-3 text-uppercase">Actividades</h2>
+                    <h2 class="fw-bold text-center mb-3 text-uppercase pop-in">Actividades</h2>
                 </div>
                  <div class="row px-2 px-md-5">
-                     <div class="col-md-12 col-lg-6">
+                     <div class="col-md-12 col-lg-6 fade-in-left">
                          <div class="actividad">
                              <div class="">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -340,7 +340,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-md-12 col-lg-6">
+                     <div class="col-md-12 col-lg-6 fade-in-right">
                          <div class="actividad">
                              <div class="">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -362,7 +362,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-md-12 col-lg-6">
+                     <div class="col-md-12 col-lg-6 fade-in-left">
                          <div class="actividad">
                              <div class="">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -385,7 +385,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-md-12 col-lg-6">
+                     <div class="col-md-12 col-lg-6 fade-in-right">
                          <div class="actividad">
                              <div class="">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -418,10 +418,10 @@
             
 
             <div class="text-center pt-5 pt-md-0">
-                <h2 class="text-orange fw-bolder">Speakers</h2>
+                <h2 class="text-orange fw-bolder ">Speakers</h2>
             </div>
             <div class="container">
-                <div class="row px-1 px-md-5 justify-content-center" id="speakers-container">
+                <div class="row px-1 px-md-5 justify-content-center " id="speakers-container">
                     <!-- Aqui van los speakers jalados del json -->
                 </div>
             </div>
@@ -525,5 +525,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="/js/data.js"></script>
     <script src="/js/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const elements = document.querySelectorAll(
+          ".fade-in, .fade-in-left, .fade-in-right, .pop-in"
+        );
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                // Cuando entra en pantalla → mostrar
+                entry.target.classList.add("visible");
+              } else {
+                // Cuando sale de pantalla → ocultar
+                entry.target.classList.remove("visible");
+              }
+            });
+          },
+          { threshold: 0.4 } // se activa al 40% de visibilidad
+        );
+
+        elements.forEach((el) => observer.observe(el));
+      });
+    </script>
 </body>
 </html>
