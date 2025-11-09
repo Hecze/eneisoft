@@ -24,7 +24,7 @@ const speakers = [
     {
         nombres: 'Javier',
         apellidos: 'Albarracín Valdivia',
-        perfil: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        perfil: 'Director del Centro de Tecnología y Transformación Digital en la UTP, con más de 15 años de experiencia en innovación, inteligencia de negocios e inteligencia artificial aplicada al marketing y análisis de datos. CIO en FLUVIP y fundador de Quantico AI, impulsa la transformación digital en organizaciones de América Latina.',
         social_media: {
             linkedin: 'https://www.linkedin.com/in/jalbarracin/',
         },
@@ -35,8 +35,8 @@ const speakers = [
                 dia: '10',
                 inicio: '15:00',
                 fin: '16:00',
-                nombre: 'lorem ipsum dolor sit amet',
-                detalles: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                nombre: 'De Modelos Predictivos a Soluciones Inteligentes: Implementando IA en Entornos Reales',
+                detalles: 'De Modelos Predictivos a Soluciones Inteligentes: Implementando IA en Entornos Reales',
                 lugar: 'Auditorio FISI - UNMSM',
                 link: '',
                 publicacion: '2024-10-01T00:00:00',
@@ -90,8 +90,10 @@ const speakers = [
     {
         nombres: 'André Omar',
         apellidos: 'Chávez Panduro',
-        perfil: 'Consultor Senior en Inteligencia Artificial y Analítica Avanzada en el Ministerio Público y People Analytics & PPM Senior Manager en Backus. Ha sido Analytics Manager en AB InBev, con experiencia en Interbank, Claro, Chubb Seguros e INEI. Especializado en Transformación Digital por el MIT y en Machine Learning y Cómputo Distribuido por el CIMAT.',
-        social_media: {},
+        perfil: 'Consultor Senior en IA y Analítica Avanzada en el Ministerio Público y Senior Manager de People Analytics & PPM en Backus. Experiencia en AB InBev, Interbank, Claro, Chubb e INEI. Especializado en Transformación Digital (MIT) y Machine Learning (CIMAT).',
+        social_media: {
+            linkedin: 'https://www.linkedin.com/in/andrechavez/',
+        },
         pais: 'peru',
         talleres: [],
         charlas: [
@@ -165,7 +167,7 @@ const speakers = [
     {
         nombres: 'César Antonio',
         apellidos: 'Chalco Elías',
-        perfil: 'Ingeniero Industrial con más de cinco años de experiencia en el desarrollo e implementación de soluciones de Inteligencia Artificial (Machine Learning y Deep Learning). Ha liderado proyectos de modelado predictivo en la nube (GCP), gestionado el ciclo completo de aprendizaje automático y diseñado procesos de ingeniería de datos, comunicando soluciones complejas a equipos técnicos y de negocio. Apasionado por compartir conocimiento, promueve el uso de la IA para generar valor y potenciar el impacto positivo en las organizaciones.',
+        perfil: 'Ingeniero Industrial con más de cinco años de experiencia en IA (Machine Learning y Deep Learning), gestión de proyectos en la nube (GCP) y diseño de procesos de datos. Promueve el uso de la IA para generar valor e impacto positivo.',
         social_media: {
             linkedin: 'https://www.linkedin.com/in/cesarchalcoelias/',
         },
@@ -209,7 +211,7 @@ const speakers = [
     {
         nombres: 'Jhennyfer Nayeli',
         apellidos: 'Zárate Villar',
-        perfil: `Solutions Architect Analyst en BBVA, bachiller en Ingeniería de Software de la UNMSM con diplomados internacionales en Arquitectura de Software y Gestión de Proyectos. Experiencia en liderazgo, automatización y diseño de soluciones escalables, además de creadora de contenido en redes sociales.`,
+        perfil: `Solutions Architect Analyst en BBVA, bachiller en Ingeniería de Software (UNMSM) con diplomados en Arquitectura de Software y Gestión de Proyectos. Experiencia en liderazgo, automatización y diseño de soluciones escalables; además, creadora de contenido en redes.`,
         social_media: {
             linkedin: 'https://www.linkedin.com/in/jhennyferzarate/',
         },
@@ -264,7 +266,7 @@ const speakers = [
     {
         nombres: 'Gianpaul',
         apellidos: 'Custodio Chavarría',
-        perfil: 'Ingeniero en ciberseguridad, docente y creador de contenido.',
+        perfil: 'Magíster en Ciberseguridad y Gestión de la Información, egresado de Ingeniería de Sistemas (UPC). Especialista en análisis de vulnerabilidades y creador del canal de YouTube HackeMate, enfocado en Seguridad Informática y Seguridad Ofensiva.',
         social_media: {
             linkedin: 'https://www.linkedin.com/in/gianpaul-custodio-chavarria/',
         },
@@ -340,6 +342,13 @@ const aliados_sponsors = [
         link: 'https://1551.unmsm.edu.pe/'
     },
     // Sponsors
+     {
+        type: 'sponsor',
+        nombre: '1551',
+        slogan: '1551, Incubadora de Empresas Innovadoras de la UNMSM',
+        visible: true,
+        link: 'https://1551.unmsm.edu.pe/'
+    },
      {
         type: 'sponsor',
         nombre: '1551',
