@@ -349,13 +349,6 @@ const aliados_sponsors = [
         visible: true,
         link: 'https://1551.unmsm.edu.pe/'
     },
-     {
-        type: 'sponsor',
-        nombre: '1551',
-        slogan: '1551, Incubadora de Empresas Innovadoras de la UNMSM',
-        visible: true,
-        link: 'https://1551.unmsm.edu.pe/'
-    },
     {
         type: 'sponsor',
         nombre: 'DSRP',
