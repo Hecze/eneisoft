@@ -358,21 +358,21 @@ const aliados_sponsors = [
     },
     {
         type: 'sponsor',
-        nombre: 'Datux',
+        nombre: 'datux',
         slogan: 'Datux',
         visible: true,
         link: 'https://www.datuxonline.com/'
     },
      {
         type: 'sponsor',
-        nombre: 'Bitdefender',
+        nombre: 'bitdefender',
         slogan: 'Bitdefender',
         visible: true,
         link: 'https://www.bitdefender.com/'
     },
     {
         type: 'sponsor',
-        nombre: 'Mitocode',
+        nombre: 'mitocode',
         slogan: 'Mitocode',
         visible: true,
         link: 'https://mitocode.com/'
