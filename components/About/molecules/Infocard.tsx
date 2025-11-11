@@ -1,13 +1,16 @@
 import { IconType } from 'react-icons';
+import { ElementType } from 'react';
 import FadeInSection from '@/components/FadeInSection';
 type QuestionCardType = {
-  icon: IconType;
+  icon: ElementType;
   question: string;
   paragraph: string;
   className?: string;
 };
 
-const QuestionCard = ({ icon: Icon, question, paragraph, className }: QuestionCardType) => {
+const QuestionCard = ({ icon : Icon, question, paragraph, className }: QuestionCardType) => {
+
+
   return (
     <FadeInSection animationClass="fade-in-left" className={`flex flex-col p-8 py-0 max-w-[35rem] gap-4 ${className}`}>
       <div className="bg-primary w-12 h-12 rounded flex items-center justify-center align-center text-black ">
